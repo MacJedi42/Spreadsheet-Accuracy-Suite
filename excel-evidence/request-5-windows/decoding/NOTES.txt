@@ -1,0 +1,13 @@
+pkg-missing-sheet: refused
+pkg-missing-sst: refused
+pkg-no-sst: refused
+val-badutf8-f: refused
+val-badutf8-inline: refused
+val-badutf8-sst: refused
+val-badutf8-v: refused
+val-mismatched-tags: refused
+val-trunc-sheet: refused
+val-trunc-sst: refused
+val-trunc-styles: refused
+val-trunc-workbook: refused
+ask-errors: refused

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>error046720_15.xml</logFileName><summary>Errors were detected in file '<job folder>\val-trunc-rels.xlsx'</summary><additionalInfo><info>Excel completed file level validation and repair. Some parts of this workbook may have been repaired or discarded.</info></additionalInfo></recoveryLog>

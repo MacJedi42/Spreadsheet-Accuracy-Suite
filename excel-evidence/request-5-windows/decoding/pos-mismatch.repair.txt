@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>error046720_08.xml</logFileName><summary>Errors were detected in file '<job folder>\pos-mismatch.xlsx'</summary><additionalInfo><info>Excel completed file level validation and repair. Some parts of this workbook may have been repaired or discarded.</info></additionalInfo><removedRecords><removedRecord>Removed Records: Cell information from /xl/worksheets/sheet1.xml part</removedRecord></removedRecords></recoveryLog>

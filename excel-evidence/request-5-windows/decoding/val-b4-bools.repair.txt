@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>error046720_11.xml</logFileName><summary>Errors were detected in file '<job folder>\val-b4-bools.xlsx'</summary><additionalInfo><info>Excel completed file level validation and repair. Some parts of this workbook may have been repaired or discarded.</info></additionalInfo><repairedRecords><repairedRecord>Repaired Records: Cell information from /xl/worksheets/sheet1.xml part</repairedRecord></repairedRecords></recoveryLog>

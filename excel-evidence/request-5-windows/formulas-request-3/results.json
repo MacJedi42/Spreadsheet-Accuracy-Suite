@@ -1,0 +1,366 @@
+﻿[
+    {
+        "file":  "blank.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "cancel-band.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "cancel-decimal.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "cancel-ulps.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "compare-15digit.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "compare-ulps.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "cross-sheet.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "decimal-sum.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "division.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "error-input.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "excel-observed.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "excel-probe.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "gst-literal.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "gst-part1.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "gst-part2.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "logical-cell.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "logical.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "lookup-shapes.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "percent.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "pmt.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "power.xlsx",
+        "opened":  true,
+        "repaired":  true,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00006.xlsx",
+        "opened":  true,
+        "repaired":  true,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00007.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00008.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00009.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00010.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00011.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-hostile-00012.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00001.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00002.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00003.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00004.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00005.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00006.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00007.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00008.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00009.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00010.xlsx",
+        "opened":  true,
+        "repaired":  true,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00011.xlsx",
+        "opened":  true,
+        "repaired":  true,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-out-of-range-00012.xlsx",
+        "opened":  true,
+        "repaired":  true,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-percent-00002.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "risky-percent-00004.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-15digit-tie.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-digits.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-keeps-all.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-large.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-literal.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-tie-ulps.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "round-tie.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "sum-order.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "sum-sequential.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    },
+    {
+        "file":  "text-input.xlsx",
+        "opened":  true,
+        "repaired":  false,
+        "saved":  true,
+        "error":  null
+    }
+]

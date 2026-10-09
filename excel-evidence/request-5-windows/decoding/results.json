@@ -1,0 +1,548 @@
+[
+ {
+  "file": "date-1900-display.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1900-ops.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-absent.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-display.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-false.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-ops.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-prefixed.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-true.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "date-1904-zero.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "num-overflow.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "per-1904.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "per-edges.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "per-hourly.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-missing-sheet.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "pkg-missing-sst.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "pkg-missing-styles.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-no-sst.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "pkg-sst-absolute.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-sst-case.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-sst-dotdot.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-sst-index.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-sst-norel.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-sst-relative.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-strict.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-styles-elsewhere.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-styles-norel.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pkg-workbook-relocated.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-backwards-identical-blank.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-cell-backwards.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-dup-different.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-dup-identical.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-mismatch.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-mixed.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-rless-after-gap.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-rless-all.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-rless-formulas.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-rless-onto-explicit.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-rless-row-after-explicit.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-row-backwards.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-row-repeated.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-selfclosing-cell.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-selfclosing-row-rless.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-selfclosing-row.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "pos-xprefix.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-b4-bools.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-b4-numbers.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-badutf8-f.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-badutf8-inline.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-badutf8-sst.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-badutf8-v.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-cdata.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-cp1252-sst.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-latin1-ascii-sheet.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-mismatched-tags.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-rph-inline.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-rph-shared.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-tdate-1900.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-tdate-1904.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-trunc-rels.xlsx",
+  "opened": true,
+  "repaired": true,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-trunc-sheet.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-trunc-sst.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-trunc-styles.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-trunc-workbook.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "val-utf16be-sheet.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf16be-sst.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf16le-nobom-sst.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf16le-sheet.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf16le-sst.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf8bom-sheet.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-utf8bom-sst.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "val-xescape.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-errors.xlsx",
+  "opened": false,
+  "repaired": true,
+  "saved": false,
+  "error": "Unable to get the Open property of the Workbooks class"
+ },
+ {
+  "file": "ask-ic51.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-num1.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-per1-1900.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-per1-1904.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-space.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ },
+ {
+  "file": "ask-strict.xlsx",
+  "opened": true,
+  "repaired": false,
+  "saved": true,
+  "error": null
+ }
+]

@@ -1,12 +1,12 @@
 # Excel behaviour this suite established
 
 **Every rule below names its source:**
-- `R1` to `R4` are Excel requests 1 to 4 (`excel-evidence/request-N/`; requests 3 and 4 each have a `SETTLED.md`);
+- `R1` to `R4` are Excel requests 1 to 4 (`excel-evidence/request-N/`; requests 3 and 4 each have a `SETTLED.md`), and `R5` is their re-run on Windows Excel (`excel-evidence/request-5-windows/SUMMARY.md`);
 - `ECMA` is ECMA-376;
 - `MS-OI` is Microsoft's implementation notes [MS-OI29500];
 - `corpus` means Excel's own caches in Excel-saved corpus files.
 
-"Excel" here is Microsoft Excel for Mac 16.113 (locale en_NZ), which also matches the Windows behaviour the documentation describes. Where a rule says *undecided*, no source settled it, and the goldens expect a refusal.
+"Excel" here is Microsoft Excel for Mac 16.113 (locale en_NZ). **Windows Excel** (Microsoft 365, 16.0.20430, locale en-NZ) re-ran requests 3 and 4 as `R5` and matched it everywhere but the one power value marked below. Where a rule says *undecided*, no source settled it, and the goldens expect a refusal.
 
 ## 1. Arithmetic and formulas (formula golden)
 
@@ -34,7 +34,7 @@
 |---|---|---|
 | an integer exponent | right-to-left binary exponentiation (repeated squaring), bit for bit; x^-n is 1/x^n, not (1/x)^n | R3 |
 | a positive base to a fractional exponent | exp(b·ln x), with sqrt at 0.5 and the reciprocal form for b<0 | corpus, R4 |
-| a negative base | a value only when 1/b is an odd integer: (-8)^(1/3) is -1.9999999999999998; otherwise #NUM!. For b<0 Excel uses -1/exp(-b·ln\|x\|) | R3, R4 |
+| a negative base | a value only when 1/b is an odd integer: (-8)^(1/3) is -1.9999999999999998; otherwise #NUM!. For b<0 Excel uses -1/exp(-b·ln\|x\|). **Platform-dependent:** `(-8)^(-1/3)` is -0.5000000000000001 on Mac and -0.5 on Windows | R3, R4, R5 |
 | `0^-1` | #DIV/0! | R3 |
 | `0^0` | #NUM! | R3 |
 

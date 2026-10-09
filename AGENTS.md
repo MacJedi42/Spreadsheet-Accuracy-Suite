@@ -191,7 +191,9 @@ To check the caches, strip them from a copy, have Excel (or LibreOffice, as a se
    - any paths in repair logs.
 7. **Where Excel disagrees with a golden row,** Excel wins. Correct the row, cite the evidence in the file (the request, the workbook and cell), and keep the evidence in `excel-evidence/`.
 
-**Windows and Mac Excel** should agree on everything here. If they ever disagree, record both, and treat the row as platform-dependent rather than picking one.
+**Windows and Mac Excel agree on everything here but one value** (`excel-evidence/request-5-windows/SUMMARY.md`). Requests 3 and 4 were re-run on Windows Excel and matched Mac Excel bit for bit on 15,045 of 15,046 formulas and all 94 probe formulas, and on every decoded cell and damaged-file verdict. The exception is `(-8)^(-1/3)`: -0.5000000000000001 on Mac, -0.5 on Windows. That class is already refused as undecided. If a new check ever disagrees across platforms, record both and treat the row as platform-dependent rather than picking one.
+
+**When Excel repairs a file:** an interactive repair prompt and the automation interface's repair mode (`CorruptLoad = xlRepairFile`) can differ. Twelve shapes the Mac repaired at its prompt would not open through Windows automation at all. Both outcomes mean damaged; record which way you drove Excel.
 
 ## Contributing evidence
 

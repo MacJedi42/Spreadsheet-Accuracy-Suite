@@ -10,7 +10,7 @@ This suite was built to prove internal tools: every number such a tool prints or
 
 A spreadsheet answer is right when it is what Excel shows. Every expectation in this suite names its source, and the sources rank in this order:
 
-1. **Excel observed.** Desktop Microsoft Excel for Mac 16.113 was asked four times (`excel-evidence/request-1` to `request-4`). It recalculated or opened the suite's own workbooks and saved them, and the saved files are kept here. The value Excel wrote into each cell (`<v>`) is the evidence.
+1. **Excel observed.** Desktop Microsoft Excel for Mac 16.113 was asked four times (`excel-evidence/request-1` to `request-4`), and Windows Excel (Microsoft 365, build 16.0.20430) re-ran requests 3 and 4 (`request-5-windows`). It recalculated or opened the suite's own workbooks and saved them, and the saved files are kept here. The value Excel wrote into each cell (`<v>`) is the evidence.
 2. **Excel's own caches.** The cached values in real files that Excel last saved, such as the corpus workbooks.
 3. **Microsoft's documentation:** ECMA-376 (Office Open XML) and Microsoft's implementation notes for it, [MS-OI29500].
 4. **LibreOffice and openpyxl, only where they agree with Excel.** LibreOffice is a good second opinion, but it is not Excel. This suite records dozens of places where it differs (see [EXCEL-BEHAVIOUR.md](EXCEL-BEHAVIOUR.md)).
@@ -100,10 +100,11 @@ It has 181,897 checks of a value under a code, plus built-in id, date-system and
 | `request-2` | 2026-10-02 | the display and date classes where two independent readers disagreed on real files | which reading Excel shows, class by class (`ANALYSIS.md`) |
 | `request-3` | 2026-10-02 | recalculate every curated formula-golden row (52 workbooks) and LOOKUP shapes | Excel's exact answer for 15,046 formulas; snapping, powers, equality, ROUND digits, PMT, logical ordering, text comparison (`SETTLED.md`) |
 | `request-4` | 2026-10-08 | open 78 decoding shapes and save them, and answer ask workbooks of DAY, MONTH, YEAR, TEXT, SUM, AVERAGE, STDEV and error codes; recalculate 94 more formulas | which file shapes Excel reads, repairs or refuses; text trimming; encodings; rounding at the second; overflow; strict workbooks (`SETTLED.md`) |
+| `request-5-windows` | 2026-10-09 | requests 3 and 4 again, on **Windows** Excel: the same original workbooks | Windows matches Mac on 15,045 of 15,046 formulas, all 94 probe formulas, 795 of 797 decoded cells and every damaged-file verdict. One platform difference: `(-8)^(-1/3)` is -0.5000000000000001 on Mac and -0.5 on Windows (`SUMMARY.md`) |
 
 **The run's details:**
 - Each request folder keeps the request as sent (`REQUEST.md`), Excel's saved workbooks, its repair logs, and the import of its answers (`excel-cache.jsonl`).
-- Excel for Mac 16.113.3 or 16.113.4 on macOS 27, locale en_NZ.
+- Requests 1 to 4: Excel for Mac 16.113.3 or 16.113.4 on macOS 27, locale en_NZ. Request 5: Windows Excel 16.0.20430 on Windows 11 Pro, locale en-NZ.
 - The person's local folder paths are blanked from the saved files.
 
 ### 6. `goldens/fidelity/`: three workbooks with charts, pivots, a table, macros and defined names
