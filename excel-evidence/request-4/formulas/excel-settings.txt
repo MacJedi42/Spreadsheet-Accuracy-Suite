@@ -1,0 +1,22 @@
+== Excel: version, decimal separator, thousands separator, use system separators
+16.113.4 (version read separately; the settings script's combined osascript line fails on the reserved word "use")
+decimal separator: not readable (Excel's AppleScript returns no value for it on this build)
+thousands separator: not readable (same)
+use system separators: not readable (same). macOS region is en_NZ and no Excel override is set, so Excel is expected to follow the system, unverified.
+== Excel's own languages (set apart from the system's: System Settings, General, Language & Region, Applications)
+(not set: Excel follows the system's languages)
+== macOS
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+AppleLocale: en_NZ
+AppleLanguages: (
+    "en-NZ"
+)
+AppleICUForce24HourTime: (not set)
+AppleICUForce12HourTime: (not set)
+AppleICUNumberSymbols: (not set)
+AppleICUDateFormatStrings: (not set)
+AppleICUTimeFormatStrings: (not set)
+AppleFirstWeekday: (not set)
+AppleMeasurementUnits: (not set)

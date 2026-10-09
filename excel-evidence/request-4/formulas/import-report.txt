@@ -1,0 +1,357 @@
+EXCEL IMPORT of <scrubbed copy>/formulas
+
+SETTINGS (excel-settings.txt, from excel-settings.sh on the Mac): how Excel reads a text as a number depends on them
+  == Excel: version, decimal separator, thousands separator, use system separators
+  16.113.4 (version read separately; the settings script's combined osascript line fails on the reserved word "use")
+  decimal separator: not readable (Excel's AppleScript returns no value for it on this build)
+  thousands separator: not readable (same)
+  use system separators: not readable (same). macOS region is en_NZ and no Excel override is set, so Excel is expected to follow the system, unverified.
+  == Excel's own languages (set apart from the system's: System Settings, General, Language & Region, Applications)
+  (not set: Excel follows the system's languages)
+  == macOS
+  ProductName:		macOS
+  ProductVersion:		27.0.1
+  BuildVersion:		26A434
+  AppleLocale: en_NZ
+  AppleLanguages: (
+      "en-NZ"
+  )
+  AppleICUForce24HourTime: (not set)
+  AppleICUForce12HourTime: (not set)
+  AppleICUNumberSymbols: (not set)
+  AppleICUDateFormatStrings: (not set)
+  AppleICUTimeFormatStrings: (not set)
+  AppleFirstWeekday: (not set)
+  AppleMeasurementUnits: (not set)
+
+excel-probe-4.xlsx: read, 94 rows
+
+ROWS: 94 in the manifest; 94 read with a cached value, 0 without one; by kind {'b': 8, 'e': 10, 'n': 76}
+
+DECIDED ROWS (35): Excel against the golden's expectation, by basis
+  error:#VALUE!                                agree 5
+  excel:no-snap-before-the-last-step           agree 1
+  excel:no-snap-past-8-ulps                    agree 1
+  lo                                           agree 28
+  how:
+         5  agree     error #VALUE!
+        19  agree     the identical double
+        11  agree     within 1e-13, not identical
+
+DISAGREEMENTS (0), every one:
+
+AGREEING ONLY WITHIN THE GATE'S TOLERANCE (11): decided rows whose answer is not bit-identical to the expectation, every one (the variants, where they differ, beside it):
+  excel-probe-4.00001@Z1  =A1^B1  golden n:1.09477041083488 (lo)  Excel n:1.0947704108348797
+  excel-probe-4.00002@Z2  =A2^B2  golden n:2.8284271247461903 (lo)  Excel n:2.82842712474619
+  excel-probe-4.00003@Z3  =A3^B3  golden n:55.90169943749474 (lo)  Excel n:55.901699437494734
+  excel-probe-4.00004@Z4  =A4^B4  golden n:14.696938456699069 (lo)  Excel n:14.69693845669907
+  excel-probe-4.00005@Z5  =A5^B5  golden n:129.64181424216494 (lo)  Excel n:129.64181424216488
+  excel-probe-4.00007@Z7  =A7^B7  golden n:3.890451449942805e-07 (lo)  Excel n:3.890451449942803e-07
+  excel-probe-4.00008@Z8  =A8^B8  golden n:0.9134335291701872 (lo)  Excel n:0.9134335291701873
+  excel-probe-4.00009@Z9  =A9^B9  golden n:0.9410360288810286 (lo)  Excel n:0.9410360288810284
+  excel-probe-4.00010@Z10  =A10^B10  golden n:0.8122523963562356 (lo)  Excel n:0.8122523963562355
+  excel-probe-4.00012@Z12  =A12^B12  golden n:0.5773502691896257 (lo)  Excel n:0.5773502691896258
+  excel-probe-4.00013@Z13  =A13^B13  golden n:0.37796447300922725 (lo)  Excel n:0.3779644730092272
+
+EXCEL PROBES (94 rows of the excel-probe and excel-probe-4 groups, then 0 defined-name rows of the lookup-shapes workbook): Excel's exact outcome, the variants it matches bit for bit (a number by ==), each variant's outcome, LibreOffice's (when the golden run asked it), the golden's expectation. ** marks a DECIDED row whose answer is not bit-identical to its expectation: 11 of them: excel-probe-4.00001@Z1, excel-probe-4.00002@Z2, excel-probe-4.00003@Z3, excel-probe-4.00004@Z4, excel-probe-4.00005@Z5, excel-probe-4.00007@Z7, excel-probe-4.00008@Z8, excel-probe-4.00009@Z9, excel-probe-4.00010@Z10, excel-probe-4.00012@Z12, excel-probe-4.00013@Z13
+  ** excel-probe-4.00001@Z1  =A1^B1  [S!A1=n:1.1 S!B1=n:0.95]  Excel n:1.0947704108348797  matches E  | E n:1.0947704108348797  | LibreOffice n:1.09477041083488  | golden n:1.09477041083488 (lo)
+  ** excel-probe-4.00002@Z2  =A2^B2  [S!A2=n:2.0 S!B2=n:1.5]  Excel n:2.82842712474619  matches E  | E n:2.82842712474619  | LibreOffice n:2.8284271247461903  | golden n:2.8284271247461903 (lo)
+  ** excel-probe-4.00003@Z3  =A3^B3  [S!A3=n:5.0 S!B3=n:2.5]  Excel n:55.901699437494734  matches E  | E n:55.901699437494734  | LibreOffice n:55.90169943749474  | golden n:55.90169943749474 (lo)
+  ** excel-probe-4.00004@Z4  =A4^B4  [S!A4=n:6.0 S!B4=n:1.5]  Excel n:14.69693845669907  matches E  | E n:14.69693845669907  | LibreOffice n:14.696938456699069  | golden n:14.696938456699069 (lo)
+  ** excel-probe-4.00005@Z5  =A5^B5  [S!A5=n:7.0 S!B5=n:2.5]  Excel n:129.64181424216488  matches E  | E n:129.64181424216488  | LibreOffice n:129.64181424216494  | golden n:129.64181424216494 (lo)
+     excel-probe-4.00006@Z6  =A6^B6  [S!A6=n:1.027 S!B6=n:12.5]  Excel n:1.39518097330974  matches E  | E n:1.39518097330974  | LibreOffice n:1.39518097330974  | golden n:1.39518097330974 (lo)
+  ** excel-probe-4.00007@Z7  =A7^B7  [S!A7=n:10.0 S!B7=n:-6.41]  Excel n:3.890451449942803e-07  matches E  | E n:3.890451449942803e-07  | LibreOffice n:3.890451449942805e-07  | golden n:3.890451449942805e-07 (lo)
+  ** excel-probe-4.00008@Z8  =A8^B8  [S!A8=n:1.1 S!B8=n:-0.95]  Excel n:0.9134335291701873  matches E  | E n:0.9134335291701873  | LibreOffice n:0.9134335291701872  | golden n:0.9134335291701872 (lo)
+  ** excel-probe-4.00009@Z9  =A9^B9  [S!A9=n:1.2 S!B9=n:-0.3333333333333333]  Excel n:0.9410360288810284  matches E  | E n:0.9410360288810284  | LibreOffice n:0.9410360288810286  | golden n:0.9410360288810286 (lo)
+  ** excel-probe-4.00010@Z10  =A10^B10  [S!A10=n:2.0 S!B10=n:-0.3]  Excel n:0.8122523963562355  matches E  | E n:0.8122523963562355  | LibreOffice n:0.8122523963562356  | golden n:0.8122523963562356 (lo)
+     excel-probe-4.00011@Z11  =A11^B11  [S!A11=n:11.0 S!B11=n:-0.5]  Excel n:0.30151134457776363  matches E  | E n:0.30151134457776363  | LibreOffice n:0.30151134457776363  | golden n:0.30151134457776363 (lo)
+  ** excel-probe-4.00012@Z12  =A12^B12  [S!A12=n:3.0 S!B12=n:-0.5]  Excel n:0.5773502691896258  matches E  | E n:0.5773502691896258  | LibreOffice n:0.5773502691896257  | golden n:0.5773502691896257 (lo)
+  ** excel-probe-4.00013@Z13  =A13^B13  [S!A13=n:7.0 S!B13=n:-0.5]  Excel n:0.3779644730092272  matches E  | E n:0.3779644730092272  | LibreOffice n:0.37796447300922725  | golden n:0.37796447300922725 (lo)
+     excel-probe-4.00014@Z14  =A14^B14  [S!A14=n:-125.0 S!B14=n:-0.3333333333333333]  Excel n:-0.19999999999999996  matches no variant  | E u:negative-root  | LibreOffice (none)  | golden refuse (undecided:negative-root)
+     excel-probe-4.00015@Z15  =A15^B15  [S!A15=n:-8.0 S!B15=n:-0.2]  Excel n:-0.6597539553864472  matches no variant  | E u:negative-root  | LibreOffice (none)  | golden refuse (undecided:negative-root)
+     excel-probe-4.00016@Z16  =A16^B16  [S!A16=n:-2.0 S!B16=n:-0.3333333333333333]  Excel n:-0.7937005259840997  matches no variant  | E u:negative-root  | LibreOffice (none)  | golden refuse (undecided:negative-root)
+     excel-probe-4.00017@Z17  =A17^B17  [S!A17=n:-3.0 S!B17=n:-0.3333333333333333]  Excel n:-0.6933612743506348  matches no variant  | E u:negative-root  | LibreOffice (none)  | golden refuse (undecided:negative-root)
+     excel-probe-4.00018@Z18  =PMT(A18,B18,C18,D18)  [S!A18=n:0.5 S!B18=n:20.0 S!C18=n:1.0 S!D18=n:1000000.0]  Excel n:-150.90971278649522  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00019@Z19  =PMT(A19,B19,C19,D19)  [S!A19=n:0.5 S!B19=n:30.0 S!C19=n:1.0 S!D19=n:1000000.0]  Excel n:-3.1075637316680513  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00020@Z20  =PMT(A20,B20,C20,D20)  [S!A20=n:0.5 S!B20=n:40.0 S!C20=n:1.0 S!D20=n:1000000.0]  Excel n:-0.5452189127681777  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00021@Z21  =PMT(A21,B21,C21,D21)  [S!A21=n:0.5 S!B21=n:50.0 S!C21=n:1.0 S!D21=n:1000000.0]  Excel n:-0.5007841650513001  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00022@Z22  =PMT(A22,B22,C22,D22)  [S!A22=n:0.5 S!B22=n:60.0 S!C22=n:1.0 S!D22=n:1000000.0]  Excel n:-0.5000135986483656  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00023@Z23  =PMT(A23,B23,C23,D23)  [S!A23=n:0.5 S!B23=n:70.0 S!C23=n:1.0 S!D23=n:1000000.0]  Excel n:-0.5000002357992344  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00024@Z24  =PMT(A24,B24,C24,D24)  [S!A24=n:0.5 S!B24=n:80.0 S!C24=n:1.0 S!D24=n:1000000.0]  Excel n:-0.5000000041327439  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00025@Z25  =PMT(A25,B25,C25,D25)  [S!A25=n:0.5 S!B25=n:90.0 S!C25=n:1.0 S!D25=n:1000000.0]  Excel n:-0.5000000000582077  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00026@Z26  =PMT(A26,B26,C26,D26)  [S!A26=n:0.5 S!B26=n:100.0 S!C26=n:1.0 S!D26=n:1000000.0]  Excel n:-0.5  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00027@Z27  =PMT(A27,B27,C27,D27)  [S!A27=n:0.5 S!B27=n:20.0 S!C27=n:0.0 S!D27=n:1000.0]  Excel n:-0.15040956237697856  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00028@Z28  =PMT(A28,B28,C28,D28)  [S!A28=n:0.5 S!B28=n:40.0 S!C28=n:0.0 S!D28=n:1000.0]  Excel n:-4.521886751263082e-05  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00029@Z29  =PMT(A29,B29,C29,D29)  [S!A29=n:0.5 S!B29=n:60.0 S!C29=n:0.0 S!D29=n:1000.0]  Excel n:-1.359859425065224e-08  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00030@Z30  =PMT(A30,B30,C30,D30)  [S!A30=n:0.5 S!B30=n:80.0 S!C30=n:0.0 S!D30=n:1000.0]  Excel n:-4.092726157978177e-12  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00031@Z31  =PMT(A31,B31,C31,D31)  [S!A31=n:0.5 S!B31=n:100.0 S!C31=n:0.0 S!D31=n:1000.0]  Excel n:0.0  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00032@Z32  =PMT(A32,B32,C32,D32)  [S!A32=n:0.5 S!B32=n:80.0 S!C32=n:1.0 S!D32=n:1000.0]  Excel n:-0.5000000000040927  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00033@Z33  =PMT(A33,B33,C33,D33,E33)  [S!A33=n:0.5 S!B33=n:60.0 S!C33=n:1.0 S!D33=n:1000000.0 S!E33=n:1.0]  Excel n:-0.3333423990989104  matches no variant  | E u:pmt-growth  | LibreOffice (none)  | golden refuse (undecided:pmt-growth)
+     excel-probe-4.00034@Z34  =ROUND(A34,2)  [S!A34=n:1234567890123.375]  Excel n:1234567890123.37  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00035@Z35  =ROUND(A35,0)  [S!A35=n:100000000000001.5]  Excel n:100000000000001.0  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00036@Z36  =A36=B36  [S!A36=n:100000000000000.5 S!B36=n:100000000000001.0]  Excel b:TRUE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00037@Z37  =A37<B37  [S!A37=n:100000000000000.5 S!B37=n:100000000000001.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00038@Z38  =A38=B38  [S!A38=n:100000000000000.5 S!B38=n:100000000000000.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00039@Z39  =A39<B39  [S!A39=n:100000000000000.5 S!B39=n:100000000000000.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00040@Z40  =A40=B40  [S!A40=n:1000000000000125.0 S!B40=n:1000000000000130.0]  Excel b:TRUE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00041@Z41  =A41<B41  [S!A41=n:1000000000000125.0 S!B41=n:1000000000000130.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00042@Z42  =A42=B42  [S!A42=n:1000000000000125.0 S!B42=n:1000000000000120.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00043@Z43  =A43<B43  [S!A43=n:1000000000000125.0 S!B43=n:1000000000000120.0]  Excel b:FALSE  matches no variant  | E u:fifteen-digit-tie  | LibreOffice (none)  | golden refuse (undecided:fifteen-digit-tie)
+     excel-probe-4.00044@Z44  =A44-B44  [S!A44=n:0.4999999999999998 S!B44=n:0.5000000000000002]  Excel n:-4.440892098500626e-16  matches E  | E n:-4.440892098500626e-16  | LibreOffice n:0.0  | golden n:-4.440892098500626e-16 (excel:no-snap-past-8-ulps)
+     excel-probe-4.00045@Z45  =B45-A45  [S!A45=n:0.4999999999999998 S!B45=n:0.5000000000000002]  Excel n:0.0  matches E  | E n:0.0  | LibreOffice n:0.0  | golden n:0.0 (lo)
+     excel-probe-4.00046@Z46  =(A46-B46)*1  [S!A46=n:0.4999999999999998 S!B46=n:0.5000000000000002]  Excel n:-4.440892098500626e-16  matches E  | E n:-4.440892098500626e-16  | LibreOffice n:0.0  | golden n:-4.440892098500626e-16 (excel:no-snap-before-the-last-step)
+     excel-probe-4.00047@Z47  =ROUND(A47,B47)  [S!A47=n:1234.5678 S!B47=n:21.0]  Excel n:1234.5678  matches E  | E n:1234.5678  | LibreOffice n:1234.5678  | golden n:1234.5678 (lo)
+     excel-probe-4.00048@Z48  =ROUND(A48,B48)  [S!A48=n:1234.5678 S!B48=n:30.0]  Excel n:1234.5678  matches E  | E n:1234.5678  | LibreOffice n:1234.5678  | golden n:1234.5678 (lo)
+     excel-probe-4.00049@Z49  =ROUND(A49,B49)  [S!A49=n:1234.5678 S!B49=n:100.0]  Excel n:1234.5678  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00050@Z50  =ROUND(A50,B50)  [S!A50=n:1234.5678 S!B50=n:308.0]  Excel n:1234.5678  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00051@Z51  =ROUND(A51,B51)  [S!A51=n:1234.5678 S!B51=n:400.0]  Excel n:1234.5678  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00052@Z52  =ROUND(A52,B52)  [S!A52=n:1234.5678 S!B52=n:-21.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00053@Z53  =ROUND(A53,B53)  [S!A53=n:1234.5678 S!B53=n:-30.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00054@Z54  =ROUND(A54,B54)  [S!A54=n:1234.5678 S!B54=n:-308.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00055@Z55  =ROUND(A55,B55)  [S!A55=n:1234.5678 S!B55=n:-400.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00056@Z56  =ROUND(A56,B56)  [S!A56=n:1e+300 S!B56=n:21.0]  Excel n:1e+300  matches E  | E n:1e+300  | LibreOffice n:1e+300  | golden n:1e+300 (lo)
+     excel-probe-4.00057@Z57  =ROUND(A57,B57)  [S!A57=n:1e+300 S!B57=n:30.0]  Excel n:1e+300  matches E  | E n:1e+300  | LibreOffice n:1e+300  | golden n:1e+300 (lo)
+     excel-probe-4.00058@Z58  =ROUND(A58,B58)  [S!A58=n:1e+300 S!B58=n:100.0]  Excel n:1e+300  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00059@Z59  =ROUND(A59,B59)  [S!A59=n:1e+300 S!B59=n:308.0]  Excel n:1e+300  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00060@Z60  =ROUND(A60,B60)  [S!A60=n:1e+300 S!B60=n:400.0]  Excel n:1e+300  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00061@Z61  =ROUND(A61,B61)  [S!A61=n:1e+300 S!B61=n:-21.0]  Excel n:1e+300  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00062@Z62  =ROUND(A62,B62)  [S!A62=n:1e+300 S!B62=n:-30.0]  Excel n:1e+300  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00063@Z63  =ROUND(A63,B63)  [S!A63=n:1e+300 S!B63=n:-308.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00064@Z64  =ROUND(A64,B64)  [S!A64=n:1e+300 S!B64=n:-400.0]  Excel n:0.0  matches no variant  | E u:round-digits  | LibreOffice (none)  | golden refuse (undecided:round-digits)
+     excel-probe-4.00065@Z65  =A65+1  [S!A65=s:25%]  Excel n:1.25  matches E  | E n:1.25  | LibreOffice n:1.25  | golden n:1.25 (lo)
+     excel-probe-4.00066@Z66  =A66+1  [S!A66=s:75%]  Excel n:1.75  matches E  | E n:1.75  | LibreOffice n:1.75  | golden n:1.75 (lo)
+     excel-probe-4.00067@Z67  =A67+1  [S!A67=s:100%]  Excel n:2.0  matches E  | E n:2.0  | LibreOffice n:2.0  | golden n:2.0 (lo)
+     excel-probe-4.00068@Z68  =A68+1  [S!A68=s:150%]  Excel n:2.5  matches E  | E n:2.5  | LibreOffice n:2.5  | golden n:2.5 (lo)
+     excel-probe-4.00069@Z69  =A69+1  [S!A69=s:7%]  Excel n:1.07  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00070@Z70  =A70+1  [S!A70=s:6:00]  Excel n:1.25  matches E  | E n:1.25  | LibreOffice n:1.25  | golden n:1.25 (lo)
+     excel-probe-4.00071@Z71  =A71+1  [S!A71=s:18:30]  Excel n:1.7708333333333335  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00072@Z72  =A72+1  [S!A72=s:0:45]  Excel n:1.03125  matches E  | E n:1.03125  | LibreOffice n:1.03125  | golden n:1.03125 (lo)
+     excel-probe-4.00073@Z73  =A73+1  [S!A73=s:3:47]  Excel n:1.1576388888888889  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00074@Z74  =A74+1  [S!A74=s:12:00 AM]  Excel n:1.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00075@Z75  =A75+1  [S!A75=s:12:30 PM]  Excel n:1.5208333333333335  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00076@Z76  =A76+1  [S!A76=s:11:15 AM]  Excel n:1.46875  matches E  | E n:1.46875  | LibreOffice n:1.46875  | golden n:1.46875 (lo)
+     excel-probe-4.00077@Z77  =A77+1  [S!A77=s:$5]  Excel n:6.0  matches E  | E n:6.0  | LibreOffice n:6.0  | golden n:6.0 (lo)
+     excel-probe-4.00078@Z78  =A78+1  [S!A78=s:$1,000]  Excel n:1001.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00079@Z79  =A79+1  [S!A79=s:-$5]  Excel n:-4.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00080@Z80  =A80+1  [S!A80=s:($5)]  Excel n:-4.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00081@Z81  =A81+1  [S!A81=s:(5.5)]  Excel n:-4.5  matches E  | E n:-4.5  | LibreOffice n:-4.5  | golden n:-4.5 (lo)
+     excel-probe-4.00082@Z82  =A82+1  [S!A82=s:(1,000)]  Excel n:-999.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00083@Z83  =A83+1  [S!A83=s:1,234,567.89]  Excel n:1234568.89  matches E  | E n:1234568.89  | LibreOffice n:1234568.89  | golden n:1234568.89 (lo)
+     excel-probe-4.00084@Z84  =A84+1  [S!A84=s:1,0000]  Excel n:10001.0  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00085@Z85  =A85+1  [S!A85=s:x]  Excel e:#VALUE!  matches E  | E e:#VALUE!  | LibreOffice e:#VALUE!  | golden refuse (error:#VALUE!)
+     excel-probe-4.00086@Z86  =A86+1  [S!A86=s:NA]  Excel e:#VALUE!  matches E  | E e:#VALUE!  | LibreOffice e:#VALUE!  | golden refuse (error:#VALUE!)
+     excel-probe-4.00087@Z87  =A87+1  [S!A87=s:N/A]  Excel e:#VALUE!  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00088@Z88  =A88+1  [S!A88=s:n/a]  Excel e:#VALUE!  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00089@Z89  =A89+1  [S!A89=s:NaN]  Excel e:#VALUE!  matches E  | E e:#VALUE!  | LibreOffice e:#VALUE!  | golden refuse (error:#VALUE!)
+     excel-probe-4.00090@Z90  =A90+1  [S!A90=s:Inf]  Excel e:#VALUE!  matches E  | E e:#VALUE!  | LibreOffice e:#VALUE!  | golden refuse (error:#VALUE!)
+     excel-probe-4.00091@Z91  =A91+1  [S!A91=s:e]  Excel e:#VALUE!  matches E  | E e:#VALUE!  | LibreOffice e:#VALUE!  | golden refuse (error:#VALUE!)
+     excel-probe-4.00092@Z92  =A92+1  [S!A92=s:May]  Excel e:#VALUE!  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00093@Z93  =A93+1  [S!A93=s:a]  Excel e:#VALUE!  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+     excel-probe-4.00094@Z94  =A94+1  [S!A94=s:p]  Excel e:#VALUE!  matches no variant  | E u:text-to-number  | LibreOffice (none)  | golden refuse (undecided:text-to-number)
+
+UNDECIDED ROWS (59): Excel's answers per aspect (three examples per answer; EXCEL PROBES above, and excel-cache.jsonl, hold every row)
+  pmt-growth (16 rows)
+        1  Excel n:-150.90971278649522   e.g. =PMT(A18,B18,C18,D18) over [S!A18=n:0.5 S!B18=n:20.0 S!C18=n:1.0 S!D18=n:1000000.0]
+        1  Excel n:-3.1075637316680513   e.g. =PMT(A19,B19,C19,D19) over [S!A19=n:0.5 S!B19=n:30.0 S!C19=n:1.0 S!D19=n:1000000.0]
+        1  Excel n:-0.5452189127681777   e.g. =PMT(A20,B20,C20,D20) over [S!A20=n:0.5 S!B20=n:40.0 S!C20=n:1.0 S!D20=n:1000000.0]
+        1  Excel n:-0.5007841650513001   e.g. =PMT(A21,B21,C21,D21) over [S!A21=n:0.5 S!B21=n:50.0 S!C21=n:1.0 S!D21=n:1000000.0]
+        1  Excel n:-0.5000135986483656   e.g. =PMT(A22,B22,C22,D22) over [S!A22=n:0.5 S!B22=n:60.0 S!C22=n:1.0 S!D22=n:1000000.0]
+        1  Excel n:-0.5000002357992344   e.g. =PMT(A23,B23,C23,D23) over [S!A23=n:0.5 S!B23=n:70.0 S!C23=n:1.0 S!D23=n:1000000.0]
+        1  Excel n:-0.5000000041327439   e.g. =PMT(A24,B24,C24,D24) over [S!A24=n:0.5 S!B24=n:80.0 S!C24=n:1.0 S!D24=n:1000000.0]
+        1  Excel n:-0.5000000000582077   e.g. =PMT(A25,B25,C25,D25) over [S!A25=n:0.5 S!B25=n:90.0 S!C25=n:1.0 S!D25=n:1000000.0]
+        1  Excel n:-0.5   e.g. =PMT(A26,B26,C26,D26) over [S!A26=n:0.5 S!B26=n:100.0 S!C26=n:1.0 S!D26=n:1000000.0]
+        1  Excel n:-0.15040956237697856   e.g. =PMT(A27,B27,C27,D27) over [S!A27=n:0.5 S!B27=n:20.0 S!C27=n:0.0 S!D27=n:1000.0]
+        1  Excel n:-4.521886751263082e-05   e.g. =PMT(A28,B28,C28,D28) over [S!A28=n:0.5 S!B28=n:40.0 S!C28=n:0.0 S!D28=n:1000.0]
+        1  Excel n:-1.359859425065224e-08   e.g. =PMT(A29,B29,C29,D29) over [S!A29=n:0.5 S!B29=n:60.0 S!C29=n:0.0 S!D29=n:1000.0]
+        1  Excel n:-4.092726157978177e-12   e.g. =PMT(A30,B30,C30,D30) over [S!A30=n:0.5 S!B30=n:80.0 S!C30=n:0.0 S!D30=n:1000.0]
+        1  Excel n:0.0   e.g. =PMT(A31,B31,C31,D31) over [S!A31=n:0.5 S!B31=n:100.0 S!C31=n:0.0 S!D31=n:1000.0]
+        1  Excel n:-0.5000000000040927   e.g. =PMT(A32,B32,C32,D32) over [S!A32=n:0.5 S!B32=n:80.0 S!C32=n:1.0 S!D32=n:1000.0]
+        1  Excel n:-0.3333423990989104   e.g. =PMT(A33,B33,C33,D33,E33) over [S!A33=n:0.5 S!B33=n:60.0 S!C33=n:1.0 S!D33=n:1000000.0 S!E33]
+  text-to-number (15 rows)
+        5  Excel e:#VALUE!   e.g. =A87+1 over [S!A87=s:N/A]; =A88+1 over [S!A88=s:n/a]; =A92+1 over [S!A92=s:May]
+        2  Excel n:-4.0   e.g. =A79+1 over [S!A79=s:-$5]; =A80+1 over [S!A80=s:($5)]
+        1  Excel n:1.07   e.g. =A69+1 over [S!A69=s:7%]
+        1  Excel n:1.7708333333333335   e.g. =A71+1 over [S!A71=s:18:30]
+        1  Excel n:1.1576388888888889   e.g. =A73+1 over [S!A73=s:3:47]
+        1  Excel n:1.0   e.g. =A74+1 over [S!A74=s:12:00 AM]
+        1  Excel n:1.5208333333333335   e.g. =A75+1 over [S!A75=s:12:30 PM]
+        1  Excel n:1001.0   e.g. =A78+1 over [S!A78=s:$1,000]
+        1  Excel n:-999.0   e.g. =A82+1 over [S!A82=s:(1,000)]
+        1  Excel n:10001.0   e.g. =A84+1 over [S!A84=s:1,0000]
+  round-digits (14 rows)
+        6  Excel n:0.0   e.g. =ROUND(A52,B52) over [S!A52=n:1234.5678 S!B52=n:-21.0]; =ROUND(A53,B53) over [S!A53=n:1234.5678 S!B53=n:-30.0]; =ROUND(A54,B54) over [S!A54=n:1234.5678 S!B54=n:-308.0]
+        5  Excel n:1e+300   e.g. =ROUND(A58,B58) over [S!A58=n:1e+300 S!B58=n:100.0]; =ROUND(A59,B59) over [S!A59=n:1e+300 S!B59=n:308.0]; =ROUND(A60,B60) over [S!A60=n:1e+300 S!B60=n:400.0]
+        3  Excel n:1234.5678   e.g. =ROUND(A49,B49) over [S!A49=n:1234.5678 S!B49=n:100.0]; =ROUND(A50,B50) over [S!A50=n:1234.5678 S!B50=n:308.0]; =ROUND(A51,B51) over [S!A51=n:1234.5678 S!B51=n:400.0]
+  fifteen-digit-tie (10 rows)
+        6  Excel b:FALSE   e.g. =A37<B37 over [S!A37=n:100000000000000.5 S!B37=n:100000000000001.0]; =A38=B38 over [S!A38=n:100000000000000.5 S!B38=n:100000000000000.0]; =A39<B39 over [S!A39=n:100000000000000.5 S!B39=n:100000000000000.0]
+        2  Excel b:TRUE   e.g. =A36=B36 over [S!A36=n:100000000000000.5 S!B36=n:100000000000001.0]; =A40=B40 over [S!A40=n:1000000000000125.0 S!B40=n:1000000000000130.0]
+        1  Excel n:1234567890123.37   e.g. =ROUND(A34,2) over [S!A34=n:1234567890123.375]
+        1  Excel n:100000000000001.0   e.g. =ROUND(A35,0) over [S!A35=n:100000000000001.5]
+  negative-root (4 rows)
+        1  Excel n:-0.19999999999999996   e.g. =A14^B14 over [S!A14=n:-125.0 S!B14=n:-0.3333333333333333]
+        1  Excel n:-0.6597539553864472   e.g. =A15^B15 over [S!A15=n:-8.0 S!B15=n:-0.2]
+        1  Excel n:-0.7937005259840997   e.g. =A16^B16 over [S!A16=n:-2.0 S!B16=n:-0.3333333333333333]
+        1  Excel n:-0.6933612743506348   e.g. =A17^B17 over [S!A17=n:-3.0 S!B17=n:-0.3333333333333333]
+
+LEFT-OUT (X) ROWS (0): Excel beside LibreOffice
+
+BESIDE LIBREOFFICE'S ANSWER IN THE GOLDEN RUN: 35 rows LibreOffice evaluated, 22 read back as the identical outcome, 13 differ, by how:
+      10  within 1e-13 of LibreOffice's double, and not its 15-digit cut
+       2  a different number
+       1  LibreOffice's double cut to 15 significant digits (as LibreOffice's own xlsx writer stores one)
+  every one:
+  excel-probe-4.00001@Z1  =A1^B1  over [S!A1=n:1.1 S!B1=n:0.95]  saved n:1.0947704108348797  LibreOffice n:1.09477041083488  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00002@Z2  =A2^B2  over [S!A2=n:2.0 S!B2=n:1.5]  saved n:2.82842712474619  LibreOffice n:2.8284271247461903  - LibreOffice's double cut to 15 significant digits (as LibreOffice's own xlsx writer stores one)
+  excel-probe-4.00003@Z3  =A3^B3  over [S!A3=n:5.0 S!B3=n:2.5]  saved n:55.901699437494734  LibreOffice n:55.90169943749474  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00004@Z4  =A4^B4  over [S!A4=n:6.0 S!B4=n:1.5]  saved n:14.69693845669907  LibreOffice n:14.696938456699069  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00005@Z5  =A5^B5  over [S!A5=n:7.0 S!B5=n:2.5]  saved n:129.64181424216488  LibreOffice n:129.64181424216494  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00007@Z7  =A7^B7  over [S!A7=n:10.0 S!B7=n:-6.41]  saved n:3.890451449942803e-07  LibreOffice n:3.890451449942805e-07  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00008@Z8  =A8^B8  over [S!A8=n:1.1 S!B8=n:-0.95]  saved n:0.9134335291701873  LibreOffice n:0.9134335291701872  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00009@Z9  =A9^B9  over [S!A9=n:1.2 S!B9=n:-0.3333333333333333]  saved n:0.9410360288810284  LibreOffice n:0.9410360288810286  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00010@Z10  =A10^B10  over [S!A10=n:2.0 S!B10=n:-0.3]  saved n:0.8122523963562355  LibreOffice n:0.8122523963562356  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00012@Z12  =A12^B12  over [S!A12=n:3.0 S!B12=n:-0.5]  saved n:0.5773502691896258  LibreOffice n:0.5773502691896257  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00013@Z13  =A13^B13  over [S!A13=n:7.0 S!B13=n:-0.5]  saved n:0.3779644730092272  LibreOffice n:0.37796447300922725  - within 1e-13 of LibreOffice's double, and not its 15-digit cut
+  excel-probe-4.00044@Z44  =A44-B44  over [S!A44=n:0.4999999999999998 S!B44=n:0.5000000000000002]  saved n:-4.440892098500626e-16  LibreOffice n:0.0  - a different number
+  excel-probe-4.00046@Z46  =(A46-B46)*1  over [S!A46=n:0.4999999999999998 S!B46=n:0.5000000000000002]  saved n:-4.440892098500626e-16  LibreOffice n:0.0  - a different number
+
+INPUTS THE SAVED WORKBOOKS HOLD DIFFERENTLY (0):
+
+EMPTY-TEXT INPUTS (0): each one's =ISTEXT check; TRUE means Excel loaded the empty text as text, anything else that the row answered a question about a BLANK cell. Not TRUE: 0
+
+FORMULA TEXT: 94 saved formulas are the exported text (token by token: a number by its value, a sheet or function name ignoring case, spaces dropped); 0 differ, every one:
+
+RISKY ROWS (0), each in its own workbook: the formula as Excel saved it, and its answer
+
+AGAINST THE CURRENT GOLDEN (goldens/formula/formula_golden.tsv): {'NOT': 70, 'bit for bit': 24}; every row that does not hold Excel's outcome bit for bit:
+  excel-probe-4.00001@Z1  =A1^B1  Excel n:1.0947704108348797  golden n:1.09477041083488 (lo)
+  excel-probe-4.00002@Z2  =A2^B2  Excel n:2.82842712474619  golden n:2.8284271247461903 (lo)
+  excel-probe-4.00003@Z3  =A3^B3  Excel n:55.901699437494734  golden n:55.90169943749474 (lo)
+  excel-probe-4.00004@Z4  =A4^B4  Excel n:14.69693845669907  golden n:14.696938456699069 (lo)
+  excel-probe-4.00005@Z5  =A5^B5  Excel n:129.64181424216488  golden n:129.64181424216494 (lo)
+  excel-probe-4.00007@Z7  =A7^B7  Excel n:3.890451449942803e-07  golden n:3.890451449942805e-07 (lo)
+  excel-probe-4.00008@Z8  =A8^B8  Excel n:0.9134335291701873  golden n:0.9134335291701872 (lo)
+  excel-probe-4.00009@Z9  =A9^B9  Excel n:0.9410360288810284  golden n:0.9410360288810286 (lo)
+  excel-probe-4.00010@Z10  =A10^B10  Excel n:0.8122523963562355  golden n:0.8122523963562356 (lo)
+  excel-probe-4.00012@Z12  =A12^B12  Excel n:0.5773502691896258  golden n:0.5773502691896257 (lo)
+  excel-probe-4.00013@Z13  =A13^B13  Excel n:0.3779644730092272  golden n:0.37796447300922725 (lo)
+  excel-probe-4.00014@Z14  =A14^B14  Excel n:-0.19999999999999996  golden refuse (undecided:negative-root)
+  excel-probe-4.00015@Z15  =A15^B15  Excel n:-0.6597539553864472  golden refuse (undecided:negative-root)
+  excel-probe-4.00016@Z16  =A16^B16  Excel n:-0.7937005259840997  golden refuse (undecided:negative-root)
+  excel-probe-4.00017@Z17  =A17^B17  Excel n:-0.6933612743506348  golden refuse (undecided:negative-root)
+  excel-probe-4.00018@Z18  =PMT(A18,B18,C18,D18)  Excel n:-150.90971278649522  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00019@Z19  =PMT(A19,B19,C19,D19)  Excel n:-3.1075637316680513  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00020@Z20  =PMT(A20,B20,C20,D20)  Excel n:-0.5452189127681777  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00021@Z21  =PMT(A21,B21,C21,D21)  Excel n:-0.5007841650513001  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00022@Z22  =PMT(A22,B22,C22,D22)  Excel n:-0.5000135986483656  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00023@Z23  =PMT(A23,B23,C23,D23)  Excel n:-0.5000002357992344  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00024@Z24  =PMT(A24,B24,C24,D24)  Excel n:-0.5000000041327439  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00025@Z25  =PMT(A25,B25,C25,D25)  Excel n:-0.5000000000582077  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00026@Z26  =PMT(A26,B26,C26,D26)  Excel n:-0.5  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00027@Z27  =PMT(A27,B27,C27,D27)  Excel n:-0.15040956237697856  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00028@Z28  =PMT(A28,B28,C28,D28)  Excel n:-4.521886751263082e-05  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00029@Z29  =PMT(A29,B29,C29,D29)  Excel n:-1.359859425065224e-08  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00030@Z30  =PMT(A30,B30,C30,D30)  Excel n:-4.092726157978177e-12  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00031@Z31  =PMT(A31,B31,C31,D31)  Excel n:0.0  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00032@Z32  =PMT(A32,B32,C32,D32)  Excel n:-0.5000000000040927  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00033@Z33  =PMT(A33,B33,C33,D33,E33)  Excel n:-0.3333423990989104  golden refuse (undecided:pmt-growth)
+  excel-probe-4.00034@Z34  =ROUND(A34,2)  Excel n:1234567890123.37  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00035@Z35  =ROUND(A35,0)  Excel n:100000000000001.0  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00036@Z36  =A36=B36  Excel b:TRUE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00037@Z37  =A37<B37  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00038@Z38  =A38=B38  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00039@Z39  =A39<B39  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00040@Z40  =A40=B40  Excel b:TRUE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00041@Z41  =A41<B41  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00042@Z42  =A42=B42  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00043@Z43  =A43<B43  Excel b:FALSE  golden refuse (undecided:fifteen-digit-tie)
+  excel-probe-4.00049@Z49  =ROUND(A49,B49)  Excel n:1234.5678  golden refuse (undecided:round-digits)
+  excel-probe-4.00050@Z50  =ROUND(A50,B50)  Excel n:1234.5678  golden refuse (undecided:round-digits)
+  excel-probe-4.00051@Z51  =ROUND(A51,B51)  Excel n:1234.5678  golden refuse (undecided:round-digits)
+  excel-probe-4.00052@Z52  =ROUND(A52,B52)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00053@Z53  =ROUND(A53,B53)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00054@Z54  =ROUND(A54,B54)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00055@Z55  =ROUND(A55,B55)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00058@Z58  =ROUND(A58,B58)  Excel n:1e+300  golden refuse (undecided:round-digits)
+  excel-probe-4.00059@Z59  =ROUND(A59,B59)  Excel n:1e+300  golden refuse (undecided:round-digits)
+  excel-probe-4.00060@Z60  =ROUND(A60,B60)  Excel n:1e+300  golden refuse (undecided:round-digits)
+  excel-probe-4.00061@Z61  =ROUND(A61,B61)  Excel n:1e+300  golden refuse (undecided:round-digits)
+  excel-probe-4.00062@Z62  =ROUND(A62,B62)  Excel n:1e+300  golden refuse (undecided:round-digits)
+  excel-probe-4.00063@Z63  =ROUND(A63,B63)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00064@Z64  =ROUND(A64,B64)  Excel n:0.0  golden refuse (undecided:round-digits)
+  excel-probe-4.00069@Z69  =A69+1  Excel n:1.07  golden refuse (undecided:text-to-number)
+  excel-probe-4.00071@Z71  =A71+1  Excel n:1.7708333333333335  golden refuse (undecided:text-to-number)
+  excel-probe-4.00073@Z73  =A73+1  Excel n:1.1576388888888889  golden refuse (undecided:text-to-number)
+  excel-probe-4.00074@Z74  =A74+1  Excel n:1.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00075@Z75  =A75+1  Excel n:1.5208333333333335  golden refuse (undecided:text-to-number)
+  excel-probe-4.00078@Z78  =A78+1  Excel n:1001.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00079@Z79  =A79+1  Excel n:-4.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00080@Z80  =A80+1  Excel n:-4.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00082@Z82  =A82+1  Excel n:-999.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00084@Z84  =A84+1  Excel n:10001.0  golden refuse (undecided:text-to-number)
+  excel-probe-4.00087@Z87  =A87+1  Excel e:#VALUE!  golden refuse (undecided:text-to-number)
+  excel-probe-4.00088@Z88  =A88+1  Excel e:#VALUE!  golden refuse (undecided:text-to-number)
+  excel-probe-4.00092@Z92  =A92+1  Excel e:#VALUE!  golden refuse (undecided:text-to-number)
+  excel-probe-4.00093@Z93  =A93+1  Excel e:#VALUE!  golden refuse (undecided:text-to-number)
+  excel-probe-4.00094@Z94  =A94+1  Excel e:#VALUE!  golden refuse (undecided:text-to-number)
+AGAINST THE CURRENT MODEL (scripts/formula_models.py): {'bit': 35, 'models refuse': 59}; every row whose verdict is not Excel's outcome bit for bit:
+  models refuse excel-probe-4.00014@Z14  =A14^B14  Excel n:-0.19999999999999996  model ['u:negative-root'] (negative-root)
+  models refuse excel-probe-4.00015@Z15  =A15^B15  Excel n:-0.6597539553864472  model ['u:negative-root'] (negative-root)
+  models refuse excel-probe-4.00016@Z16  =A16^B16  Excel n:-0.7937005259840997  model ['u:negative-root'] (negative-root)
+  models refuse excel-probe-4.00017@Z17  =A17^B17  Excel n:-0.6933612743506348  model ['u:negative-root'] (negative-root)
+  models refuse excel-probe-4.00018@Z18  =PMT(A18,B18,C18,D18)  Excel n:-150.90971278649522  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00019@Z19  =PMT(A19,B19,C19,D19)  Excel n:-3.1075637316680513  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00020@Z20  =PMT(A20,B20,C20,D20)  Excel n:-0.5452189127681777  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00021@Z21  =PMT(A21,B21,C21,D21)  Excel n:-0.5007841650513001  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00022@Z22  =PMT(A22,B22,C22,D22)  Excel n:-0.5000135986483656  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00023@Z23  =PMT(A23,B23,C23,D23)  Excel n:-0.5000002357992344  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00024@Z24  =PMT(A24,B24,C24,D24)  Excel n:-0.5000000041327439  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00025@Z25  =PMT(A25,B25,C25,D25)  Excel n:-0.5000000000582077  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00026@Z26  =PMT(A26,B26,C26,D26)  Excel n:-0.5  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00027@Z27  =PMT(A27,B27,C27,D27)  Excel n:-0.15040956237697856  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00028@Z28  =PMT(A28,B28,C28,D28)  Excel n:-4.521886751263082e-05  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00029@Z29  =PMT(A29,B29,C29,D29)  Excel n:-1.359859425065224e-08  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00030@Z30  =PMT(A30,B30,C30,D30)  Excel n:-4.092726157978177e-12  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00031@Z31  =PMT(A31,B31,C31,D31)  Excel n:0.0  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00032@Z32  =PMT(A32,B32,C32,D32)  Excel n:-0.5000000000040927  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00033@Z33  =PMT(A33,B33,C33,D33,E33)  Excel n:-0.3333423990989104  model ['u:pmt-growth'] (pmt-growth)
+  models refuse excel-probe-4.00034@Z34  =ROUND(A34,2)  Excel n:1234567890123.37  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00035@Z35  =ROUND(A35,0)  Excel n:100000000000001.0  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00036@Z36  =A36=B36  Excel b:TRUE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00037@Z37  =A37<B37  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00038@Z38  =A38=B38  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00039@Z39  =A39<B39  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00040@Z40  =A40=B40  Excel b:TRUE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00041@Z41  =A41<B41  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00042@Z42  =A42=B42  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00043@Z43  =A43<B43  Excel b:FALSE  model ['u:fifteen-digit-tie'] (fifteen-digit-tie)
+  models refuse excel-probe-4.00049@Z49  =ROUND(A49,B49)  Excel n:1234.5678  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00050@Z50  =ROUND(A50,B50)  Excel n:1234.5678  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00051@Z51  =ROUND(A51,B51)  Excel n:1234.5678  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00052@Z52  =ROUND(A52,B52)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00053@Z53  =ROUND(A53,B53)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00054@Z54  =ROUND(A54,B54)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00055@Z55  =ROUND(A55,B55)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00058@Z58  =ROUND(A58,B58)  Excel n:1e+300  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00059@Z59  =ROUND(A59,B59)  Excel n:1e+300  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00060@Z60  =ROUND(A60,B60)  Excel n:1e+300  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00061@Z61  =ROUND(A61,B61)  Excel n:1e+300  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00062@Z62  =ROUND(A62,B62)  Excel n:1e+300  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00063@Z63  =ROUND(A63,B63)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00064@Z64  =ROUND(A64,B64)  Excel n:0.0  model ['u:round-digits'] (round-digits)
+  models refuse excel-probe-4.00069@Z69  =A69+1  Excel n:1.07  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00071@Z71  =A71+1  Excel n:1.7708333333333335  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00073@Z73  =A73+1  Excel n:1.1576388888888889  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00074@Z74  =A74+1  Excel n:1.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00075@Z75  =A75+1  Excel n:1.5208333333333335  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00078@Z78  =A78+1  Excel n:1001.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00079@Z79  =A79+1  Excel n:-4.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00080@Z80  =A80+1  Excel n:-4.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00082@Z82  =A82+1  Excel n:-999.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00084@Z84  =A84+1  Excel n:10001.0  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00087@Z87  =A87+1  Excel e:#VALUE!  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00088@Z88  =A88+1  Excel e:#VALUE!  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00092@Z92  =A92+1  Excel e:#VALUE!  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00093@Z93  =A93+1  Excel e:#VALUE!  model ['u:text-to-number'] (text-to-number)
+  models refuse excel-probe-4.00094@Z94  =A94+1  Excel e:#VALUE!  model ['u:text-to-number'] (text-to-number)
+
+94 outcomes -> <scrubbed copy>/formulas/excel-cache.jsonl

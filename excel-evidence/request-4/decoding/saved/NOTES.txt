@@ -1,0 +1,31 @@
+val-trunc-workbook: refused
+# Files below opened after the user accepted Excel's repair prompt (alerts on). Used range after repair:
+ask-errors: repaired, used range $A$1:$C$12
+pkg-missing-sheet: repaired, used range $A$1
+pkg-missing-sst: repaired, used range $B$1:$B$2
+pkg-no-sst: repaired, used range $B$1
+pkg-sst-index: repaired, used range $B$1:$E$1
+pkg-sst-norel: repaired, used range $B$1:$B$2
+pkg-styles-norel: repaired, used range $A$1
+pos-backwards-identical-blank: repaired, used range $A$1:$D$2
+pos-cell-backwards: repaired, used range $C$1
+pos-dup-different: repaired, used range $A$1:$B$2
+pos-dup-identical: repaired, used range $A$1:$B$2
+pos-mismatch: repaired, used range $A$1:$A$5
+pos-rless-onto-explicit: repaired, used range $A$1
+pos-row-backwards: repaired, used range $A$3
+val-b4-bools: repaired, used range $A$1:$B$9
+val-b4-numbers: repaired, used range $A$1:$A$16
+val-badutf8-f: repaired, used range $A$1
+val-badutf8-inline: repaired, used range $A$1
+val-badutf8-sst: repaired, used range $B$1:$B$2
+val-badutf8-v: repaired, used range $A$1
+val-mismatched-tags: repaired, used range $A$1
+val-tdate-1900: repaired, used range $A$1:$A$30
+val-tdate-1904: repaired, used range $A$1:$A$35
+val-trunc-rels: repaired, used range $A$1
+val-trunc-sheet: repaired, used range $A$1
+val-trunc-sst: repaired, used range $A$1:$A$2
+val-trunc-styles: repaired, used range $A$1
+# Repair logs: one <name>.repair.txt per repaired file (27), copied from Excel's container tmp folder.
+# The other 50 workbooks opened in Excel with alerts on and needed no repair (rechecked, no repair logs written).

@@ -1,0 +1,985 @@
+{
+ "file": "lookup-shapes.xlsx",
+ "grid": "Sheet1",
+ "names": [
+  [
+   "Gap_1",
+   "S!$A$1-S!$B$1"
+  ],
+  [
+   "Gap_4",
+   "S!$A$2-S!$B$2"
+  ],
+  [
+   "Gap_7",
+   "S!$A$3-S!$B$3"
+  ],
+  [
+   "Gap_8",
+   "S!$A$4-S!$B$4"
+  ]
+ ],
+ "identifies": {
+  "1.0": [
+   "A1",
+   "A6"
+  ],
+  "11.0": [
+   "B1"
+  ],
+  "12.0": [
+   "C1"
+  ],
+  "13.0": [
+   "D1"
+  ],
+  "14.0": [
+   "E1"
+  ],
+  "15.0": [
+   "F1"
+  ],
+  "16.0": [
+   "G1"
+  ],
+  "2.0": [
+   "A2",
+   "B6"
+  ],
+  "21.0": [
+   "B2"
+  ],
+  "22.0": [
+   "C2"
+  ],
+  "23.0": [
+   "D2"
+  ],
+  "24.0": [
+   "E2"
+  ],
+  "25.0": [
+   "F2"
+  ],
+  "26.0": [
+   "G2"
+  ],
+  "3.0": [
+   "A3",
+   "C6"
+  ],
+  "31.0": [
+   "B3"
+  ],
+  "32.0": [
+   "C3"
+  ],
+  "33.0": [
+   "D3"
+  ],
+  "34.0": [
+   "E3"
+  ],
+  "35.0": [
+   "F3"
+  ],
+  "36.0": [
+   "G3"
+  ],
+  "4.0": [
+   "A4"
+  ],
+  "41.0": [
+   "B4"
+  ],
+  "42.0": [
+   "C4"
+  ],
+  "43.0": [
+   "D4"
+  ],
+  "44.0": [
+   "E4"
+  ],
+  "45.0": [
+   "F4"
+  ],
+  "46.0": [
+   "G4"
+  ],
+  "71.0": [
+   "A7"
+  ],
+  "72.0": [
+   "B7"
+  ],
+  "73.0": [
+   "C7"
+  ],
+  "74.0": [
+   "D7"
+  ],
+  "81.0": [
+   "A8"
+  ],
+  "82.0": [
+   "B8"
+  ],
+  "83.0": [
+   "C8"
+  ],
+  "84.0": [
+   "D8"
+  ],
+  "91.0": [
+   "A9"
+  ],
+  "92.0": [
+   "B9"
+  ],
+  "93.0": [
+   "C9"
+  ],
+  "94.0": [
+   "D9"
+  ]
+ },
+ "inputs": [
+  [
+   "Sheet1",
+   "A1",
+   "n",
+   1.0
+  ],
+  [
+   "Sheet1",
+   "B1",
+   "n",
+   11.0
+  ],
+  [
+   "Sheet1",
+   "C1",
+   "n",
+   12.0
+  ],
+  [
+   "Sheet1",
+   "D1",
+   "n",
+   13.0
+  ],
+  [
+   "Sheet1",
+   "E1",
+   "n",
+   14.0
+  ],
+  [
+   "Sheet1",
+   "F1",
+   "n",
+   15.0
+  ],
+  [
+   "Sheet1",
+   "G1",
+   "n",
+   16.0
+  ],
+  [
+   "Sheet1",
+   "A2",
+   "n",
+   2.0
+  ],
+  [
+   "Sheet1",
+   "B2",
+   "n",
+   21.0
+  ],
+  [
+   "Sheet1",
+   "C2",
+   "n",
+   22.0
+  ],
+  [
+   "Sheet1",
+   "D2",
+   "n",
+   23.0
+  ],
+  [
+   "Sheet1",
+   "E2",
+   "n",
+   24.0
+  ],
+  [
+   "Sheet1",
+   "F2",
+   "n",
+   25.0
+  ],
+  [
+   "Sheet1",
+   "G2",
+   "n",
+   26.0
+  ],
+  [
+   "Sheet1",
+   "A3",
+   "n",
+   3.0
+  ],
+  [
+   "Sheet1",
+   "B3",
+   "n",
+   31.0
+  ],
+  [
+   "Sheet1",
+   "C3",
+   "n",
+   32.0
+  ],
+  [
+   "Sheet1",
+   "D3",
+   "n",
+   33.0
+  ],
+  [
+   "Sheet1",
+   "E3",
+   "n",
+   34.0
+  ],
+  [
+   "Sheet1",
+   "F3",
+   "n",
+   35.0
+  ],
+  [
+   "Sheet1",
+   "G3",
+   "n",
+   36.0
+  ],
+  [
+   "Sheet1",
+   "A4",
+   "n",
+   4.0
+  ],
+  [
+   "Sheet1",
+   "B4",
+   "n",
+   41.0
+  ],
+  [
+   "Sheet1",
+   "C4",
+   "n",
+   42.0
+  ],
+  [
+   "Sheet1",
+   "D4",
+   "n",
+   43.0
+  ],
+  [
+   "Sheet1",
+   "E4",
+   "n",
+   44.0
+  ],
+  [
+   "Sheet1",
+   "F4",
+   "n",
+   45.0
+  ],
+  [
+   "Sheet1",
+   "G4",
+   "n",
+   46.0
+  ],
+  [
+   "Sheet1",
+   "A6",
+   "n",
+   1.0
+  ],
+  [
+   "Sheet1",
+   "B6",
+   "n",
+   2.0
+  ],
+  [
+   "Sheet1",
+   "C6",
+   "n",
+   3.0
+  ],
+  [
+   "Sheet1",
+   "A7",
+   "n",
+   71.0
+  ],
+  [
+   "Sheet1",
+   "B7",
+   "n",
+   72.0
+  ],
+  [
+   "Sheet1",
+   "C7",
+   "n",
+   73.0
+  ],
+  [
+   "Sheet1",
+   "D7",
+   "n",
+   74.0
+  ],
+  [
+   "Sheet1",
+   "A8",
+   "n",
+   81.0
+  ],
+  [
+   "Sheet1",
+   "B8",
+   "n",
+   82.0
+  ],
+  [
+   "Sheet1",
+   "C8",
+   "n",
+   83.0
+  ],
+  [
+   "Sheet1",
+   "D8",
+   "n",
+   84.0
+  ],
+  [
+   "Sheet1",
+   "A9",
+   "n",
+   91.0
+  ],
+  [
+   "Sheet1",
+   "B9",
+   "n",
+   92.0
+  ],
+  [
+   "Sheet1",
+   "C9",
+   "n",
+   93.0
+  ],
+  [
+   "Sheet1",
+   "D9",
+   "n",
+   94.0
+  ],
+  [
+   "S",
+   "A1",
+   "n",
+   1.0000000000000002
+  ],
+  [
+   "S",
+   "B1",
+   "n",
+   1.0
+  ],
+  [
+   "S",
+   "A2",
+   "n",
+   1.0000000000000009
+  ],
+  [
+   "S",
+   "B2",
+   "n",
+   1.0
+  ],
+  [
+   "S",
+   "A3",
+   "n",
+   1.0000000000000016
+  ],
+  [
+   "S",
+   "B3",
+   "n",
+   1.0
+  ],
+  [
+   "S",
+   "A4",
+   "n",
+   1.0000000000000018
+  ],
+  [
+   "S",
+   "B4",
+   "n",
+   1.0
+  ]
+ ],
+ "rows": [
+  {
+   "sheet": "Sheet1",
+   "cell": "H1",
+   "formula": "LOOKUP(2,A1:B3,D1)",
+   "tests": "a 2-D lookup vector (taller than wide), a one-cell result vector",
+   "lo": [
+    "n",
+    14.0
+   ],
+   "lo_identifies": "Sheet1!E1"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H2",
+   "formula": "LOOKUP(2,A1:C2,D1)",
+   "tests": "a 2-D lookup vector wider than tall, a one-cell result vector",
+   "lo": [
+    "n",
+    13.0
+   ],
+   "lo_identifies": "Sheet1!D1"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H3",
+   "formula": "LOOKUP(2,A1:B3,D1:D2)",
+   "tests": "a 2-D lookup vector, a short vertical result vector (position 2 is inside it: see the next block for position 3)",
+   "lo": [
+    "n",
+    23.0
+   ],
+   "lo_identifies": "Sheet1!D2"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H4",
+   "formula": "LOOKUP(2,A1:A3,D1:E2)",
+   "tests": "a vertical lookup vector, a 2-D result shorter than the lookup (position 2: the first column and column-major order both give D2 = 23, the first row and row-major order E1 = 14)",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H5",
+   "formula": "LOOKUP(2,A1:A3,B1:C3)",
+   "tests": "a vertical lookup vector, a 2-D result as tall as the lookup (position 2: the first column and column-major order both give B2 = 21, the first row and row-major order C1 = 12)",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H6",
+   "formula": "LOOKUP(3,A1:A3,D1:E1)",
+   "tests": "a vertical lookup vector, a two-cell horizontal result (extended along the row: F1 = 15)",
+   "lo": [
+    "n",
+    15.0
+   ],
+   "lo_identifies": "Sheet1!F1"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H7",
+   "formula": "LOOKUP(2,A6:C6,A7:B8)",
+   "tests": "a horizontal lookup vector, a 2-D result (position 2: the first row and row-major order both give B7 = 72, the first column and column-major order A8 = 81)",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H8",
+   "formula": "LOOKUP(1,1/FREQUENCY(0,ABS(A6:C6-2)),A7:C7)",
+   "tests": "the FREQUENCY idiom (IC-26) as an ARRAY formula, as the corpus's books store it: the A6:C6 value nearest 2 is A6:C6's 2nd, so B7 = 72; its lookup vector has 4 elements, the result 3",
+   "array": true,
+   "lo": [
+    "n",
+    72.0
+   ],
+   "lo_identifies": "Sheet1!B7"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H9",
+   "formula": "LOOKUP(1,1/FREQUENCY(0,ABS(A6:C6-2)),A7:C7)",
+   "tests": "the same as a PLAIN formula: 72 if Excel evaluates ABS(A6:C6-2) as an array there too; #VALUE! if its load intersects A6:C6 implicitly with the formula's own cell (column H is outside A:C)",
+   "lo": [
+    "n",
+    72.0
+   ],
+   "lo_identifies": "Sheet1!B7"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H10",
+   "formula": "LOOKUP(1,1/FREQUENCY(5,A6:C6),A7:C7)",
+   "tests": "the FREQUENCY idiom matching its 4th, overflow element (5 is above every bin), one past the 3-cell result A7:C7: D7 = 74 if Excel extends the result vector, #N/A if not",
+   "array": true,
+   "lo": [
+    "n",
+    74.0
+   ],
+   "lo_identifies": "Sheet1!D7"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H11",
+   "formula": "LOOKUP(3,A1:B3,D1:D2)",
+   "tests": "a 2-D lookup vector, a short vertical result vector, at position 3, PAST the result: D3 = 33 if Excel extends it, #N/A if not",
+   "lo": [
+    "n",
+    33.0
+   ],
+   "lo_identifies": "Sheet1!D3"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H12",
+   "formula": "LOOKUP(3,A1:A3,D1:E2)",
+   "tests": "a 2-D result shorter than the lookup, position 3: the first column extended D3 = 33, the first row extended F1 = 15, column-major order E1 = 14, row-major order D2 = 23",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H13",
+   "formula": "LOOKUP(3,A1:A3,B1:C3)",
+   "tests": "a 2-D result as tall as the lookup, position 3: the first column (or column-major order) B3 = 31, the first row extended D1 = 13, row-major order B2 = 21",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H14",
+   "formula": "LOOKUP(3,A6:C6,A7:B8)",
+   "tests": "a horizontal lookup vector, a 2-D result, position 3: the first row extended C7 = 73, the first column extended A9 = 91, row-major order A8 = 81, column-major order B7 = 72",
+   "lo": [
+    "e",
+    "Err:504"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H15",
+   "formula": "Gap_1",
+   "tests": "IC-19 through a defined name, A = 1+1*2^-52 = 1.0000000000000002, B = 1: the name alone: is its body's subtraction the formula's last step?",
+   "name": [
+    "Gap_1",
+    "S!$A$1-S!$B$1"
+   ],
+   "operands": "S!A1 = 1.0000000000000002, S!B1 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H16",
+   "formula": "Gap_1*1",
+   "tests": "IC-19 through a defined name, A = 1+1*2^-52 = 1.0000000000000002, B = 1: the name times 1 (the subtraction is not the last step)",
+   "name": [
+    "Gap_1",
+    "S!$A$1-S!$B$1"
+   ],
+   "operands": "S!A1 = 1.0000000000000002, S!B1 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H17",
+   "formula": "Gap_1+0",
+   "tests": "IC-19 through a defined name, A = 1+1*2^-52 = 1.0000000000000002, B = 1: the name plus 0 (the last step adds 0)",
+   "name": [
+    "Gap_1",
+    "S!$A$1-S!$B$1"
+   ],
+   "operands": "S!A1 = 1.0000000000000002, S!B1 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H18",
+   "formula": "Gap_4",
+   "tests": "IC-19 through a defined name, A = 1+4*2^-52 = 1.0000000000000009, B = 1: the name alone: is its body's subtraction the formula's last step?",
+   "name": [
+    "Gap_4",
+    "S!$A$2-S!$B$2"
+   ],
+   "operands": "S!A2 = 1.0000000000000009, S!B2 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H19",
+   "formula": "Gap_4*1",
+   "tests": "IC-19 through a defined name, A = 1+4*2^-52 = 1.0000000000000009, B = 1: the name times 1 (the subtraction is not the last step)",
+   "name": [
+    "Gap_4",
+    "S!$A$2-S!$B$2"
+   ],
+   "operands": "S!A2 = 1.0000000000000009, S!B2 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H20",
+   "formula": "Gap_4+0",
+   "tests": "IC-19 through a defined name, A = 1+4*2^-52 = 1.0000000000000009, B = 1: the name plus 0 (the last step adds 0)",
+   "name": [
+    "Gap_4",
+    "S!$A$2-S!$B$2"
+   ],
+   "operands": "S!A2 = 1.0000000000000009, S!B2 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H21",
+   "formula": "Gap_7",
+   "tests": "IC-19 through a defined name, A = 1+7*2^-52 = 1.0000000000000016, B = 1: the name alone: is its body's subtraction the formula's last step?",
+   "name": [
+    "Gap_7",
+    "S!$A$3-S!$B$3"
+   ],
+   "operands": "S!A3 = 1.0000000000000016, S!B3 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H22",
+   "formula": "Gap_7*1",
+   "tests": "IC-19 through a defined name, A = 1+7*2^-52 = 1.0000000000000016, B = 1: the name times 1 (the subtraction is not the last step)",
+   "name": [
+    "Gap_7",
+    "S!$A$3-S!$B$3"
+   ],
+   "operands": "S!A3 = 1.0000000000000016, S!B3 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H23",
+   "formula": "Gap_7+0",
+   "tests": "IC-19 through a defined name, A = 1+7*2^-52 = 1.0000000000000016, B = 1: the name plus 0 (the last step adds 0)",
+   "name": [
+    "Gap_7",
+    "S!$A$3-S!$B$3"
+   ],
+   "operands": "S!A3 = 1.0000000000000016, S!B3 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "undecided:snap-name-or-if (u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if, u:snap-name-or-if)",
+   "models": [
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if",
+    "u:snap-name-or-if"
+   ],
+   "basis": "undecided:snap-name-or-if",
+   "expect": "refuse"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H24",
+   "formula": "Gap_8",
+   "tests": "IC-19 through a defined name, A = 1+8*2^-52 = 1.0000000000000018, B = 1: the name alone: is its body's subtraction the formula's last step?",
+   "name": [
+    "Gap_8",
+    "S!$A$4-S!$B$4"
+   ],
+   "operands": "S!A4 = 1.0000000000000018, S!B4 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "decided n:1.7763568394002505e-15",
+   "models": [
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15"
+   ],
+   "basis": "models",
+   "expect": "n:1.7763568394002505e-15"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H25",
+   "formula": "Gap_8*1",
+   "tests": "IC-19 through a defined name, A = 1+8*2^-52 = 1.0000000000000018, B = 1: the name times 1 (the subtraction is not the last step)",
+   "name": [
+    "Gap_8",
+    "S!$A$4-S!$B$4"
+   ],
+   "operands": "S!A4 = 1.0000000000000018, S!B4 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "decided n:1.7763568394002505e-15",
+   "models": [
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15"
+   ],
+   "basis": "models",
+   "expect": "n:1.7763568394002505e-15"
+  },
+  {
+   "sheet": "Sheet1",
+   "cell": "H26",
+   "formula": "Gap_8+0",
+   "tests": "IC-19 through a defined name, A = 1+8*2^-52 = 1.0000000000000018, B = 1: the name plus 0 (the last step adds 0)",
+   "name": [
+    "Gap_8",
+    "S!$A$4-S!$B$4"
+   ],
+   "operands": "S!A4 = 1.0000000000000018, S!B4 = 1",
+   "lo": [
+    "n",
+    0.0
+   ],
+   "lo_identifies": "",
+   "verdict": "decided n:1.7763568394002505e-15",
+   "models": [
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15",
+    "n:1.7763568394002505e-15"
+   ],
+   "basis": "models",
+   "expect": "n:1.7763568394002505e-15"
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A1",
+   "formula": "VALUE(\"1,000.5\")",
+   "tests": "locale: 1000.5 where \",\" groups thousands and \".\" is the decimal point; #VALUE! where \",\" is the decimal separator",
+   "locale": true,
+   "lo": [
+    "n",
+    1000.5
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A2",
+   "formula": "VALUE(\"1.000,5\")",
+   "tests": "locale: 1000.5 where \".\" groups thousands and \",\" is the decimal separator; #VALUE! in English settings",
+   "locale": true,
+   "lo": [
+    "e",
+    "Err:502"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A3",
+   "formula": "DATEVALUE(\"1/2/2001\")",
+   "tests": "locale: 36893 (2 January 2001) where dates read month first, 36923 (1 February 2001) where they read day first",
+   "locale": true,
+   "lo": [
+    "n",
+    36893.0
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A4",
+   "formula": "DATEVALUE(\"13/1/2001\")",
+   "tests": "locale: 36904 (13 January 2001) where dates read day first; #VALUE! where they read month first",
+   "locale": true,
+   "lo": [
+    "e",
+    "Err:502"
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A5",
+   "formula": "VALUE(\"$4.00\")",
+   "tests": "locale: 4 where \"$\" is the currency symbol and \".\" the decimal point",
+   "locale": true,
+   "lo": [
+    "n",
+    4.0
+   ],
+   "lo_identifies": ""
+  },
+  {
+   "sheet": "Locale",
+   "cell": "A6",
+   "formula": "VALUE(\"12:00\")",
+   "tests": "locale: 0.5 where \":\" separates hours and minutes",
+   "locale": true,
+   "lo": [
+    "n",
+    0.5
+   ],
+   "lo_identifies": ""
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>Repair Result to val-b4-numbers0.xml</logFileName><summary>Errors were detected in file ’/Users/<user>/excel-request-4/decoding/files/val-b4-numbers.xlsx’</summary><repairedRecords summary="Following is a list of repairs:"><repairedRecord>Repaired Records: Cell information from /xl/worksheets/sheet1.xml part</repairedRecord></repairedRecords></recoveryLog>

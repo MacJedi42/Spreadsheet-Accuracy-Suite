@@ -1,0 +1,25 @@
+== Excel: version, decimal separator, thousands separator, use system separators
+92:95: syntax error: Expected expression but found “use”. (-2741)
+== Excel's own languages (set apart from the system's: System Settings, General, Language & Region, Applications)
+(not set: Excel follows the system's languages)
+== macOS
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+AppleLocale: en_NZ
+AppleLanguages: (
+    "en-NZ"
+)
+AppleICUForce24HourTime: (not set)
+AppleICUForce12HourTime: (not set)
+AppleICUNumberSymbols: (not set)
+AppleICUDateFormatStrings: (not set)
+AppleICUTimeFormatStrings: (not set)
+AppleFirstWeekday: (not set)
+AppleMeasurementUnits: (not set)
+
+== ADDENDUM (added by hand: the osascript line above failed on the "use system separators" property)
+Excel version: 16.113.3 (from AppleScript `version`)
+"Use system separators": could not be read via AppleScript (not checked in Preferences).
+Separators inferred through Excel itself (evaluate): TEXT(1234.5,"#,##0.00") = "1,234.50"; VALUE("1,000.5") = 1000.5; NUMBERVALUE("1,000.5") = 1000.5
+=> decimal separator "." and thousands separator "," (consistent with macOS en_NZ).

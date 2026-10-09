@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>Repair Result to val-badutf8-v0.xml</logFileName><summary>Errors were detected in file ’/Users/<user>/excel-request-4/decoding/files/val-badutf8-v.xlsx’</summary><removedParts summary="Following is a list of removed parts:"><removedPart>Replaced Part: /xl/worksheets/sheet1.xml part with XML error.  Xml parsing error Line 1, column 207.</removedPart></removedParts></recoveryLog>

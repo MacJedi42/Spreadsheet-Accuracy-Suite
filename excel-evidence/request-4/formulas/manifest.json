@@ -1,0 +1,2747 @@
+{
+ "excel-probe-4.xlsx": [
+  {
+   "id": "excel-probe-4.00001@Z1",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z1",
+   "formula": "A1^B1",
+   "inputs": [
+    [
+     "S",
+     "A1",
+     "n",
+     1.1
+    ],
+    [
+     "S",
+     "B1",
+     "n",
+     0.95
+    ]
+   ],
+   "inputs_text": "S!A1=n:1.1\u001fS!B1=n:0.95",
+   "basis": "lo",
+   "expect": "n:1.09477041083488",
+   "models": [
+    "n:1.0947704108348797"
+   ],
+   "lo": [
+    "n",
+    1.09477041083488
+   ]
+  },
+  {
+   "id": "excel-probe-4.00002@Z2",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z2",
+   "formula": "A2^B2",
+   "inputs": [
+    [
+     "S",
+     "A2",
+     "n",
+     2.0
+    ],
+    [
+     "S",
+     "B2",
+     "n",
+     1.5
+    ]
+   ],
+   "inputs_text": "S!A2=n:2.0\u001fS!B2=n:1.5",
+   "basis": "lo",
+   "expect": "n:2.8284271247461903",
+   "models": [
+    "n:2.82842712474619"
+   ],
+   "lo": [
+    "n",
+    2.8284271247461903
+   ]
+  },
+  {
+   "id": "excel-probe-4.00003@Z3",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z3",
+   "formula": "A3^B3",
+   "inputs": [
+    [
+     "S",
+     "A3",
+     "n",
+     5.0
+    ],
+    [
+     "S",
+     "B3",
+     "n",
+     2.5
+    ]
+   ],
+   "inputs_text": "S!A3=n:5.0\u001fS!B3=n:2.5",
+   "basis": "lo",
+   "expect": "n:55.90169943749474",
+   "models": [
+    "n:55.901699437494734"
+   ],
+   "lo": [
+    "n",
+    55.90169943749474
+   ]
+  },
+  {
+   "id": "excel-probe-4.00004@Z4",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z4",
+   "formula": "A4^B4",
+   "inputs": [
+    [
+     "S",
+     "A4",
+     "n",
+     6.0
+    ],
+    [
+     "S",
+     "B4",
+     "n",
+     1.5
+    ]
+   ],
+   "inputs_text": "S!A4=n:6.0\u001fS!B4=n:1.5",
+   "basis": "lo",
+   "expect": "n:14.696938456699069",
+   "models": [
+    "n:14.69693845669907"
+   ],
+   "lo": [
+    "n",
+    14.696938456699069
+   ]
+  },
+  {
+   "id": "excel-probe-4.00005@Z5",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z5",
+   "formula": "A5^B5",
+   "inputs": [
+    [
+     "S",
+     "A5",
+     "n",
+     7.0
+    ],
+    [
+     "S",
+     "B5",
+     "n",
+     2.5
+    ]
+   ],
+   "inputs_text": "S!A5=n:7.0\u001fS!B5=n:2.5",
+   "basis": "lo",
+   "expect": "n:129.64181424216494",
+   "models": [
+    "n:129.64181424216488"
+   ],
+   "lo": [
+    "n",
+    129.64181424216494
+   ]
+  },
+  {
+   "id": "excel-probe-4.00006@Z6",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z6",
+   "formula": "A6^B6",
+   "inputs": [
+    [
+     "S",
+     "A6",
+     "n",
+     1.027
+    ],
+    [
+     "S",
+     "B6",
+     "n",
+     12.5
+    ]
+   ],
+   "inputs_text": "S!A6=n:1.027\u001fS!B6=n:12.5",
+   "basis": "lo",
+   "expect": "n:1.39518097330974",
+   "models": [
+    "n:1.39518097330974"
+   ],
+   "lo": [
+    "n",
+    1.39518097330974
+   ]
+  },
+  {
+   "id": "excel-probe-4.00007@Z7",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z7",
+   "formula": "A7^B7",
+   "inputs": [
+    [
+     "S",
+     "A7",
+     "n",
+     10.0
+    ],
+    [
+     "S",
+     "B7",
+     "n",
+     -6.41
+    ]
+   ],
+   "inputs_text": "S!A7=n:10.0\u001fS!B7=n:-6.41",
+   "basis": "lo",
+   "expect": "n:3.890451449942805e-07",
+   "models": [
+    "n:3.890451449942803e-07"
+   ],
+   "lo": [
+    "n",
+    3.890451449942805e-07
+   ]
+  },
+  {
+   "id": "excel-probe-4.00008@Z8",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z8",
+   "formula": "A8^B8",
+   "inputs": [
+    [
+     "S",
+     "A8",
+     "n",
+     1.1
+    ],
+    [
+     "S",
+     "B8",
+     "n",
+     -0.95
+    ]
+   ],
+   "inputs_text": "S!A8=n:1.1\u001fS!B8=n:-0.95",
+   "basis": "lo",
+   "expect": "n:0.9134335291701872",
+   "models": [
+    "n:0.9134335291701873"
+   ],
+   "lo": [
+    "n",
+    0.9134335291701872
+   ]
+  },
+  {
+   "id": "excel-probe-4.00009@Z9",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z9",
+   "formula": "A9^B9",
+   "inputs": [
+    [
+     "S",
+     "A9",
+     "n",
+     1.2
+    ],
+    [
+     "S",
+     "B9",
+     "n",
+     -0.3333333333333333
+    ]
+   ],
+   "inputs_text": "S!A9=n:1.2\u001fS!B9=n:-0.3333333333333333",
+   "basis": "lo",
+   "expect": "n:0.9410360288810286",
+   "models": [
+    "n:0.9410360288810284"
+   ],
+   "lo": [
+    "n",
+    0.9410360288810286
+   ]
+  },
+  {
+   "id": "excel-probe-4.00010@Z10",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z10",
+   "formula": "A10^B10",
+   "inputs": [
+    [
+     "S",
+     "A10",
+     "n",
+     2.0
+    ],
+    [
+     "S",
+     "B10",
+     "n",
+     -0.3
+    ]
+   ],
+   "inputs_text": "S!A10=n:2.0\u001fS!B10=n:-0.3",
+   "basis": "lo",
+   "expect": "n:0.8122523963562356",
+   "models": [
+    "n:0.8122523963562355"
+   ],
+   "lo": [
+    "n",
+    0.8122523963562356
+   ]
+  },
+  {
+   "id": "excel-probe-4.00011@Z11",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z11",
+   "formula": "A11^B11",
+   "inputs": [
+    [
+     "S",
+     "A11",
+     "n",
+     11.0
+    ],
+    [
+     "S",
+     "B11",
+     "n",
+     -0.5
+    ]
+   ],
+   "inputs_text": "S!A11=n:11.0\u001fS!B11=n:-0.5",
+   "basis": "lo",
+   "expect": "n:0.30151134457776363",
+   "models": [
+    "n:0.30151134457776363"
+   ],
+   "lo": [
+    "n",
+    0.30151134457776363
+   ]
+  },
+  {
+   "id": "excel-probe-4.00012@Z12",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z12",
+   "formula": "A12^B12",
+   "inputs": [
+    [
+     "S",
+     "A12",
+     "n",
+     3.0
+    ],
+    [
+     "S",
+     "B12",
+     "n",
+     -0.5
+    ]
+   ],
+   "inputs_text": "S!A12=n:3.0\u001fS!B12=n:-0.5",
+   "basis": "lo",
+   "expect": "n:0.5773502691896257",
+   "models": [
+    "n:0.5773502691896258"
+   ],
+   "lo": [
+    "n",
+    0.5773502691896257
+   ]
+  },
+  {
+   "id": "excel-probe-4.00013@Z13",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z13",
+   "formula": "A13^B13",
+   "inputs": [
+    [
+     "S",
+     "A13",
+     "n",
+     7.0
+    ],
+    [
+     "S",
+     "B13",
+     "n",
+     -0.5
+    ]
+   ],
+   "inputs_text": "S!A13=n:7.0\u001fS!B13=n:-0.5",
+   "basis": "lo",
+   "expect": "n:0.37796447300922725",
+   "models": [
+    "n:0.3779644730092272"
+   ],
+   "lo": [
+    "n",
+    0.37796447300922725
+   ]
+  },
+  {
+   "id": "excel-probe-4.00014@Z14",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z14",
+   "formula": "A14^B14",
+   "inputs": [
+    [
+     "S",
+     "A14",
+     "n",
+     -125.0
+    ],
+    [
+     "S",
+     "B14",
+     "n",
+     -0.3333333333333333
+    ]
+   ],
+   "inputs_text": "S!A14=n:-125.0\u001fS!B14=n:-0.3333333333333333",
+   "basis": "undecided:negative-root",
+   "expect": "refuse",
+   "models": [
+    "u:negative-root"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00015@Z15",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z15",
+   "formula": "A15^B15",
+   "inputs": [
+    [
+     "S",
+     "A15",
+     "n",
+     -8.0
+    ],
+    [
+     "S",
+     "B15",
+     "n",
+     -0.2
+    ]
+   ],
+   "inputs_text": "S!A15=n:-8.0\u001fS!B15=n:-0.2",
+   "basis": "undecided:negative-root",
+   "expect": "refuse",
+   "models": [
+    "u:negative-root"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00016@Z16",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z16",
+   "formula": "A16^B16",
+   "inputs": [
+    [
+     "S",
+     "A16",
+     "n",
+     -2.0
+    ],
+    [
+     "S",
+     "B16",
+     "n",
+     -0.3333333333333333
+    ]
+   ],
+   "inputs_text": "S!A16=n:-2.0\u001fS!B16=n:-0.3333333333333333",
+   "basis": "undecided:negative-root",
+   "expect": "refuse",
+   "models": [
+    "u:negative-root"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00017@Z17",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z17",
+   "formula": "A17^B17",
+   "inputs": [
+    [
+     "S",
+     "A17",
+     "n",
+     -3.0
+    ],
+    [
+     "S",
+     "B17",
+     "n",
+     -0.3333333333333333
+    ]
+   ],
+   "inputs_text": "S!A17=n:-3.0\u001fS!B17=n:-0.3333333333333333",
+   "basis": "undecided:negative-root",
+   "expect": "refuse",
+   "models": [
+    "u:negative-root"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00018@Z18",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z18",
+   "formula": "PMT(A18,B18,C18,D18)",
+   "inputs": [
+    [
+     "S",
+     "A18",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B18",
+     "n",
+     20.0
+    ],
+    [
+     "S",
+     "C18",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D18",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A18=n:0.5\u001fS!B18=n:20.0\u001fS!C18=n:1.0\u001fS!D18=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00019@Z19",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z19",
+   "formula": "PMT(A19,B19,C19,D19)",
+   "inputs": [
+    [
+     "S",
+     "A19",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B19",
+     "n",
+     30.0
+    ],
+    [
+     "S",
+     "C19",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D19",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A19=n:0.5\u001fS!B19=n:30.0\u001fS!C19=n:1.0\u001fS!D19=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00020@Z20",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z20",
+   "formula": "PMT(A20,B20,C20,D20)",
+   "inputs": [
+    [
+     "S",
+     "A20",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B20",
+     "n",
+     40.0
+    ],
+    [
+     "S",
+     "C20",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D20",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A20=n:0.5\u001fS!B20=n:40.0\u001fS!C20=n:1.0\u001fS!D20=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00021@Z21",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z21",
+   "formula": "PMT(A21,B21,C21,D21)",
+   "inputs": [
+    [
+     "S",
+     "A21",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B21",
+     "n",
+     50.0
+    ],
+    [
+     "S",
+     "C21",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D21",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A21=n:0.5\u001fS!B21=n:50.0\u001fS!C21=n:1.0\u001fS!D21=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00022@Z22",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z22",
+   "formula": "PMT(A22,B22,C22,D22)",
+   "inputs": [
+    [
+     "S",
+     "A22",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B22",
+     "n",
+     60.0
+    ],
+    [
+     "S",
+     "C22",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D22",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A22=n:0.5\u001fS!B22=n:60.0\u001fS!C22=n:1.0\u001fS!D22=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00023@Z23",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z23",
+   "formula": "PMT(A23,B23,C23,D23)",
+   "inputs": [
+    [
+     "S",
+     "A23",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B23",
+     "n",
+     70.0
+    ],
+    [
+     "S",
+     "C23",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D23",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A23=n:0.5\u001fS!B23=n:70.0\u001fS!C23=n:1.0\u001fS!D23=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00024@Z24",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z24",
+   "formula": "PMT(A24,B24,C24,D24)",
+   "inputs": [
+    [
+     "S",
+     "A24",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B24",
+     "n",
+     80.0
+    ],
+    [
+     "S",
+     "C24",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D24",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A24=n:0.5\u001fS!B24=n:80.0\u001fS!C24=n:1.0\u001fS!D24=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00025@Z25",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z25",
+   "formula": "PMT(A25,B25,C25,D25)",
+   "inputs": [
+    [
+     "S",
+     "A25",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B25",
+     "n",
+     90.0
+    ],
+    [
+     "S",
+     "C25",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D25",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A25=n:0.5\u001fS!B25=n:90.0\u001fS!C25=n:1.0\u001fS!D25=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00026@Z26",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z26",
+   "formula": "PMT(A26,B26,C26,D26)",
+   "inputs": [
+    [
+     "S",
+     "A26",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B26",
+     "n",
+     100.0
+    ],
+    [
+     "S",
+     "C26",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D26",
+     "n",
+     1000000.0
+    ]
+   ],
+   "inputs_text": "S!A26=n:0.5\u001fS!B26=n:100.0\u001fS!C26=n:1.0\u001fS!D26=n:1000000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00027@Z27",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z27",
+   "formula": "PMT(A27,B27,C27,D27)",
+   "inputs": [
+    [
+     "S",
+     "A27",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B27",
+     "n",
+     20.0
+    ],
+    [
+     "S",
+     "C27",
+     "n",
+     0.0
+    ],
+    [
+     "S",
+     "D27",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A27=n:0.5\u001fS!B27=n:20.0\u001fS!C27=n:0.0\u001fS!D27=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00028@Z28",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z28",
+   "formula": "PMT(A28,B28,C28,D28)",
+   "inputs": [
+    [
+     "S",
+     "A28",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B28",
+     "n",
+     40.0
+    ],
+    [
+     "S",
+     "C28",
+     "n",
+     0.0
+    ],
+    [
+     "S",
+     "D28",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A28=n:0.5\u001fS!B28=n:40.0\u001fS!C28=n:0.0\u001fS!D28=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00029@Z29",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z29",
+   "formula": "PMT(A29,B29,C29,D29)",
+   "inputs": [
+    [
+     "S",
+     "A29",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B29",
+     "n",
+     60.0
+    ],
+    [
+     "S",
+     "C29",
+     "n",
+     0.0
+    ],
+    [
+     "S",
+     "D29",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A29=n:0.5\u001fS!B29=n:60.0\u001fS!C29=n:0.0\u001fS!D29=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00030@Z30",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z30",
+   "formula": "PMT(A30,B30,C30,D30)",
+   "inputs": [
+    [
+     "S",
+     "A30",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B30",
+     "n",
+     80.0
+    ],
+    [
+     "S",
+     "C30",
+     "n",
+     0.0
+    ],
+    [
+     "S",
+     "D30",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A30=n:0.5\u001fS!B30=n:80.0\u001fS!C30=n:0.0\u001fS!D30=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00031@Z31",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z31",
+   "formula": "PMT(A31,B31,C31,D31)",
+   "inputs": [
+    [
+     "S",
+     "A31",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B31",
+     "n",
+     100.0
+    ],
+    [
+     "S",
+     "C31",
+     "n",
+     0.0
+    ],
+    [
+     "S",
+     "D31",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A31=n:0.5\u001fS!B31=n:100.0\u001fS!C31=n:0.0\u001fS!D31=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00032@Z32",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z32",
+   "formula": "PMT(A32,B32,C32,D32)",
+   "inputs": [
+    [
+     "S",
+     "A32",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B32",
+     "n",
+     80.0
+    ],
+    [
+     "S",
+     "C32",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D32",
+     "n",
+     1000.0
+    ]
+   ],
+   "inputs_text": "S!A32=n:0.5\u001fS!B32=n:80.0\u001fS!C32=n:1.0\u001fS!D32=n:1000.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00033@Z33",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z33",
+   "formula": "PMT(A33,B33,C33,D33,E33)",
+   "inputs": [
+    [
+     "S",
+     "A33",
+     "n",
+     0.5
+    ],
+    [
+     "S",
+     "B33",
+     "n",
+     60.0
+    ],
+    [
+     "S",
+     "C33",
+     "n",
+     1.0
+    ],
+    [
+     "S",
+     "D33",
+     "n",
+     1000000.0
+    ],
+    [
+     "S",
+     "E33",
+     "n",
+     1.0
+    ]
+   ],
+   "inputs_text": "S!A33=n:0.5\u001fS!B33=n:60.0\u001fS!C33=n:1.0\u001fS!D33=n:1000000.0\u001fS!E33=n:1.0",
+   "basis": "undecided:pmt-growth",
+   "expect": "refuse",
+   "models": [
+    "u:pmt-growth"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00034@Z34",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z34",
+   "formula": "ROUND(A34,2)",
+   "inputs": [
+    [
+     "S",
+     "A34",
+     "n",
+     1234567890123.375
+    ]
+   ],
+   "inputs_text": "S!A34=n:1234567890123.375",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00035@Z35",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z35",
+   "formula": "ROUND(A35,0)",
+   "inputs": [
+    [
+     "S",
+     "A35",
+     "n",
+     100000000000001.5
+    ]
+   ],
+   "inputs_text": "S!A35=n:100000000000001.5",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00036@Z36",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z36",
+   "formula": "A36=B36",
+   "inputs": [
+    [
+     "S",
+     "A36",
+     "n",
+     100000000000000.5
+    ],
+    [
+     "S",
+     "B36",
+     "n",
+     100000000000001.0
+    ]
+   ],
+   "inputs_text": "S!A36=n:100000000000000.5\u001fS!B36=n:100000000000001.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00037@Z37",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z37",
+   "formula": "A37<B37",
+   "inputs": [
+    [
+     "S",
+     "A37",
+     "n",
+     100000000000000.5
+    ],
+    [
+     "S",
+     "B37",
+     "n",
+     100000000000001.0
+    ]
+   ],
+   "inputs_text": "S!A37=n:100000000000000.5\u001fS!B37=n:100000000000001.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00038@Z38",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z38",
+   "formula": "A38=B38",
+   "inputs": [
+    [
+     "S",
+     "A38",
+     "n",
+     100000000000000.5
+    ],
+    [
+     "S",
+     "B38",
+     "n",
+     100000000000000.0
+    ]
+   ],
+   "inputs_text": "S!A38=n:100000000000000.5\u001fS!B38=n:100000000000000.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00039@Z39",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z39",
+   "formula": "A39<B39",
+   "inputs": [
+    [
+     "S",
+     "A39",
+     "n",
+     100000000000000.5
+    ],
+    [
+     "S",
+     "B39",
+     "n",
+     100000000000000.0
+    ]
+   ],
+   "inputs_text": "S!A39=n:100000000000000.5\u001fS!B39=n:100000000000000.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00040@Z40",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z40",
+   "formula": "A40=B40",
+   "inputs": [
+    [
+     "S",
+     "A40",
+     "n",
+     1000000000000125.0
+    ],
+    [
+     "S",
+     "B40",
+     "n",
+     1000000000000130.0
+    ]
+   ],
+   "inputs_text": "S!A40=n:1000000000000125.0\u001fS!B40=n:1000000000000130.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00041@Z41",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z41",
+   "formula": "A41<B41",
+   "inputs": [
+    [
+     "S",
+     "A41",
+     "n",
+     1000000000000125.0
+    ],
+    [
+     "S",
+     "B41",
+     "n",
+     1000000000000130.0
+    ]
+   ],
+   "inputs_text": "S!A41=n:1000000000000125.0\u001fS!B41=n:1000000000000130.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00042@Z42",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z42",
+   "formula": "A42=B42",
+   "inputs": [
+    [
+     "S",
+     "A42",
+     "n",
+     1000000000000125.0
+    ],
+    [
+     "S",
+     "B42",
+     "n",
+     1000000000000120.0
+    ]
+   ],
+   "inputs_text": "S!A42=n:1000000000000125.0\u001fS!B42=n:1000000000000120.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00043@Z43",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z43",
+   "formula": "A43<B43",
+   "inputs": [
+    [
+     "S",
+     "A43",
+     "n",
+     1000000000000125.0
+    ],
+    [
+     "S",
+     "B43",
+     "n",
+     1000000000000120.0
+    ]
+   ],
+   "inputs_text": "S!A43=n:1000000000000125.0\u001fS!B43=n:1000000000000120.0",
+   "basis": "undecided:fifteen-digit-tie",
+   "expect": "refuse",
+   "models": [
+    "u:fifteen-digit-tie"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00044@Z44",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z44",
+   "formula": "A44-B44",
+   "inputs": [
+    [
+     "S",
+     "A44",
+     "n",
+     0.4999999999999998
+    ],
+    [
+     "S",
+     "B44",
+     "n",
+     0.5000000000000002
+    ]
+   ],
+   "inputs_text": "S!A44=n:0.4999999999999998\u001fS!B44=n:0.5000000000000002",
+   "basis": "excel:no-snap-past-8-ulps",
+   "expect": "n:-4.440892098500626e-16",
+   "models": [
+    "n:-4.440892098500626e-16"
+   ],
+   "lo": [
+    "n",
+    0.0
+   ]
+  },
+  {
+   "id": "excel-probe-4.00045@Z45",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z45",
+   "formula": "B45-A45",
+   "inputs": [
+    [
+     "S",
+     "A45",
+     "n",
+     0.4999999999999998
+    ],
+    [
+     "S",
+     "B45",
+     "n",
+     0.5000000000000002
+    ]
+   ],
+   "inputs_text": "S!A45=n:0.4999999999999998\u001fS!B45=n:0.5000000000000002",
+   "basis": "lo",
+   "expect": "n:0.0",
+   "models": [
+    "n:0.0"
+   ],
+   "lo": [
+    "n",
+    0.0
+   ]
+  },
+  {
+   "id": "excel-probe-4.00046@Z46",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z46",
+   "formula": "(A46-B46)*1",
+   "inputs": [
+    [
+     "S",
+     "A46",
+     "n",
+     0.4999999999999998
+    ],
+    [
+     "S",
+     "B46",
+     "n",
+     0.5000000000000002
+    ]
+   ],
+   "inputs_text": "S!A46=n:0.4999999999999998\u001fS!B46=n:0.5000000000000002",
+   "basis": "excel:no-snap-before-the-last-step",
+   "expect": "n:-4.440892098500626e-16",
+   "models": [
+    "n:-4.440892098500626e-16"
+   ],
+   "lo": [
+    "n",
+    0.0
+   ]
+  },
+  {
+   "id": "excel-probe-4.00047@Z47",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z47",
+   "formula": "ROUND(A47,B47)",
+   "inputs": [
+    [
+     "S",
+     "A47",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B47",
+     "n",
+     21.0
+    ]
+   ],
+   "inputs_text": "S!A47=n:1234.5678\u001fS!B47=n:21.0",
+   "basis": "lo",
+   "expect": "n:1234.5678",
+   "models": [
+    "n:1234.5678"
+   ],
+   "lo": [
+    "n",
+    1234.5678
+   ]
+  },
+  {
+   "id": "excel-probe-4.00048@Z48",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z48",
+   "formula": "ROUND(A48,B48)",
+   "inputs": [
+    [
+     "S",
+     "A48",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B48",
+     "n",
+     30.0
+    ]
+   ],
+   "inputs_text": "S!A48=n:1234.5678\u001fS!B48=n:30.0",
+   "basis": "lo",
+   "expect": "n:1234.5678",
+   "models": [
+    "n:1234.5678"
+   ],
+   "lo": [
+    "n",
+    1234.5678
+   ]
+  },
+  {
+   "id": "excel-probe-4.00049@Z49",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z49",
+   "formula": "ROUND(A49,B49)",
+   "inputs": [
+    [
+     "S",
+     "A49",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B49",
+     "n",
+     100.0
+    ]
+   ],
+   "inputs_text": "S!A49=n:1234.5678\u001fS!B49=n:100.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00050@Z50",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z50",
+   "formula": "ROUND(A50,B50)",
+   "inputs": [
+    [
+     "S",
+     "A50",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B50",
+     "n",
+     308.0
+    ]
+   ],
+   "inputs_text": "S!A50=n:1234.5678\u001fS!B50=n:308.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00051@Z51",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z51",
+   "formula": "ROUND(A51,B51)",
+   "inputs": [
+    [
+     "S",
+     "A51",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B51",
+     "n",
+     400.0
+    ]
+   ],
+   "inputs_text": "S!A51=n:1234.5678\u001fS!B51=n:400.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00052@Z52",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z52",
+   "formula": "ROUND(A52,B52)",
+   "inputs": [
+    [
+     "S",
+     "A52",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B52",
+     "n",
+     -21.0
+    ]
+   ],
+   "inputs_text": "S!A52=n:1234.5678\u001fS!B52=n:-21.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00053@Z53",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z53",
+   "formula": "ROUND(A53,B53)",
+   "inputs": [
+    [
+     "S",
+     "A53",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B53",
+     "n",
+     -30.0
+    ]
+   ],
+   "inputs_text": "S!A53=n:1234.5678\u001fS!B53=n:-30.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00054@Z54",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z54",
+   "formula": "ROUND(A54,B54)",
+   "inputs": [
+    [
+     "S",
+     "A54",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B54",
+     "n",
+     -308.0
+    ]
+   ],
+   "inputs_text": "S!A54=n:1234.5678\u001fS!B54=n:-308.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00055@Z55",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z55",
+   "formula": "ROUND(A55,B55)",
+   "inputs": [
+    [
+     "S",
+     "A55",
+     "n",
+     1234.5678
+    ],
+    [
+     "S",
+     "B55",
+     "n",
+     -400.0
+    ]
+   ],
+   "inputs_text": "S!A55=n:1234.5678\u001fS!B55=n:-400.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00056@Z56",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z56",
+   "formula": "ROUND(A56,B56)",
+   "inputs": [
+    [
+     "S",
+     "A56",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B56",
+     "n",
+     21.0
+    ]
+   ],
+   "inputs_text": "S!A56=n:1e+300\u001fS!B56=n:21.0",
+   "basis": "lo",
+   "expect": "n:1e+300",
+   "models": [
+    "n:1e+300"
+   ],
+   "lo": [
+    "n",
+    1e+300
+   ]
+  },
+  {
+   "id": "excel-probe-4.00057@Z57",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z57",
+   "formula": "ROUND(A57,B57)",
+   "inputs": [
+    [
+     "S",
+     "A57",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B57",
+     "n",
+     30.0
+    ]
+   ],
+   "inputs_text": "S!A57=n:1e+300\u001fS!B57=n:30.0",
+   "basis": "lo",
+   "expect": "n:1e+300",
+   "models": [
+    "n:1e+300"
+   ],
+   "lo": [
+    "n",
+    1e+300
+   ]
+  },
+  {
+   "id": "excel-probe-4.00058@Z58",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z58",
+   "formula": "ROUND(A58,B58)",
+   "inputs": [
+    [
+     "S",
+     "A58",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B58",
+     "n",
+     100.0
+    ]
+   ],
+   "inputs_text": "S!A58=n:1e+300\u001fS!B58=n:100.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00059@Z59",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z59",
+   "formula": "ROUND(A59,B59)",
+   "inputs": [
+    [
+     "S",
+     "A59",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B59",
+     "n",
+     308.0
+    ]
+   ],
+   "inputs_text": "S!A59=n:1e+300\u001fS!B59=n:308.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00060@Z60",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z60",
+   "formula": "ROUND(A60,B60)",
+   "inputs": [
+    [
+     "S",
+     "A60",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B60",
+     "n",
+     400.0
+    ]
+   ],
+   "inputs_text": "S!A60=n:1e+300\u001fS!B60=n:400.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00061@Z61",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z61",
+   "formula": "ROUND(A61,B61)",
+   "inputs": [
+    [
+     "S",
+     "A61",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B61",
+     "n",
+     -21.0
+    ]
+   ],
+   "inputs_text": "S!A61=n:1e+300\u001fS!B61=n:-21.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00062@Z62",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z62",
+   "formula": "ROUND(A62,B62)",
+   "inputs": [
+    [
+     "S",
+     "A62",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B62",
+     "n",
+     -30.0
+    ]
+   ],
+   "inputs_text": "S!A62=n:1e+300\u001fS!B62=n:-30.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00063@Z63",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z63",
+   "formula": "ROUND(A63,B63)",
+   "inputs": [
+    [
+     "S",
+     "A63",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B63",
+     "n",
+     -308.0
+    ]
+   ],
+   "inputs_text": "S!A63=n:1e+300\u001fS!B63=n:-308.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00064@Z64",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z64",
+   "formula": "ROUND(A64,B64)",
+   "inputs": [
+    [
+     "S",
+     "A64",
+     "n",
+     1e+300
+    ],
+    [
+     "S",
+     "B64",
+     "n",
+     -400.0
+    ]
+   ],
+   "inputs_text": "S!A64=n:1e+300\u001fS!B64=n:-400.0",
+   "basis": "undecided:round-digits",
+   "expect": "refuse",
+   "models": [
+    "u:round-digits"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00065@Z65",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z65",
+   "formula": "A65+1",
+   "inputs": [
+    [
+     "S",
+     "A65",
+     "s",
+     "25%"
+    ]
+   ],
+   "inputs_text": "S!A65=s:25%",
+   "basis": "lo",
+   "expect": "n:1.25",
+   "models": [
+    "n:1.25"
+   ],
+   "lo": [
+    "n",
+    1.25
+   ]
+  },
+  {
+   "id": "excel-probe-4.00066@Z66",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z66",
+   "formula": "A66+1",
+   "inputs": [
+    [
+     "S",
+     "A66",
+     "s",
+     "75%"
+    ]
+   ],
+   "inputs_text": "S!A66=s:75%",
+   "basis": "lo",
+   "expect": "n:1.75",
+   "models": [
+    "n:1.75"
+   ],
+   "lo": [
+    "n",
+    1.75
+   ]
+  },
+  {
+   "id": "excel-probe-4.00067@Z67",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z67",
+   "formula": "A67+1",
+   "inputs": [
+    [
+     "S",
+     "A67",
+     "s",
+     "100%"
+    ]
+   ],
+   "inputs_text": "S!A67=s:100%",
+   "basis": "lo",
+   "expect": "n:2.0",
+   "models": [
+    "n:2.0"
+   ],
+   "lo": [
+    "n",
+    2.0
+   ]
+  },
+  {
+   "id": "excel-probe-4.00068@Z68",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z68",
+   "formula": "A68+1",
+   "inputs": [
+    [
+     "S",
+     "A68",
+     "s",
+     "150%"
+    ]
+   ],
+   "inputs_text": "S!A68=s:150%",
+   "basis": "lo",
+   "expect": "n:2.5",
+   "models": [
+    "n:2.5"
+   ],
+   "lo": [
+    "n",
+    2.5
+   ]
+  },
+  {
+   "id": "excel-probe-4.00069@Z69",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z69",
+   "formula": "A69+1",
+   "inputs": [
+    [
+     "S",
+     "A69",
+     "s",
+     "7%"
+    ]
+   ],
+   "inputs_text": "S!A69=s:7%",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00070@Z70",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z70",
+   "formula": "A70+1",
+   "inputs": [
+    [
+     "S",
+     "A70",
+     "s",
+     "6:00"
+    ]
+   ],
+   "inputs_text": "S!A70=s:6:00",
+   "basis": "lo",
+   "expect": "n:1.25",
+   "models": [
+    "n:1.25"
+   ],
+   "lo": [
+    "n",
+    1.25
+   ]
+  },
+  {
+   "id": "excel-probe-4.00071@Z71",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z71",
+   "formula": "A71+1",
+   "inputs": [
+    [
+     "S",
+     "A71",
+     "s",
+     "18:30"
+    ]
+   ],
+   "inputs_text": "S!A71=s:18:30",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00072@Z72",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z72",
+   "formula": "A72+1",
+   "inputs": [
+    [
+     "S",
+     "A72",
+     "s",
+     "0:45"
+    ]
+   ],
+   "inputs_text": "S!A72=s:0:45",
+   "basis": "lo",
+   "expect": "n:1.03125",
+   "models": [
+    "n:1.03125"
+   ],
+   "lo": [
+    "n",
+    1.03125
+   ]
+  },
+  {
+   "id": "excel-probe-4.00073@Z73",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z73",
+   "formula": "A73+1",
+   "inputs": [
+    [
+     "S",
+     "A73",
+     "s",
+     "3:47"
+    ]
+   ],
+   "inputs_text": "S!A73=s:3:47",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00074@Z74",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z74",
+   "formula": "A74+1",
+   "inputs": [
+    [
+     "S",
+     "A74",
+     "s",
+     "12:00 AM"
+    ]
+   ],
+   "inputs_text": "S!A74=s:12:00 AM",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00075@Z75",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z75",
+   "formula": "A75+1",
+   "inputs": [
+    [
+     "S",
+     "A75",
+     "s",
+     "12:30 PM"
+    ]
+   ],
+   "inputs_text": "S!A75=s:12:30 PM",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00076@Z76",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z76",
+   "formula": "A76+1",
+   "inputs": [
+    [
+     "S",
+     "A76",
+     "s",
+     "11:15 AM"
+    ]
+   ],
+   "inputs_text": "S!A76=s:11:15 AM",
+   "basis": "lo",
+   "expect": "n:1.46875",
+   "models": [
+    "n:1.46875"
+   ],
+   "lo": [
+    "n",
+    1.46875
+   ]
+  },
+  {
+   "id": "excel-probe-4.00077@Z77",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z77",
+   "formula": "A77+1",
+   "inputs": [
+    [
+     "S",
+     "A77",
+     "s",
+     "$5"
+    ]
+   ],
+   "inputs_text": "S!A77=s:$5",
+   "basis": "lo",
+   "expect": "n:6.0",
+   "models": [
+    "n:6.0"
+   ],
+   "lo": [
+    "n",
+    6.0
+   ]
+  },
+  {
+   "id": "excel-probe-4.00078@Z78",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z78",
+   "formula": "A78+1",
+   "inputs": [
+    [
+     "S",
+     "A78",
+     "s",
+     "$1,000"
+    ]
+   ],
+   "inputs_text": "S!A78=s:$1,000",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00079@Z79",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z79",
+   "formula": "A79+1",
+   "inputs": [
+    [
+     "S",
+     "A79",
+     "s",
+     "-$5"
+    ]
+   ],
+   "inputs_text": "S!A79=s:-$5",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00080@Z80",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z80",
+   "formula": "A80+1",
+   "inputs": [
+    [
+     "S",
+     "A80",
+     "s",
+     "($5)"
+    ]
+   ],
+   "inputs_text": "S!A80=s:($5)",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00081@Z81",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z81",
+   "formula": "A81+1",
+   "inputs": [
+    [
+     "S",
+     "A81",
+     "s",
+     "(5.5)"
+    ]
+   ],
+   "inputs_text": "S!A81=s:(5.5)",
+   "basis": "lo",
+   "expect": "n:-4.5",
+   "models": [
+    "n:-4.5"
+   ],
+   "lo": [
+    "n",
+    -4.5
+   ]
+  },
+  {
+   "id": "excel-probe-4.00082@Z82",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z82",
+   "formula": "A82+1",
+   "inputs": [
+    [
+     "S",
+     "A82",
+     "s",
+     "(1,000)"
+    ]
+   ],
+   "inputs_text": "S!A82=s:(1,000)",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00083@Z83",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z83",
+   "formula": "A83+1",
+   "inputs": [
+    [
+     "S",
+     "A83",
+     "s",
+     "1,234,567.89"
+    ]
+   ],
+   "inputs_text": "S!A83=s:1,234,567.89",
+   "basis": "lo",
+   "expect": "n:1234568.89",
+   "models": [
+    "n:1234568.89"
+   ],
+   "lo": [
+    "n",
+    1234568.89
+   ]
+  },
+  {
+   "id": "excel-probe-4.00084@Z84",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z84",
+   "formula": "A84+1",
+   "inputs": [
+    [
+     "S",
+     "A84",
+     "s",
+     "1,0000"
+    ]
+   ],
+   "inputs_text": "S!A84=s:1,0000",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00085@Z85",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z85",
+   "formula": "A85+1",
+   "inputs": [
+    [
+     "S",
+     "A85",
+     "s",
+     "x"
+    ]
+   ],
+   "inputs_text": "S!A85=s:x",
+   "basis": "error:#VALUE!",
+   "expect": "refuse",
+   "models": [
+    "e:#VALUE!"
+   ],
+   "lo": [
+    "e",
+    "#VALUE!"
+   ]
+  },
+  {
+   "id": "excel-probe-4.00086@Z86",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z86",
+   "formula": "A86+1",
+   "inputs": [
+    [
+     "S",
+     "A86",
+     "s",
+     "NA"
+    ]
+   ],
+   "inputs_text": "S!A86=s:NA",
+   "basis": "error:#VALUE!",
+   "expect": "refuse",
+   "models": [
+    "e:#VALUE!"
+   ],
+   "lo": [
+    "e",
+    "#VALUE!"
+   ]
+  },
+  {
+   "id": "excel-probe-4.00087@Z87",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z87",
+   "formula": "A87+1",
+   "inputs": [
+    [
+     "S",
+     "A87",
+     "s",
+     "N/A"
+    ]
+   ],
+   "inputs_text": "S!A87=s:N/A",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00088@Z88",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z88",
+   "formula": "A88+1",
+   "inputs": [
+    [
+     "S",
+     "A88",
+     "s",
+     "n/a"
+    ]
+   ],
+   "inputs_text": "S!A88=s:n/a",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00089@Z89",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z89",
+   "formula": "A89+1",
+   "inputs": [
+    [
+     "S",
+     "A89",
+     "s",
+     "NaN"
+    ]
+   ],
+   "inputs_text": "S!A89=s:NaN",
+   "basis": "error:#VALUE!",
+   "expect": "refuse",
+   "models": [
+    "e:#VALUE!"
+   ],
+   "lo": [
+    "e",
+    "#VALUE!"
+   ]
+  },
+  {
+   "id": "excel-probe-4.00090@Z90",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z90",
+   "formula": "A90+1",
+   "inputs": [
+    [
+     "S",
+     "A90",
+     "s",
+     "Inf"
+    ]
+   ],
+   "inputs_text": "S!A90=s:Inf",
+   "basis": "error:#VALUE!",
+   "expect": "refuse",
+   "models": [
+    "e:#VALUE!"
+   ],
+   "lo": [
+    "e",
+    "#VALUE!"
+   ]
+  },
+  {
+   "id": "excel-probe-4.00091@Z91",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z91",
+   "formula": "A91+1",
+   "inputs": [
+    [
+     "S",
+     "A91",
+     "s",
+     "e"
+    ]
+   ],
+   "inputs_text": "S!A91=s:e",
+   "basis": "error:#VALUE!",
+   "expect": "refuse",
+   "models": [
+    "e:#VALUE!"
+   ],
+   "lo": [
+    "e",
+    "#VALUE!"
+   ]
+  },
+  {
+   "id": "excel-probe-4.00092@Z92",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z92",
+   "formula": "A92+1",
+   "inputs": [
+    [
+     "S",
+     "A92",
+     "s",
+     "May"
+    ]
+   ],
+   "inputs_text": "S!A92=s:May",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00093@Z93",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z93",
+   "formula": "A93+1",
+   "inputs": [
+    [
+     "S",
+     "A93",
+     "s",
+     "a"
+    ]
+   ],
+   "inputs_text": "S!A93=s:a",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  },
+  {
+   "id": "excel-probe-4.00094@Z94",
+   "group": "excel-probe-4",
+   "sheet": "S",
+   "cell": "Z94",
+   "formula": "A94+1",
+   "inputs": [
+    [
+     "S",
+     "A94",
+     "s",
+     "p"
+    ]
+   ],
+   "inputs_text": "S!A94=s:p",
+   "basis": "undecided:text-to-number",
+   "expect": "refuse",
+   "models": [
+    "u:text-to-number"
+   ],
+   "lo": null
+  }
+ ]
+}

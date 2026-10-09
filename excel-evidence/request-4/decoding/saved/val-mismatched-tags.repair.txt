@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>Repair Result to val-mismatched-tags0.xml</logFileName><summary>Errors were detected in file ’/Users/<user>/excel-request-4/decoding/files/val-mismatched-tags.xlsx’</summary><removedParts summary="Following is a list of removed parts:"><removedPart>Replaced Part: /xl/worksheets/sheet1.xml part with XML error.  Xml parsing error Line 1, column 210.</removedPart></removedParts></recoveryLog>

@@ -1,0 +1,55 @@
+excel-import: {'decided row Excel agrees with': 477, 'decided row Excel contradicts': 6, 'undecided row Excel answered': 48, 'undecided row Excel dropped (repair)': 9, 'file missing': 1, 'ask answered': 294} -> <scrubbed copy>/decoding/excel-cache.jsonl
+  CONTRADICTS pos-rless-formulas!S!C1: expected n:45000 (excel:doc), Excel n:46303.7412443287
+  CONTRADICTS val-b4-numbers!S!A3: expected n:5 (b4:xsd-double), Excel s:+5
+  CONTRADICTS val-b4-numbers!S!A8: expected nonfinite:NaN (b4:non-finite), Excel s:NaN
+  CONTRADICTS val-b4-numbers!S!A9: expected nonfinite:INF (b4:non-finite), Excel s:INF
+  CONTRADICTS val-b4-numbers!S!A10: expected nonfinite:-INF (b4:non-finite), Excel s:-INF
+  CONTRADICTS val-b4-numbers!S!A11: expected nonfinite:1e400 (b4:non-finite), Excel e:#NULL!
+  answers pos-dup-different!S!B1: undecided:duplicate-cell -> Excel n:5
+  answers pos-rless-onto-explicit!S!A1: undecided:duplicate-cell -> Excel n:1
+  answers pos-row-repeated!S!B2: undecided:repeated-row -> Excel n:3
+  answers val-tdate-1900!S!A15: undecided:iso-zone -> Excel n:43831
+  answers val-tdate-1900!S!A16: undecided:iso-zone -> Excel s:2020-01-01T00:00:00+13:00
+  answers val-tdate-1900!S!A17: undecided:iso-time-alone -> Excel n:0.5
+  answers val-tdate-1900!S!A18: undecided:iso-week -> Excel s:2020-W01-3
+  answers val-tdate-1900!S!A19: undecided:iso-ordinal -> Excel s:2020-001
+  answers val-tdate-1900!S!A20: undecided:iso-hour-24 -> Excel n:43832
+  answers val-tdate-1900!S!A21: undecided:iso-fraction-digits -> Excel n:43831.5003484375
+  answers val-tdate-1900!S!A22: undecided:iso-not-complete -> Excel s:2020-1-1
+  answers val-tdate-1900!S!A23: undecided:iso-basic -> Excel n:43831
+  answers val-tdate-1900!S!A24: undecided:iso-space -> Excel s:2020-01-01 12:00
+  answers val-tdate-1900!S!A25: undecided:iso-no-such-day -> Excel s:2020-02-30
+  answers val-tdate-1900!S!A26: undecided:iso-past-9999 -> Excel s:10000-01-01
+  answers val-tdate-1900!S!A27: undecided:iso-before-1900-03-01 -> Excel n:59
+  answers val-tdate-1900!S!A28: undecided:iso-1900-02-29 -> Excel n:60
+  answers val-tdate-1900!S!A29: undecided:iso-before-1900-03-01 -> Excel e:#VALUE!
+  answers val-tdate-1904!S!A21: undecided:iso-zone -> Excel n:42369
+  answers val-tdate-1904!S!A22: undecided:iso-zone -> Excel s:2020-01-01T00:00:00+13:00
+  answers val-tdate-1904!S!A23: undecided:iso-time-alone -> Excel n:0.5
+  answers val-tdate-1904!S!A24: undecided:iso-week -> Excel s:2020-W01-3
+  answers val-tdate-1904!S!A25: undecided:iso-ordinal -> Excel s:2020-001
+  answers val-tdate-1904!S!A26: undecided:iso-hour-24 -> Excel n:42370
+  answers val-tdate-1904!S!A27: undecided:iso-fraction-digits -> Excel n:42369.5003484375
+  answers val-tdate-1904!S!A28: undecided:iso-not-complete -> Excel s:2020-1-1
+  answers val-tdate-1904!S!A29: undecided:iso-basic -> Excel n:42369
+  answers val-tdate-1904!S!A30: undecided:iso-space -> Excel s:2020-01-01 12:00
+  answers val-tdate-1904!S!A31: undecided:iso-no-such-day -> Excel s:2020-02-30
+  answers val-tdate-1904!S!A32: undecided:iso-past-9999 -> Excel s:10000-01-01
+  answers val-tdate-1904!S!A33: undecided:iso-before-1904 -> Excel e:#VALUE!
+  answers val-tdate-1904!S!A34: undecided:iso-before-1904 -> Excel e:#VALUE!
+  answers val-b4-numbers!S!A12: b4:no-form -> Excel s:inf
+  answers val-b4-numbers!S!A13: b4:no-form -> Excel s:nan
+  answers val-b4-numbers!S!A14: b4:no-form -> Excel s:1,5
+  answers val-b4-numbers!S!A15: b4:no-form -> Excel s:0x2
+  answers val-b4-bools!S!A4: undecided:bool-word -> Excel b:TRUE
+  answers val-b4-bools!S!A5: undecided:bool-word -> Excel b:FALSE
+  answers val-b4-bools!S!A6: b4:no-form -> Excel s:TRUE
+  answers val-b4-bools!S!A7: b4:no-form -> Excel s:2
+  answers val-xescape!S!A5: undecided:xstring-tab-lf -> Excel s:a\tb
+  answers val-xescape!S!B5: undecided:xstring-tab-lf -> Excel s:a\tb
+  answers val-xescape!S!C5: undecided:xstring-tab-lf -> Excel s:a\tb
+  answers val-xescape!S!A6: undecided:xstring-tab-lf -> Excel s:a\nb
+  answers val-xescape!S!B6: undecided:xstring-tab-lf -> Excel s:a\nb
+  answers val-xescape!S!C6: undecided:xstring-tab-lf -> Excel s:a\nb
+  answers pkg-sst-index!S!B1: ecma:18.3.1.4 -> Excel s:x
+  answers pkg-sst-index!S!E1: ecma:18.3.1.4 -> Excel s:1.0

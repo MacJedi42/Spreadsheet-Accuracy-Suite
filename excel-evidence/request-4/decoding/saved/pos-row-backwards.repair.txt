@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recoveryLog xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><logFileName>Repair Result to pos-row-backwards0.xml</logFileName><summary>Errors were detected in file ’/Users/<user>/excel-request-4/decoding/files/pos-row-backwards.xlsx’</summary><removedRecords summary="Following is a list of removed records:"><removedRecord>Removed Records: Cell information from /xl/worksheets/sheet1.xml part</removedRecord></removedRecords></recoveryLog>

@@ -1,0 +1,924 @@
+{"file": "pos-mixed.xlsx", "kind": "file", "sha256": "e032b050229a2225bad35a4b2f6fbe0a9ba33a9883b53f1c9606908bbb7017eb", "shape": "pos-mixed", "state": "clean"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "B1", "excel": "n:2", "expect": "n:2", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "E1", "excel": "n:5", "expect": "n:5", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "F1", "excel": "n:6", "expect": "n:6", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "H1", "excel": "n:14", "expect": "n:14", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A2", "excel": "n:10", "expect": "n:10", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A5", "excel": "n:50", "expect": "n:50", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "C1", "excel": "blank", "expect": "blank", "file": "pos-mixed.xlsx", "repaired": false, "shape": "pos-mixed", "sheet": "S"}
+{"file": "pos-rless-all.xlsx", "kind": "file", "sha256": "7bf7fe4be5cbd696ef2896b036a3eb5e32531f716cc180c9f3c42e128e76e4b5", "shape": "pos-rless-all", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A1", "excel": "s:Id", "expect": "s:Id", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B1", "excel": "s:Amount", "expect": "s:Amount", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A2", "excel": "n:2", "expect": "n:2", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B2", "excel": "n:20", "expect": "n:20", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A3", "excel": "n:3", "expect": "n:3", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B3", "excel": "n:30", "expect": "n:30", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "C3", "excel": "n:90", "expect": "n:90", "file": "pos-rless-all.xlsx", "repaired": false, "shape": "pos-rless-all", "sheet": "S"}
+{"file": "pos-selfclosing-row.xlsx", "kind": "file", "sha256": "fffb6f6331a2a166f40d118ece5ea2b6f37df583982c0adec12b9e594edb3e53", "shape": "pos-selfclosing-row", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-selfclosing-row.xlsx", "repaired": false, "shape": "pos-selfclosing-row", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B1", "excel": "n:4", "expect": "n:4", "file": "pos-selfclosing-row.xlsx", "repaired": false, "shape": "pos-selfclosing-row", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A2", "excel": "blank", "expect": "blank", "file": "pos-selfclosing-row.xlsx", "repaired": false, "shape": "pos-selfclosing-row", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A3", "excel": "n:3", "expect": "n:3", "file": "pos-selfclosing-row.xlsx", "repaired": false, "shape": "pos-selfclosing-row", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A4", "excel": "n:400", "expect": "n:400", "file": "pos-selfclosing-row.xlsx", "repaired": false, "shape": "pos-selfclosing-row", "sheet": "S"}
+{"file": "pos-selfclosing-row-rless.xlsx", "kind": "file", "sha256": "f24d4fa9f47cd5fe288554582b92d3b8206c864dfe353418a15afe5a5c41a3ad", "shape": "pos-selfclosing-row-rless", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A3", "excel": "n:3", "expect": "n:3", "file": "pos-selfclosing-row-rless.xlsx", "repaired": false, "shape": "pos-selfclosing-row-rless", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A4", "excel": "n:400", "expect": "n:400", "file": "pos-selfclosing-row-rless.xlsx", "repaired": false, "shape": "pos-selfclosing-row-rless", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A2", "excel": "blank", "expect": "blank", "file": "pos-selfclosing-row-rless.xlsx", "repaired": false, "shape": "pos-selfclosing-row-rless", "sheet": "S"}
+{"file": "pos-selfclosing-cell.xlsx", "kind": "file", "sha256": "f61af3aea5eb9dc717fb62ab8d51ac6c5be41a07e2c3d9c867f365a8011fcfba", "shape": "pos-selfclosing-cell", "state": "clean"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-selfclosing-cell.xlsx", "repaired": false, "shape": "pos-selfclosing-cell", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "B1", "excel": "blank", "expect": "blank", "file": "pos-selfclosing-cell.xlsx", "repaired": false, "shape": "pos-selfclosing-cell", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "C1", "excel": "n:3", "expect": "n:3", "file": "pos-selfclosing-cell.xlsx", "repaired": false, "shape": "pos-selfclosing-cell", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "D1", "excel": "blank", "expect": "blank", "file": "pos-selfclosing-cell.xlsx", "repaired": false, "shape": "pos-selfclosing-cell", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "E1", "excel": "n:5", "expect": "n:5", "file": "pos-selfclosing-cell.xlsx", "repaired": false, "shape": "pos-selfclosing-cell", "sheet": "S"}
+{"file": "pos-xprefix.xlsx", "kind": "file", "sha256": "3567938395465fab377a1785cc128e1825f80feef3c33ce494814e20329b72ba", "shape": "pos-xprefix", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A1", "excel": "s:Name", "expect": "s:Name", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B1", "excel": "s:Qty", "expect": "s:Qty", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A2", "excel": "s:Bolt", "expect": "s:Bolt", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B2", "excel": "n:12", "expect": "n:12", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A3", "excel": "s:Nut", "expect": "s:Nut", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "B3", "excel": "n:30", "expect": "n:30", "file": "pos-xprefix.xlsx", "repaired": false, "shape": "pos-xprefix", "sheet": "S"}
+{"file": "pos-rless-formulas.xlsx", "kind": "file", "sha256": "bc93de0be3ac7656119aed21991ba6b8cd3f2e0e62e9025d6eae7461100cd0ed", "shape": "pos-rless-formulas", "state": "clean"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:5", "expect": "n:5", "file": "pos-rless-formulas.xlsx", "repaired": false, "shape": "pos-rless-formulas", "sheet": "S"}
+{"agrees": false, "basis": "excel:doc", "cell": "C1", "excel": "n:46303.7412443287", "expect": "n:45000", "file": "pos-rless-formulas.xlsx", "repaired": false, "shape": "pos-rless-formulas", "sheet": "S"}
+{"file": "pos-rless-row-after-explicit.xlsx", "kind": "file", "sha256": "f764f9354d9f117f3646933fa8cd6696645b97cb900d342b069be97424d0b719", "shape": "pos-rless-row-after-explicit", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A3", "excel": "n:3", "expect": "n:3", "file": "pos-rless-row-after-explicit.xlsx", "repaired": false, "shape": "pos-rless-row-after-explicit", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A4", "excel": "n:4", "expect": "n:4", "file": "pos-rless-row-after-explicit.xlsx", "repaired": false, "shape": "pos-rless-row-after-explicit", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A5", "excel": "n:5", "expect": "n:5", "file": "pos-rless-row-after-explicit.xlsx", "repaired": false, "shape": "pos-rless-row-after-explicit", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.73", "cell": "A2", "excel": "blank", "expect": "blank", "file": "pos-rless-row-after-explicit.xlsx", "repaired": false, "shape": "pos-rless-row-after-explicit", "sheet": "S"}
+{"file": "pos-rless-after-gap.xlsx", "kind": "file", "sha256": "10ed82484de87bf1aa1866aca13120c910fb73e31257e3125a120cfef5a41635", "shape": "pos-rless-after-gap", "state": "clean"}
+{"agrees": true, "basis": "excel:doc", "cell": "C1", "excel": "n:3", "expect": "n:3", "file": "pos-rless-after-gap.xlsx", "repaired": false, "shape": "pos-rless-after-gap", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "D1", "excel": "n:4", "expect": "n:4", "file": "pos-rless-after-gap.xlsx", "repaired": false, "shape": "pos-rless-after-gap", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "F1", "excel": "n:6", "expect": "n:6", "file": "pos-rless-after-gap.xlsx", "repaired": false, "shape": "pos-rless-after-gap", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "G1", "excel": "n:7", "expect": "n:7", "file": "pos-rless-after-gap.xlsx", "repaired": false, "shape": "pos-rless-after-gap", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "E1", "excel": "blank", "expect": "blank", "file": "pos-rless-after-gap.xlsx", "repaired": false, "shape": "pos-rless-after-gap", "sheet": "S"}
+{"file": "pos-dup-identical.xlsx", "kind": "file", "sha256": "7a284df3a286445cc427f49bd31f628fb854856ccb633cd7e1339f1598cbe4e8", "shape": "pos-dup-identical", "state": "repaired"}
+{"agrees": true, "basis": "b1:W3", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-dup-identical.xlsx", "repaired": true, "shape": "pos-dup-identical", "sheet": "S"}
+{"agrees": true, "basis": "b1:W3", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pos-dup-identical.xlsx", "repaired": true, "shape": "pos-dup-identical", "sheet": "S"}
+{"agrees": true, "basis": "b1:W3", "cell": "B2", "excel": "n:10", "expect": "n:10", "file": "pos-dup-identical.xlsx", "repaired": true, "shape": "pos-dup-identical", "sheet": "S"}
+{"file": "pos-dup-different.xlsx", "kind": "file", "sha256": "45c5f7669895d52410f482efa1ffca674f78a0dd675d4a8078278c0ba7eeacd0", "shape": "pos-dup-different", "state": "repaired"}
+{"agrees": null, "basis": "undecided:duplicate-cell", "cell": "B1", "excel": "n:5", "expect": "refuse:duplicate-cell", "file": "pos-dup-different.xlsx", "repaired": true, "shape": "pos-dup-different", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-dup-different.xlsx", "repaired": true, "shape": "pos-dup-different", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "B2", "excel": "n:10", "expect": "n:10", "file": "pos-dup-different.xlsx", "repaired": true, "shape": "pos-dup-different", "sheet": "S"}
+{"file": "pos-rless-onto-explicit.xlsx", "kind": "file", "sha256": "a90c7e10fd471a663325deca7f9c7feb52e0c3f868603c0a11fab30e42d3af87", "shape": "pos-rless-onto-explicit", "state": "repaired"}
+{"agrees": null, "basis": "undecided:duplicate-cell", "cell": "A1", "excel": "n:1", "expect": "refuse:duplicate-cell", "file": "pos-rless-onto-explicit.xlsx", "repaired": true, "shape": "pos-rless-onto-explicit", "sheet": "S"}
+{"file": "pos-mismatch.xlsx", "kind": "file", "sha256": "3e7126ed777be712071c19a0a353fbd684324553a7b8508f6db2132e7e06c7de", "shape": "pos-mismatch", "state": "repaired"}
+{"agrees": null, "basis": "undecided:cell-row-mismatch", "cell": "A7", "excel": "blank", "expect": "refuse:cell-row-mismatch", "file": "pos-mismatch.xlsx", "repaired": true, "shape": "pos-mismatch", "sheet": "S"}
+{"agrees": null, "basis": "undecided:cell-row-mismatch", "cell": "A5", "excel": "blank", "expect": "refuse:cell-row-mismatch", "file": "pos-mismatch.xlsx", "repaired": true, "shape": "pos-mismatch", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pos-mismatch.xlsx", "repaired": true, "shape": "pos-mismatch", "sheet": "S"}
+{"file": "pos-row-backwards.xlsx", "kind": "file", "sha256": "eb3214664b2a4f8fea895765cf949c46979f7374bb1f4e7e9d4e3375dc311392", "shape": "pos-row-backwards", "state": "repaired"}
+{"agrees": null, "basis": "undecided:out-of-order", "cell": "A2", "excel": "blank", "expect": "refuse:out-of-order", "file": "pos-row-backwards.xlsx", "repaired": true, "shape": "pos-row-backwards", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A3", "excel": "n:3", "expect": "n:3", "file": "pos-row-backwards.xlsx", "repaired": true, "shape": "pos-row-backwards", "sheet": "S"}
+{"file": "pos-cell-backwards.xlsx", "kind": "file", "sha256": "6746a9ca273e1872e15ea8f17628ce50f6377aefa52cdee880b2a0b084db37be", "shape": "pos-cell-backwards", "state": "repaired"}
+{"agrees": null, "basis": "undecided:out-of-order", "cell": "A1", "excel": "blank", "expect": "refuse:out-of-order", "file": "pos-cell-backwards.xlsx", "repaired": true, "shape": "pos-cell-backwards", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "C1", "excel": "n:3", "expect": "n:3", "file": "pos-cell-backwards.xlsx", "repaired": true, "shape": "pos-cell-backwards", "sheet": "S"}
+{"file": "pos-backwards-identical-blank.xlsx", "kind": "file", "sha256": "00249eb4038577971afa04d9f4f6a0a0d1ad0fa76bbc400e4b360b4b4b795b14", "shape": "pos-backwards-identical-blank", "state": "repaired"}
+{"agrees": true, "basis": "b1:W3", "cell": "B1", "excel": "blank", "expect": "blank", "file": "pos-backwards-identical-blank.xlsx", "repaired": true, "shape": "pos-backwards-identical-blank", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "C1", "excel": "n:3", "expect": "n:3", "file": "pos-backwards-identical-blank.xlsx", "repaired": true, "shape": "pos-backwards-identical-blank", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A2", "excel": "n:2", "expect": "n:2", "file": "pos-backwards-identical-blank.xlsx", "repaired": true, "shape": "pos-backwards-identical-blank", "sheet": "S"}
+{"file": "pos-row-repeated.xlsx", "kind": "file", "sha256": "f198ab74ce11b18ae9e853f4f4a53522790b2b17fcd51822a3a72249e376ee57", "shape": "pos-row-repeated", "state": "clean"}
+{"agrees": true, "basis": "excel:observed", "cell": "A2", "excel": "n:2", "expect": "n:2", "file": "pos-row-repeated.xlsx", "repaired": false, "shape": "pos-row-repeated", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "B2", "excel": "n:3", "expect": "n:3", "file": "pos-row-repeated.xlsx", "repaired": false, "shape": "pos-row-repeated", "sheet": "S"}
+{"file": "val-rph-shared.xlsx", "kind": "file", "sha256": "023b2bf29371d724b62e41ac82d69f956c880d367ee489918bb8b7f68769ba15", "shape": "val-rph-shared", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A1", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-shared.xlsx", "repaired": false, "shape": "val-rph-shared", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A2", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-shared.xlsx", "repaired": false, "shape": "val-rph-shared", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A3", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-shared.xlsx", "repaired": false, "shape": "val-rph-shared", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A4", "excel": "s:田中", "expect": "s:田中", "file": "val-rph-shared.xlsx", "repaired": false, "shape": "val-rph-shared", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A5", "excel": "s: 規制 ", "expect": "s: 規制 ", "file": "val-rph-shared.xlsx", "repaired": false, "shape": "val-rph-shared", "sheet": "S"}
+{"file": "val-rph-inline.xlsx", "kind": "file", "sha256": "dde304467aecf8e246d8b5e96f3af1f3a7ec5c488b8e5dababc18fc06db03e4d", "shape": "val-rph-inline", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A1", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-inline.xlsx", "repaired": false, "shape": "val-rph-inline", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A2", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-inline.xlsx", "repaired": false, "shape": "val-rph-inline", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A3", "excel": "s:田中", "expect": "s:田中", "file": "val-rph-inline.xlsx", "repaired": false, "shape": "val-rph-inline", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.4.6", "cell": "A4", "excel": "s:東京", "expect": "s:東京", "file": "val-rph-inline.xlsx", "repaired": false, "shape": "val-rph-inline", "sheet": "S"}
+{"file": "val-tdate-1900.xlsx", "kind": "file", "sha256": "9d673f2a3637d53ffa17b33135dd1528d15d69013a1c645de0ade8e0d02bf16d", "shape": "val-tdate-1900", "state": "repaired"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A1", "excel": "n:43831", "expect": "date:2020-01-01@43831", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A2", "excel": "n:43831", "expect": "date:2020-01-01@43831", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A3", "excel": "n:43831.5", "expect": "date:2020-01-01T12:00@43831.5", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A4", "excel": "n:43831.5", "expect": "date:2020-01-01T12:00@43831.5", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A5", "excel": "n:43831.50034722222", "expect": "date:2020-01-01T12:00:30@43831.50034722222", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A6", "excel": "n:43831.50034722222", "expect": "date:2020-01-01T12:00:30@43831.50034722222", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A7", "excel": "n:43831.50035011574", "expect": "date:2020-01-01T12:00:30.250@43831.50035011574", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A8", "excel": "n:43831.50035011574", "expect": "date:2020-01-01T12:00:30.250@43831.50035011574", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A9", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A10", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A11", "excel": "n:2958465.9999999884", "expect": "date:9999-12-31T23:59:59.999@2958465.9999999884", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A12", "excel": "n:2958465.9999999884", "expect": "date:9999-12-31T23:59:59.999@2958465.9999999884", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A13", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A14", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-zone", "cell": "A15", "excel": "n:43831", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-zone", "cell": "A16", "excel": "s:2020-01-01T00:00:00+13:00", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-time-alone", "cell": "A17", "excel": "n:0.5", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-week", "cell": "A18", "excel": "s:2020-W01-3", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-ordinal", "cell": "A19", "excel": "s:2020-001", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-hour-24", "cell": "A20", "excel": "n:43832", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-fraction-digits", "cell": "A21", "excel": "n:43831.5003484375", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-not-complete", "cell": "A22", "excel": "s:2020-1-1", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-basic", "cell": "A23", "excel": "n:43831", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-space", "cell": "A24", "excel": "s:2020-01-01 12:00", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-no-such-day", "cell": "A25", "excel": "s:2020-02-30", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-past-9999", "cell": "A26", "excel": "s:10000-01-01", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-before-1900-03-01", "cell": "A27", "excel": "n:59", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-1900-02-29", "cell": "A28", "excel": "n:60", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-before-1900-03-01", "cell": "A29", "excel": "e:#VALUE!", "expect": "unreadable:iso-date", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"agrees": true, "basis": "b4:empty-v", "cell": "A30", "excel": "blank", "expect": "blank", "file": "val-tdate-1900.xlsx", "repaired": true, "shape": "val-tdate-1900", "sheet": "S"}
+{"file": "val-tdate-1904.xlsx", "kind": "file", "sha256": "9bb70fa9ceca8ac1c34fe48067e0fec0337d3da77b57625250a7c7e08693b946", "shape": "val-tdate-1904", "state": "repaired"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A1", "excel": "n:42369", "expect": "date:2020-01-01@42369", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A2", "excel": "n:42369", "expect": "date:2020-01-01@42369", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A3", "excel": "n:42369.5", "expect": "date:2020-01-01T12:00@42369.5", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A4", "excel": "n:42369.5", "expect": "date:2020-01-01T12:00@42369.5", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A5", "excel": "n:42369.50034722222", "expect": "date:2020-01-01T12:00:30@42369.50034722222", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A6", "excel": "n:42369.50034722222", "expect": "date:2020-01-01T12:00:30@42369.50034722222", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A7", "excel": "n:42369.50035011574", "expect": "date:2020-01-01T12:00:30.250@42369.50035011574", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A8", "excel": "n:42369.50035011574", "expect": "date:2020-01-01T12:00:30.250@42369.50035011574", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A9", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A10", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A11", "excel": "n:2957003.9999999884", "expect": "date:9999-12-31T23:59:59.999@2957003.9999999884", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A12", "excel": "n:2957003.9999999884", "expect": "date:9999-12-31T23:59:59.999@2957003.9999999884", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A13", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A14", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A15", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A16", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A17", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A18", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A19", "excel": "n:0.25", "expect": "date:1904-01-01T06:00@0.25", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4", "cell": "A20", "excel": "n:0.25", "expect": "date:1904-01-01T06:00@0.25", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-zone", "cell": "A21", "excel": "n:42369", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-zone", "cell": "A22", "excel": "s:2020-01-01T00:00:00+13:00", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-time-alone", "cell": "A23", "excel": "n:0.5", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-week", "cell": "A24", "excel": "s:2020-W01-3", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-ordinal", "cell": "A25", "excel": "s:2020-001", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-hour-24", "cell": "A26", "excel": "n:42370", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-fraction-digits", "cell": "A27", "excel": "n:42369.5003484375", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-not-complete", "cell": "A28", "excel": "s:2020-1-1", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-basic", "cell": "A29", "excel": "n:42369", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-space", "cell": "A30", "excel": "s:2020-01-01 12:00", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-no-such-day", "cell": "A31", "excel": "s:2020-02-30", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-past-9999", "cell": "A32", "excel": "s:10000-01-01", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-before-1904", "cell": "A33", "excel": "e:#VALUE!", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": null, "basis": "undecided:iso-before-1904", "cell": "A34", "excel": "e:#VALUE!", "expect": "unreadable:iso-date", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"agrees": true, "basis": "b4:empty-v", "cell": "A35", "excel": "blank", "expect": "blank", "file": "val-tdate-1904.xlsx", "repaired": true, "shape": "val-tdate-1904", "sheet": "S"}
+{"file": "val-utf16le-sheet.xlsx", "kind": "file", "sha256": "3c4ef2d30c92cd31b389f76e64a6385381fded766ff4b79c407fa6ad3f5e9c64", "shape": "val-utf16le-sheet", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "n:5", "expect": "n:5", "file": "val-utf16le-sheet.xlsx", "repaired": false, "shape": "val-utf16le-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "n:7", "expect": "n:7", "file": "val-utf16le-sheet.xlsx", "repaired": false, "shape": "val-utf16le-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Größe", "expect": "s:Größe", "file": "val-utf16le-sheet.xlsx", "repaired": false, "shape": "val-utf16le-sheet", "sheet": "S"}
+{"file": "val-utf16be-sheet.xlsx", "kind": "file", "sha256": "5ae6e9a25bc6d56ab6e85ef8e8caef577cce3414985173a5d6787a5b4f4a2c4b", "shape": "val-utf16be-sheet", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "n:5", "expect": "n:5", "file": "val-utf16be-sheet.xlsx", "repaired": false, "shape": "val-utf16be-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "n:7", "expect": "n:7", "file": "val-utf16be-sheet.xlsx", "repaired": false, "shape": "val-utf16be-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Größe", "expect": "s:Größe", "file": "val-utf16be-sheet.xlsx", "repaired": false, "shape": "val-utf16be-sheet", "sheet": "S"}
+{"file": "val-utf8bom-sheet.xlsx", "kind": "file", "sha256": "73031332c58dbee53c94ee5889c1697f778b57189c324078441d3250bf868283", "shape": "val-utf8bom-sheet", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "n:5", "expect": "n:5", "file": "val-utf8bom-sheet.xlsx", "repaired": false, "shape": "val-utf8bom-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "n:7", "expect": "n:7", "file": "val-utf8bom-sheet.xlsx", "repaired": false, "shape": "val-utf8bom-sheet", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Größe", "expect": "s:Größe", "file": "val-utf8bom-sheet.xlsx", "repaired": false, "shape": "val-utf8bom-sheet", "sheet": "S"}
+{"file": "val-utf16le-sst.xlsx", "kind": "file", "sha256": "193139b92cc3779493ba137c3b56c17d7bef2b09199d0a602c7712ee5adcbaca", "shape": "val-utf16le-sst", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "val-utf16le-sst.xlsx", "repaired": false, "shape": "val-utf16le-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "val-utf16le-sst.xlsx", "repaired": false, "shape": "val-utf16le-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Ärger", "expect": "s:Ärger", "file": "val-utf16le-sst.xlsx", "repaired": false, "shape": "val-utf16le-sst", "sheet": "S"}
+{"file": "val-utf16be-sst.xlsx", "kind": "file", "sha256": "8352d0cffabefa072ecb3c5e2cc883af50206aba2f51c3eedbc6dac1cbd48c30", "shape": "val-utf16be-sst", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "val-utf16be-sst.xlsx", "repaired": false, "shape": "val-utf16be-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "val-utf16be-sst.xlsx", "repaired": false, "shape": "val-utf16be-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Ärger", "expect": "s:Ärger", "file": "val-utf16be-sst.xlsx", "repaired": false, "shape": "val-utf16be-sst", "sheet": "S"}
+{"file": "val-utf8bom-sst.xlsx", "kind": "file", "sha256": "aaa42ba0cd3ab999cac4153f16909b75f6eca49be18b4072a2723ddf8cc1228c", "shape": "val-utf8bom-sst", "state": "clean"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "val-utf8bom-sst.xlsx", "repaired": false, "shape": "val-utf8bom-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "val-utf8bom-sst.xlsx", "repaired": false, "shape": "val-utf8bom-sst", "sheet": "S"}
+{"agrees": true, "basis": "xml:4.3.3", "cell": "A3", "excel": "s:Ärger", "expect": "s:Ärger", "file": "val-utf8bom-sst.xlsx", "repaired": false, "shape": "val-utf8bom-sst", "sheet": "S"}
+{"file": "val-cp1252-sst.xlsx", "kind": "file", "sha256": "9e2e50f6d4c050060dfde856c477f6a85732750b4f2f7abb125f5663b02cca83", "shape": "val-cp1252-sst", "state": "clean"}
+{"agrees": true, "basis": "excel:observed", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "val-cp1252-sst.xlsx", "repaired": false, "shape": "val-cp1252-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "val-cp1252-sst.xlsx", "repaired": false, "shape": "val-cp1252-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A3", "excel": "s:Café", "expect": "s:Café", "file": "val-cp1252-sst.xlsx", "repaired": false, "shape": "val-cp1252-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "val-cp1252-sst.xlsx", "repaired": false, "shape": "val-cp1252-sst", "sheet": "S"}
+{"file": "val-latin1-ascii-sheet.xlsx", "kind": "file", "sha256": "16a5b74d60c31a4b260a8bb6d3e50887e5376e12210ab819fdb488daf2f05155", "shape": "val-latin1-ascii-sheet", "state": "clean"}
+{"agrees": true, "basis": "excel:observed", "cell": "A1", "excel": "n:5", "expect": "n:5", "file": "val-latin1-ascii-sheet.xlsx", "repaired": false, "shape": "val-latin1-ascii-sheet", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A2", "excel": "n:7", "expect": "n:7", "file": "val-latin1-ascii-sheet.xlsx", "repaired": false, "shape": "val-latin1-ascii-sheet", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A3", "excel": "s:Grosse", "expect": "s:Grosse", "file": "val-latin1-ascii-sheet.xlsx", "repaired": false, "shape": "val-latin1-ascii-sheet", "sheet": "S"}
+{"file": "val-utf16le-nobom-sst.xlsx", "kind": "file", "sha256": "d571387f22eab1c19410f7a16905ef0a0c36e3a6bcd298131995f3585c443e8d", "shape": "val-utf16le-nobom-sst", "state": "clean"}
+{"agrees": true, "basis": "excel:observed", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "val-utf16le-nobom-sst.xlsx", "repaired": false, "shape": "val-utf16le-nobom-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "val-utf16le-nobom-sst.xlsx", "repaired": false, "shape": "val-utf16le-nobom-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "A3", "excel": "s:Ärger", "expect": "s:Ärger", "file": "val-utf16le-nobom-sst.xlsx", "repaired": false, "shape": "val-utf16le-nobom-sst", "sheet": "S"}
+{"agrees": true, "basis": "excel:observed", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "val-utf16le-nobom-sst.xlsx", "repaired": false, "shape": "val-utf16le-nobom-sst", "sheet": "S"}
+{"file": "val-badutf8-sst.xlsx", "kind": "file", "sha256": "1c5587ccd01c85a5097ffb9e918b05dd79c993c43465c59b4423fdd1522d5947", "shape": "val-badutf8-sst", "state": "repaired"}
+{"file": "val-badutf8-inline.xlsx", "kind": "file", "sha256": "a98ebdd143e7d006646570a91f7752baed2719ef54f5688ca82c9d2e89db93d9", "shape": "val-badutf8-inline", "state": "repaired"}
+{"file": "val-badutf8-v.xlsx", "kind": "file", "sha256": "bd8e5a93f01a2d2fed6eb42ed536747d693f7f2570bca164f1c3d14f8f024461", "shape": "val-badutf8-v", "state": "repaired"}
+{"file": "val-badutf8-f.xlsx", "kind": "file", "sha256": "42448872a565ffcfab8f5514b54ebbbbf36aa584ae2b9aaa1151628ecdcaf68d", "shape": "val-badutf8-f", "state": "repaired"}
+{"file": "val-trunc-sheet.xlsx", "kind": "file", "sha256": "a1222a4bb77b73fa2bbc429d047dca27852938be4bbe79a478db0960b339dc0a", "shape": "val-trunc-sheet", "state": "repaired"}
+{"file": "val-trunc-sst.xlsx", "kind": "file", "sha256": "e85d49e2eb426cbc9cf438b4fcce4f1d49fd2b43326f7dd008d825ad829a3901", "shape": "val-trunc-sst", "state": "repaired"}
+{"file": "val-trunc-styles.xlsx", "kind": "file", "sha256": "c4bd5d1b7a71c83f6c91019484eb417c43122cba5a7e23dc76e35d84c8cd8121", "shape": "val-trunc-styles", "state": "repaired"}
+{"file": "val-trunc-workbook.xlsx", "kind": "file", "sha256": "edcf5e93c03f7c32794b6f7a1339ef27e52ed0bb44869827eca7919a24031afa", "shape": "val-trunc-workbook", "state": "refused"}
+{"file": "val-trunc-rels.xlsx", "kind": "file", "sha256": "7219ba57dab771b5e8f465ad4fa118af6b0ade623580a7d2e1cda0948b62f997", "shape": "val-trunc-rels", "state": "repaired"}
+{"file": "val-mismatched-tags.xlsx", "kind": "file", "sha256": "c89150058481590ea7ca7e497e79fbd3ba6902ca9966109434064f028accbcbb", "shape": "val-mismatched-tags", "state": "repaired"}
+{"file": "val-b4-numbers.xlsx", "kind": "file", "sha256": "b0118ec87bf713c62c9ea878eb49c4d05f1d5f7c31a68565826ee2cda49cfe10", "shape": "val-b4-numbers", "state": "repaired"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A1", "excel": "n:42", "expect": "n:42", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A2", "excel": "n:8", "expect": "n:8", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "excel:observed", "cell": "A3", "excel": "s:+5", "expect": "unreadable:no-form", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A4", "excel": "n:0", "expect": "n:0", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A5", "excel": "n:1000", "expect": "n:1000", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A6", "excel": "n:0.5", "expect": "n:0.5", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-double", "cell": "A7", "excel": "n:5", "expect": "n:5", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "excel:observed", "cell": "A8", "excel": "s:NaN", "expect": "unreadable:non-finite", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "excel:observed", "cell": "A9", "excel": "s:INF", "expect": "unreadable:non-finite", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "excel:observed", "cell": "A10", "excel": "s:-INF", "expect": "unreadable:non-finite", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "excel:observed", "cell": "A11", "excel": "e:#NULL!", "expect": "unreadable:non-finite", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A12", "excel": "s:inf", "expect": "unreadable:no-form", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A13", "excel": "s:nan", "expect": "unreadable:no-form", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A14", "excel": "s:1,5", "expect": "unreadable:no-form", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A15", "excel": "s:0x2", "expect": "unreadable:no-form", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"agrees": true, "basis": "b4:decision-37", "cell": "A16", "excel": "blank", "expect": "blank", "file": "val-b4-numbers.xlsx", "repaired": true, "shape": "val-b4-numbers", "sheet": "S"}
+{"file": "val-b4-bools.xlsx", "kind": "file", "sha256": "175a7d4442df90496b33fd662dd589634d8c03796f605d93c4bdfeefa5656d4a", "shape": "val-b4-bools", "state": "repaired"}
+{"agrees": true, "basis": "b4:xsd-boolean", "cell": "A1", "excel": "b:TRUE", "expect": "b:TRUE", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-boolean", "cell": "A2", "excel": "b:FALSE", "expect": "b:FALSE", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": true, "basis": "b4:xsd-boolean", "cell": "A3", "excel": "b:TRUE", "expect": "b:TRUE", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": null, "basis": "undecided:bool-word", "cell": "A4", "excel": "b:TRUE", "expect": "unreadable:bool-word", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": null, "basis": "undecided:bool-word", "cell": "A5", "excel": "b:FALSE", "expect": "unreadable:bool-word", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A6", "excel": "s:TRUE", "expect": "unreadable:no-form", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": null, "basis": "b4:no-form", "cell": "A7", "excel": "s:2", "expect": "unreadable:no-form", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": true, "basis": "b4:decision-37", "cell": "A8", "excel": "s:", "expect": "s:", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "A9", "excel": "e:#N/A", "expect": "e:#N/A", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "B9", "excel": "e:#DIV/0!", "expect": "e:#DIV/0!", "file": "val-b4-bools.xlsx", "repaired": true, "shape": "val-b4-bools", "sheet": "S"}
+{"file": "val-cdata.xlsx", "kind": "file", "sha256": "c67396f40049886700a209a83f45654973ad2276aaf3eef2b24dce2534bb76e4", "shape": "val-cdata", "state": "clean"}
+{"agrees": true, "basis": "xml:2.7", "cell": "A1", "excel": "n:42", "expect": "n:42", "file": "val-cdata.xlsx", "repaired": false, "shape": "val-cdata", "sheet": "S"}
+{"agrees": true, "basis": "xml:2.7", "cell": "B1", "excel": "s:a<b", "expect": "s:a<b", "file": "val-cdata.xlsx", "repaired": false, "shape": "val-cdata", "sheet": "S"}
+{"agrees": true, "basis": "xml:2.7", "cell": "C1", "excel": "s:x&y", "expect": "s:x&y", "file": "val-cdata.xlsx", "repaired": false, "shape": "val-cdata", "sheet": "S"}
+{"agrees": true, "basis": "xml:2.7", "cell": "D1", "excel": "n:84", "expect": "n:84", "file": "val-cdata.xlsx", "repaired": false, "shape": "val-cdata", "sheet": "S"}
+{"agrees": true, "basis": "xml:2.7", "cell": "E1", "excel": "s:abcd", "expect": "s:abcd", "file": "val-cdata.xlsx", "repaired": false, "shape": "val-cdata", "sheet": "S"}
+{"file": "val-xescape.xlsx", "kind": "file", "sha256": "e85c2cc6b588b25493f2bc9e937b886e42e04a1b73e66c9dbaa1bdd26622addb", "shape": "val-xescape", "state": "clean"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "A1", "excel": "s:ABC", "expect": "s:ABC", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "B1", "excel": "s:ABC", "expect": "s:ABC", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "C1", "excel": "s:ABC", "expect": "s:ABC", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "A2", "excel": "s:a\\rb", "expect": "s:a\\rb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "B2", "excel": "s:a\\rb", "expect": "s:a\\rb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "C2", "excel": "s:a\\rb", "expect": "s:a\\rb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "A3", "excel": "s:_x0041_", "expect": "s:_x0041_", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "B3", "excel": "s:_x0041_", "expect": "s:_x0041_", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "C3", "excel": "s:_x0041_", "expect": "s:_x0041_", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "A4", "excel": "s:x\\u{7}y", "expect": "s:x\\u{7}y", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "B4", "excel": "s:x\\u{7}y", "expect": "s:x\\u{7}y", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "ecma:22.9.2.19", "cell": "C4", "excel": "s:x\\u{7}y", "expect": "s:x\\u{7}y", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "A5", "excel": "s:a\\tb", "expect": "s:a\\tb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "B5", "excel": "s:a\\tb", "expect": "s:a\\tb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "C5", "excel": "s:a\\tb", "expect": "s:a\\tb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "A6", "excel": "s:a\\nb", "expect": "s:a\\nb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "B6", "excel": "s:a\\nb", "expect": "s:a\\nb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"agrees": true, "basis": "settled:X3", "cell": "C6", "excel": "s:a\\nb", "expect": "s:a\\nb", "file": "val-xescape.xlsx", "repaired": false, "shape": "val-xescape", "sheet": "S"}
+{"file": "pkg-sst-relative.xlsx", "kind": "file", "sha256": "5472e0dfc0b1b01c883c30416eb817fea7be66c6b100a62d4a0ba119219a2707", "shape": "pkg-sst-relative", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-sst-relative.xlsx", "repaired": false, "shape": "pkg-sst-relative", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-sst-relative.xlsx", "repaired": false, "shape": "pkg-sst-relative", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-sst-relative.xlsx", "repaired": false, "shape": "pkg-sst-relative", "sheet": "S"}
+{"file": "pkg-sst-absolute.xlsx", "kind": "file", "sha256": "105f4c12b266d35c31c9c2877171af72a69657ec0dd4ece2cd6425c6fab36775", "shape": "pkg-sst-absolute", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-sst-absolute.xlsx", "repaired": false, "shape": "pkg-sst-absolute", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-sst-absolute.xlsx", "repaired": false, "shape": "pkg-sst-absolute", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-sst-absolute.xlsx", "repaired": false, "shape": "pkg-sst-absolute", "sheet": "S"}
+{"file": "pkg-sst-dotdot.xlsx", "kind": "file", "sha256": "bf07ba3dab31f59c199b8d16cc24e07ea1d5e24db5749b3da50fbe1822ad52f9", "shape": "pkg-sst-dotdot", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-sst-dotdot.xlsx", "repaired": false, "shape": "pkg-sst-dotdot", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-sst-dotdot.xlsx", "repaired": false, "shape": "pkg-sst-dotdot", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-sst-dotdot.xlsx", "repaired": false, "shape": "pkg-sst-dotdot", "sheet": "S"}
+{"file": "pkg-sst-case.xlsx", "kind": "file", "sha256": "33bed7bc2cae7d9c68f4f1cda9f2d217a906cdcf604368a62a52ee528fe0280e", "shape": "pkg-sst-case", "state": "clean"}
+{"agrees": true, "basis": "opc:6.2.2.3", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-sst-case.xlsx", "repaired": false, "shape": "pkg-sst-case", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.2.2.3", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-sst-case.xlsx", "repaired": false, "shape": "pkg-sst-case", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.2.2.3", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-sst-case.xlsx", "repaired": false, "shape": "pkg-sst-case", "sheet": "S"}
+{"file": "pkg-styles-elsewhere.xlsx", "kind": "file", "sha256": "fda8b4f665c4766a91695cb3cf13eb786741e69668c0d8b26dba31bbb373facb", "shape": "pkg-styles-elsewhere", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "n:43831", "expect": "date:2020-01-01@43831", "file": "pkg-styles-elsewhere.xlsx", "repaired": false, "shape": "pkg-styles-elsewhere", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:0.5", "expect": "n:0.5", "file": "pkg-styles-elsewhere.xlsx", "repaired": false, "shape": "pkg-styles-elsewhere", "sheet": "S"}
+{"file": "pkg-workbook-relocated.xlsx", "kind": "file", "sha256": "1f4e90892e85fb294c486d12a01adf4691f7f64df4e54855d5bae5369a2d040d", "shape": "pkg-workbook-relocated", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-workbook-relocated.xlsx", "repaired": false, "shape": "pkg-workbook-relocated", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-workbook-relocated.xlsx", "repaired": false, "shape": "pkg-workbook-relocated", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-workbook-relocated.xlsx", "repaired": false, "shape": "pkg-workbook-relocated", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A3", "excel": "n:43831", "expect": "date:2020-01-01@43831", "file": "pkg-workbook-relocated.xlsx", "repaired": false, "shape": "pkg-workbook-relocated", "sheet": "S"}
+{"file": "pkg-strict.xlsx", "kind": "file", "sha256": "e07029bd87ca30be2c19034d9b2a593fb211b0813fddcbf43fb3f47237b1d3ed", "shape": "pkg-strict", "state": "clean"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A1", "excel": "s:North", "expect": "s:North", "file": "pkg-strict.xlsx", "repaired": false, "shape": "pkg-strict", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A2", "excel": "s:South", "expect": "s:South", "file": "pkg-strict.xlsx", "repaired": false, "shape": "pkg-strict", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-strict.xlsx", "repaired": false, "shape": "pkg-strict", "sheet": "S"}
+{"agrees": true, "basis": "opc:6.5", "cell": "A3", "excel": "n:43831", "expect": "date:2020-01-01@43831", "file": "pkg-strict.xlsx", "repaired": false, "shape": "pkg-strict", "sheet": "S"}
+{"file": "pkg-sst-norel.xlsx", "kind": "file", "sha256": "65c70c63a716b76c20f224528418154a62556ffc6e889775967e9d65342b9dbd", "shape": "pkg-sst-norel", "state": "repaired"}
+{"agrees": null, "basis": "opc:absent", "cell": "A1", "excel": "blank", "expect": "unreadable:sst-index", "file": "pkg-sst-norel.xlsx", "repaired": true, "shape": "pkg-sst-norel", "sheet": "S"}
+{"agrees": null, "basis": "opc:absent", "cell": "A2", "excel": "blank", "expect": "unreadable:sst-index", "file": "pkg-sst-norel.xlsx", "repaired": true, "shape": "pkg-sst-norel", "sheet": "S"}
+{"agrees": true, "basis": "opc:absent", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-sst-norel.xlsx", "repaired": true, "shape": "pkg-sst-norel", "sheet": "S"}
+{"file": "pkg-styles-norel.xlsx", "kind": "file", "sha256": "27e53e68e3ebed57525c6d617310ceaee44b176625d3bd07c0b36935b6bad19d", "shape": "pkg-styles-norel", "state": "repaired"}
+{"agrees": true, "basis": "opc:absent", "cell": "A1", "excel": "n:43831", "expect": "n:43831", "file": "pkg-styles-norel.xlsx", "repaired": true, "shape": "pkg-styles-norel", "sheet": "S"}
+{"file": "pkg-missing-sst.xlsx", "kind": "file", "sha256": "cdac8dcdee3f43b50f5a321e776641e34121daab9dcc2db8567d5602ea64b586", "shape": "pkg-missing-sst", "state": "repaired"}
+{"file": "pkg-missing-styles.xlsx", "kind": "file", "sha256": "0b3ff8d45bcf6cde464ea2c84abf9bd2bbad4194a1e7453fdf40e34fc4c0039b", "shape": "pkg-missing-styles", "state": "clean"}
+{"agrees": true, "basis": "opc:absent", "cell": "A1", "excel": "n:1", "expect": "n:1", "file": "pkg-missing-styles.xlsx", "repaired": false, "shape": "pkg-missing-styles", "sheet": "S"}
+{"file": "pkg-missing-sheet.xlsx", "kind": "file", "sha256": "80c6fcc0c662e262214d8584c67ca9aeeefa8059b15bc3a634c407563ed4bbe9", "shape": "pkg-missing-sheet", "state": "repaired"}
+{"file": "pkg-sst-index.xlsx", "kind": "file", "sha256": "da44f8a60c5fa9c8d013822f061bd5475ef9fc7e27c88be67b077a41e0e5cb4f", "shape": "pkg-sst-index", "state": "repaired"}
+{"agrees": null, "basis": "ecma:18.3.1.4", "cell": "A1", "excel": "blank", "expect": "unreadable:sst-index", "file": "pkg-sst-index.xlsx", "repaired": true, "shape": "pkg-sst-index", "sheet": "S"}
+{"agrees": null, "basis": "ecma:18.3.1.4", "cell": "B1", "excel": "s:x", "expect": "unreadable:sst-index", "file": "pkg-sst-index.xlsx", "repaired": true, "shape": "pkg-sst-index", "sheet": "S"}
+{"agrees": null, "basis": "ecma:18.3.1.4", "cell": "D1", "excel": "blank", "expect": "unreadable:sst-index", "file": "pkg-sst-index.xlsx", "repaired": true, "shape": "pkg-sst-index", "sheet": "S"}
+{"agrees": null, "basis": "ecma:18.3.1.4", "cell": "E1", "excel": "s:1.0", "expect": "unreadable:sst-index", "file": "pkg-sst-index.xlsx", "repaired": true, "shape": "pkg-sst-index", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.4", "cell": "C1", "excel": "s:Only", "expect": "s:Only", "file": "pkg-sst-index.xlsx", "repaired": true, "shape": "pkg-sst-index", "sheet": "S"}
+{"file": "pkg-no-sst.xlsx", "kind": "file", "sha256": "debfb1d770f6348ecb864692dd1ff5f04f3787c8887b85c25b18e7ff3fce0d2e", "shape": "pkg-no-sst", "state": "repaired"}
+{"agrees": null, "basis": "ecma:18.3.1.4", "cell": "A1", "excel": "blank", "expect": "unreadable:sst-index", "file": "pkg-no-sst.xlsx", "repaired": true, "shape": "pkg-no-sst", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.3.1.4", "cell": "B1", "excel": "n:5", "expect": "n:5", "file": "pkg-no-sst.xlsx", "repaired": true, "shape": "pkg-no-sst", "sheet": "S"}
+{"file": "date-1904-display.xlsx", "kind": "file", "sha256": "b4db57c46371b5fea84eed91488fe39808ec85172b096d65497890fb6c930850", "shape": "date-1904-display", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A2", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A3", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A4", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A5", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A6", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A7", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A8", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A9", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A10", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A11", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A12", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A13", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A14", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A15", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A16", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A17", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A18", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A19", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A20", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A21", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A22", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A23", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A24", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A25", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A26", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A27", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A28", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A29", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A30", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A31", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A32", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A33", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A34", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A35", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A36", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A37", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A38", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A39", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A40", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A41", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A42", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A43", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A44", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A45", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A46", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A47", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A48", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A49", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A50", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A51", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A52", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A53", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A54", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A55", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A56", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A57", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A58", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A59", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A60", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A61", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A62", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A63", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A64", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A65", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A66", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A67", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A68", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A69", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A70", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A71", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A72", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A73", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A74", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A75", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A76", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A77", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A78", "excel": "n:0", "expect": "date:1904-01-01@0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A79", "excel": "n:1", "expect": "date:1904-01-02@1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A80", "excel": "n:59", "expect": "date:1904-02-29@59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A81", "excel": "n:60", "expect": "date:1904-03-01@60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A82", "excel": "n:61", "expect": "date:1904-03-02@61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A83", "excel": "n:366", "expect": "date:1905-01-01@366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A84", "excel": "n:1462", "expect": "date:1908-01-02@1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A85", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A86", "excel": "n:40000.75", "expect": "date:2013-07-07T18:00:00@40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A87", "excel": "n:43000.5", "expect": "date:2021-09-23T12:00:00@43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A88", "excel": "n:2957003", "expect": "date:9999-12-31@2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A89", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A90", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A91", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A92", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A93", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A94", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A95", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A96", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A97", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A98", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A99", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A100", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A101", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A102", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A103", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A104", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A105", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A106", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A107", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A108", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A109", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A110", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A111", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A112", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A113", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A114", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A115", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A116", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A117", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A118", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A119", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A120", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A121", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A122", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A123", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A124", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A125", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A126", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A127", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A128", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A129", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A130", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A131", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A132", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A133", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A134", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A135", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A136", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A137", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A138", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A139", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A140", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A141", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A142", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A143", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A144", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A145", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A146", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A147", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A148", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A149", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A150", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A151", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A152", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A153", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A154", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A155", "excel": "n:0", "expect": "n:0", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A156", "excel": "n:1", "expect": "n:1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A157", "excel": "n:59", "expect": "n:59", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A158", "excel": "n:60", "expect": "n:60", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A159", "excel": "n:61", "expect": "n:61", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A160", "excel": "n:366", "expect": "n:366", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A161", "excel": "n:1462", "expect": "n:1462", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A162", "excel": "n:40000", "expect": "n:40000", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A163", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A164", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A165", "excel": "n:2957003", "expect": "n:2957003", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"agrees": true, "basis": "undecided:negative-1904-display", "cell": "A166", "excel": "n:-1", "expect": "n:-1", "file": "date-1904-display.xlsx", "repaired": false, "shape": "date-1904-display", "sheet": "S"}
+{"file": "date-1900-display.xlsx", "kind": "file", "sha256": "9b79db8d81ab6b8870c6ddd6a185166f7b01ed51dbd21631915a6cf53b7e0a31", "shape": "date-1900-display", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A2", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A3", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A4", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A5", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A6", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A7", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A8", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A9", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A10", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A11", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A12", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A13", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A14", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A15", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A16", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A17", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A18", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A19", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A20", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A21", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A22", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A23", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A24", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A25", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A26", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A27", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A28", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A29", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A30", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A31", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A32", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A33", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A34", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A35", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A36", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A37", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A38", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A39", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A40", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A41", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A42", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A43", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A44", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A45", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A46", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A47", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A48", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A49", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A50", "excel": "n:61", "expect": "date:1900-03-01@61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A51", "excel": "n:366", "expect": "date:1900-12-31@366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A52", "excel": "n:1462", "expect": "date:1904-01-01@1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A53", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A54", "excel": "n:40000.75", "expect": "date:2009-07-06T18:00:00@40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A55", "excel": "n:43000.5", "expect": "date:2017-09-22T12:00:00@43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A56", "excel": "n:2958465", "expect": "date:9999-12-31@2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A57", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A58", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A59", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A60", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A61", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A62", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A63", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A64", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A65", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A66", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A67", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A68", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A69", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A70", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A71", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A72", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A73", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A74", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A75", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A76", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A77", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A78", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A79", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A80", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A81", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A82", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A83", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A84", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A85", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A86", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A87", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A88", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A89", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A90", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A91", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A92", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A93", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A94", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A95", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A96", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A97", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A98", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A99", "excel": "n:61", "expect": "n:61", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A100", "excel": "n:366", "expect": "n:366", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A101", "excel": "n:1462", "expect": "n:1462", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A102", "excel": "n:40000", "expect": "n:40000", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A103", "excel": "n:40000.75", "expect": "n:40000.75", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A104", "excel": "n:43000.5", "expect": "n:43000.5", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A105", "excel": "n:2958465", "expect": "n:2958465", "file": "date-1900-display.xlsx", "repaired": false, "shape": "date-1900-display", "sheet": "S"}
+{"file": "date-1904-true.xlsx", "kind": "file", "sha256": "a9fafa7d06a8e4f72bf58ba9854c7fa3b378f70ea6157b5416170a37cf838210", "shape": "date-1904-true", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-true.xlsx", "repaired": false, "shape": "date-1904-true", "sheet": "S"}
+{"file": "date-1904-false.xlsx", "kind": "file", "sha256": "a2512072127684bfabed97c2765bf5cd75ecf52f265ca69859f7dd9cbc703983", "shape": "date-1904-false", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1904-false.xlsx", "repaired": false, "shape": "date-1904-false", "sheet": "S"}
+{"file": "date-1904-zero.xlsx", "kind": "file", "sha256": "d448854cab84d3a380ff379fbfc79ff728b7b547dae7d88a115593eaf7472e37", "shape": "date-1904-zero", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1904-zero.xlsx", "repaired": false, "shape": "date-1904-zero", "sheet": "S"}
+{"file": "date-1904-absent.xlsx", "kind": "file", "sha256": "7a9b9e4472b02bffe7a1eaa4eafaaa021e47997a81ddb9cc3cd97da3070e437b", "shape": "date-1904-absent", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:40000", "expect": "date:2009-07-06@40000", "file": "date-1904-absent.xlsx", "repaired": false, "shape": "date-1904-absent", "sheet": "S"}
+{"file": "date-1904-prefixed.xlsx", "kind": "file", "sha256": "cef989f961effaf9fd5b09e91e4a686524a8915c7736aaff41243272e9431b67", "shape": "date-1904-prefixed", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A1", "excel": "n:40000", "expect": "date:2013-07-07@40000", "file": "date-1904-prefixed.xlsx", "repaired": false, "shape": "date-1904-prefixed", "sheet": "S"}
+{"file": "date-1904-ops.xlsx", "kind": "file", "sha256": "65253ed61c34573308a542b235f605e7ba3d7d191afcb7e1169996fd3c1f0d4c", "shape": "date-1904-ops", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A2", "excel": "n:39811", "expect": "date:2012-12-30@39811", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A3", "excel": "n:39812", "expect": "date:2012-12-31@39812", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A4", "excel": "n:39813", "expect": "date:2013-01-01@39813", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A5", "excel": "n:39813", "expect": "date:2013-01-01@39813", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A6", "excel": "n:39827", "expect": "date:2013-01-15@39827", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A7", "excel": "n:39843", "expect": "date:2013-01-31@39843", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A8", "excel": "n:39844", "expect": "date:2013-02-01@39844", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A9", "excel": "n:39871", "expect": "date:2013-02-28@39871", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A10", "excel": "n:39872", "expect": "date:2013-03-01@39872", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A11", "excel": "n:40178", "expect": "date:2014-01-01@40178", "file": "date-1904-ops.xlsx", "repaired": false, "shape": "date-1904-ops", "sheet": "S"}
+{"file": "date-1900-ops.xlsx", "kind": "file", "sha256": "3dea73086cffc5d641c439ff6ef226e86ee643f64175c07e72012f8da26c4e46", "shape": "date-1900-ops", "state": "clean"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A2", "excel": "n:41273", "expect": "date:2012-12-30@41273", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A3", "excel": "n:41274", "expect": "date:2012-12-31@41274", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A4", "excel": "n:41275", "expect": "date:2013-01-01@41275", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A5", "excel": "n:41275", "expect": "date:2013-01-01@41275", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A6", "excel": "n:41289", "expect": "date:2013-01-15@41289", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A7", "excel": "n:41305", "expect": "date:2013-01-31@41305", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A8", "excel": "n:41306", "expect": "date:2013-02-01@41306", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A9", "excel": "n:41333", "expect": "date:2013-02-28@41333", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A10", "excel": "n:41334", "expect": "date:2013-03-01@41334", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"agrees": true, "basis": "ecma:18.17.4.1", "cell": "A11", "excel": "n:41640", "expect": "date:2014-01-01@41640", "file": "date-1900-ops.xlsx", "repaired": false, "shape": "date-1900-ops", "sheet": "S"}
+{"file": "per-hourly.xlsx", "kind": "file", "sha256": "ac2d7c623656dcc90a561a116e7a0c451496e2ce996467364a35b0162708d97b", "shape": "per-hourly", "state": "clean"}
+{"agrees": true, "basis": "b3:clockround", "cell": "A2", "excel": "n:44592", "expect": "n:44592", "file": "per-hourly.xlsx", "repaired": false, "shape": "per-hourly", "sheet": "T"}
+{"agrees": true, "basis": "b3:clockround", "cell": "A25", "excel": "n:44592.95833333328", "expect": "n:44592.95833333328", "file": "per-hourly.xlsx", "repaired": false, "shape": "per-hourly", "sheet": "T"}
+{"agrees": true, "basis": "b3:clockround", "cell": "A26", "excel": "n:44592.99999999994", "expect": "n:44592.99999999994", "file": "per-hourly.xlsx", "repaired": false, "shape": "per-hourly", "sheet": "T"}
+{"agrees": true, "basis": "b3:clockround", "cell": "A50", "excel": "n:44593.99999999988", "expect": "n:44593.99999999988", "file": "per-hourly.xlsx", "repaired": false, "shape": "per-hourly", "sheet": "T"}
+{"file": "per-edges.xlsx", "kind": "file", "sha256": "e918f5002269fb38a7e1731559f9f745c0ef0a20ece8e953791ad63d66faa4ac", "shape": "per-edges", "state": "clean"}
+{"file": "per-1904.xlsx", "kind": "file", "sha256": "7dc967f25b7c0ffe8efd5f2c0ccebedf8245a8d5ed12f083b228092c54f61606", "shape": "per-1904", "state": "clean"}
+{"file": "num-overflow.xlsx", "kind": "file", "sha256": "d88a7a2d67f5bfd9f5c5fb4378ca05a8a89b7cbbd0f82cfccfe297c93f3766a1", "shape": "num-overflow", "state": "clean"}
+{"agrees": true, "basis": "excel:doc", "cell": "A1", "excel": "n:9e+307", "expect": "n:9e+307", "file": "num-overflow.xlsx", "repaired": false, "shape": "num-overflow", "sheet": "S"}
+{"agrees": true, "basis": "excel:doc", "cell": "B1", "excel": "n:1e+200", "expect": "n:1e+200", "file": "num-overflow.xlsx", "repaired": false, "shape": "num-overflow", "sheet": "S"}
+{"ask": true, "file": "ask-per1-1900.xlsx", "kind": "file", "sha256": "818e16068fa02707277d78a9baa1cc57cf8707b06c3b3a59c4bd3fddaf48aedf", "state": "clean"}
+{"asks": "DAY(44592.99999999653) in a 1900 book", "cell": "B2", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(44592.99999999653) in a 1900 book", "cell": "C2", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(44592.99999999653) in a 1900 book", "cell": "D2", "excel": "n:2022", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.99999999653,\"yyyy-mm-dd\") in a 1900 book", "cell": "E2", "excel": "s:2022-02-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.99999999653,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F2", "excel": "s:2022-02-01 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(44592.99999999653) in a 1900 book", "cell": "G2", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(44592.99999999653) in a 1900 book", "cell": "H2", "excel": "n:44592", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(44592.999999991895) in a 1900 book", "cell": "B3", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(44592.999999991895) in a 1900 book", "cell": "C3", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(44592.999999991895) in a 1900 book", "cell": "D3", "excel": "n:2022", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.999999991895,\"yyyy-mm-dd\") in a 1900 book", "cell": "E3", "excel": "s:2022-02-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.999999991895,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F3", "excel": "s:2022-01-31 23:59:59.999", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(44592.999999991895) in a 1900 book", "cell": "G3", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(44592.999999991895) in a 1900 book", "cell": "H3", "excel": "n:44592", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(44593.00000000347) in a 1900 book", "cell": "B4", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(44593.00000000347) in a 1900 book", "cell": "C4", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(44593.00000000347) in a 1900 book", "cell": "D4", "excel": "n:2022", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44593.00000000347,\"yyyy-mm-dd\") in a 1900 book", "cell": "E4", "excel": "s:2022-02-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44593.00000000347,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F4", "excel": "s:2022-02-01 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(44593.00000000347) in a 1900 book", "cell": "G4", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(44593.00000000347) in a 1900 book", "cell": "H4", "excel": "n:44593", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(44592.99999999994) in a 1900 book", "cell": "B5", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(44592.99999999994) in a 1900 book", "cell": "C5", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(44592.99999999994) in a 1900 book", "cell": "D5", "excel": "n:2022", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.99999999994,\"yyyy-mm-dd\") in a 1900 book", "cell": "E5", "excel": "s:2022-02-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(44592.99999999994,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F5", "excel": "s:2022-02-01 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(44592.99999999994) in a 1900 book", "cell": "G5", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(44592.99999999994) in a 1900 book", "cell": "H5", "excel": "n:44592", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2958465.9999999) in a 1900 book", "cell": "B6", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2958465.9999999) in a 1900 book", "cell": "C6", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2958465.9999999) in a 1900 book", "cell": "D6", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958465.9999999,\"yyyy-mm-dd\") in a 1900 book", "cell": "E6", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958465.9999999,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F6", "excel": "s:9999-12-31 23:59:59.991", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2958465.9999999) in a 1900 book", "cell": "G6", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2958465.9999999) in a 1900 book", "cell": "H6", "excel": "n:2958465", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2958465.999999995) in a 1900 book", "cell": "B7", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2958465.999999995) in a 1900 book", "cell": "C7", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2958465.999999995) in a 1900 book", "cell": "D7", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958465.999999995,\"yyyy-mm-dd\") in a 1900 book", "cell": "E7", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958465.999999995,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F7", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2958465.999999995) in a 1900 book", "cell": "G7", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2958465.999999995) in a 1900 book", "cell": "H7", "excel": "n:2958465", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2958466.0) in a 1900 book", "cell": "B8", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2958466.0) in a 1900 book", "cell": "C8", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2958466.0) in a 1900 book", "cell": "D8", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958466.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E8", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2958466.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F8", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2958466.0) in a 1900 book", "cell": "G8", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2958466.0) in a 1900 book", "cell": "H8", "excel": "n:2958466", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(3000000.0) in a 1900 book", "cell": "B9", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(3000000.0) in a 1900 book", "cell": "C9", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(3000000.0) in a 1900 book", "cell": "D9", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(3000000.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E9", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(3000000.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F9", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(3000000.0) in a 1900 book", "cell": "G9", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(3000000.0) in a 1900 book", "cell": "H9", "excel": "n:3000000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(61.0) in a 1900 book", "cell": "B10", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(61.0) in a 1900 book", "cell": "C10", "excel": "n:3", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(61.0) in a 1900 book", "cell": "D10", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(61.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E10", "excel": "s:1900-03-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(61.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F10", "excel": "s:1900-03-01 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(61.0) in a 1900 book", "cell": "G10", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(61.0) in a 1900 book", "cell": "H10", "excel": "n:61", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(60.0) in a 1900 book", "cell": "B11", "excel": "n:29", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(60.0) in a 1900 book", "cell": "C11", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(60.0) in a 1900 book", "cell": "D11", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(60.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E11", "excel": "s:1900-02-29", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(60.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F11", "excel": "s:1900-02-29 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(60.0) in a 1900 book", "cell": "G11", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(60.0) in a 1900 book", "cell": "H11", "excel": "n:60", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(59.0) in a 1900 book", "cell": "B12", "excel": "n:28", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(59.0) in a 1900 book", "cell": "C12", "excel": "n:2", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(59.0) in a 1900 book", "cell": "D12", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(59.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E12", "excel": "s:1900-02-28", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(59.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F12", "excel": "s:1900-02-28 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(59.0) in a 1900 book", "cell": "G12", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(59.0) in a 1900 book", "cell": "H12", "excel": "n:59", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(30.0) in a 1900 book", "cell": "B13", "excel": "n:30", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(30.0) in a 1900 book", "cell": "C13", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(30.0) in a 1900 book", "cell": "D13", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(30.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E13", "excel": "s:1900-01-30", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(30.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F13", "excel": "s:1900-01-30 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(30.0) in a 1900 book", "cell": "G13", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(30.0) in a 1900 book", "cell": "H13", "excel": "n:30", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(1.0) in a 1900 book", "cell": "B14", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(1.0) in a 1900 book", "cell": "C14", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(1.0) in a 1900 book", "cell": "D14", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E14", "excel": "s:1900-01-01", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F14", "excel": "s:1900-01-01 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(1.0) in a 1900 book", "cell": "G14", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(1.0) in a 1900 book", "cell": "H14", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(0.0) in a 1900 book", "cell": "B15", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(0.0) in a 1900 book", "cell": "C15", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(0.0) in a 1900 book", "cell": "D15", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E15", "excel": "s:1900-01-00", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F15", "excel": "s:1900-01-00 00:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(0.0) in a 1900 book", "cell": "G15", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(0.0) in a 1900 book", "cell": "H15", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(0.5) in a 1900 book", "cell": "B16", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(0.5) in a 1900 book", "cell": "C16", "excel": "n:1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(0.5) in a 1900 book", "cell": "D16", "excel": "n:1900", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.5,\"yyyy-mm-dd\") in a 1900 book", "cell": "E16", "excel": "s:1900-01-00", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.5,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F16", "excel": "s:1900-01-00 12:00:00.000", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(0.5) in a 1900 book", "cell": "G16", "excel": "n:12", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(0.5) in a 1900 book", "cell": "H16", "excel": "n:0", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(-1.0) in a 1900 book", "cell": "B17", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(-1.0) in a 1900 book", "cell": "C17", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(-1.0) in a 1900 book", "cell": "D17", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-1.0,\"yyyy-mm-dd\") in a 1900 book", "cell": "E17", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-1.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1900 book", "cell": "F17", "excel": "e:#VALUE!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(-1.0) in a 1900 book", "cell": "G17", "excel": "e:#NUM!", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(-1.0) in a 1900 book", "cell": "H17", "excel": "n:-1", "file": "ask-per1-1900.xlsx", "repaired": false, "sheet": "S"}
+{"ask": true, "file": "ask-per1-1904.xlsx", "kind": "file", "sha256": "ad83a3e10fa8afbfc66e3229b03008ac3bd993589d9a3ce6a7f81740eced8a1b", "state": "clean"}
+{"asks": "DAY(0.0) in a 1904 book", "cell": "B2", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(0.0) in a 1904 book", "cell": "C2", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(0.0) in a 1904 book", "cell": "D2", "excel": "n:1904", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E2", "excel": "s:1904-01-01", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F2", "excel": "s:1904-01-01 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(0.0) in a 1904 book", "cell": "G2", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(0.0) in a 1904 book", "cell": "H2", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(0.5) in a 1904 book", "cell": "B3", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(0.5) in a 1904 book", "cell": "C3", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(0.5) in a 1904 book", "cell": "D3", "excel": "n:1904", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.5,\"yyyy-mm-dd\") in a 1904 book", "cell": "E3", "excel": "s:1904-01-01", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.5,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F3", "excel": "s:1904-01-01 12:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(0.5) in a 1904 book", "cell": "G3", "excel": "n:12", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(0.5) in a 1904 book", "cell": "H3", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(1.0) in a 1904 book", "cell": "B4", "excel": "n:2", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(1.0) in a 1904 book", "cell": "C4", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(1.0) in a 1904 book", "cell": "D4", "excel": "n:1904", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E4", "excel": "s:1904-01-02", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F4", "excel": "s:1904-01-02 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(1.0) in a 1904 book", "cell": "G4", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(1.0) in a 1904 book", "cell": "H4", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(59.0) in a 1904 book", "cell": "B5", "excel": "n:29", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(59.0) in a 1904 book", "cell": "C5", "excel": "n:2", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(59.0) in a 1904 book", "cell": "D5", "excel": "n:1904", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(59.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E5", "excel": "s:1904-02-29", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(59.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F5", "excel": "s:1904-02-29 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(59.0) in a 1904 book", "cell": "G5", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(59.0) in a 1904 book", "cell": "H5", "excel": "n:59", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(60.0) in a 1904 book", "cell": "B6", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(60.0) in a 1904 book", "cell": "C6", "excel": "n:3", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(60.0) in a 1904 book", "cell": "D6", "excel": "n:1904", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(60.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E6", "excel": "s:1904-03-01", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(60.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F6", "excel": "s:1904-03-01 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(60.0) in a 1904 book", "cell": "G6", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(60.0) in a 1904 book", "cell": "H6", "excel": "n:60", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(1462.0) in a 1904 book", "cell": "B7", "excel": "n:2", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(1462.0) in a 1904 book", "cell": "C7", "excel": "n:1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(1462.0) in a 1904 book", "cell": "D7", "excel": "n:1908", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1462.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E7", "excel": "s:1908-01-02", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1462.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F7", "excel": "s:1908-01-02 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(1462.0) in a 1904 book", "cell": "G7", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(1462.0) in a 1904 book", "cell": "H7", "excel": "n:1462", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(40000.99999999994) in a 1904 book", "cell": "B8", "excel": "n:8", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(40000.99999999994) in a 1904 book", "cell": "C8", "excel": "n:7", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(40000.99999999994) in a 1904 book", "cell": "D8", "excel": "n:2013", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(40000.99999999994,\"yyyy-mm-dd\") in a 1904 book", "cell": "E8", "excel": "s:2013-07-08", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(40000.99999999994,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F8", "excel": "s:2013-07-08 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(40000.99999999994) in a 1904 book", "cell": "G8", "excel": "n:0", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(40000.99999999994) in a 1904 book", "cell": "H8", "excel": "n:40000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(-3.472222222222222e-09) in a 1904 book", "cell": "B9", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(-3.472222222222222e-09) in a 1904 book", "cell": "C9", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(-3.472222222222222e-09) in a 1904 book", "cell": "D9", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-3.472222222222222e-09,\"yyyy-mm-dd\") in a 1904 book", "cell": "E9", "excel": "s:-1904-01-01", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-3.472222222222222e-09,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F9", "excel": "s:-1904-01-01 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(-3.472222222222222e-09) in a 1904 book", "cell": "G9", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(-3.472222222222222e-09) in a 1904 book", "cell": "H9", "excel": "n:-1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2957003.9999999) in a 1904 book", "cell": "B10", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2957003.9999999) in a 1904 book", "cell": "C10", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2957003.9999999) in a 1904 book", "cell": "D10", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957003.9999999,\"yyyy-mm-dd\") in a 1904 book", "cell": "E10", "excel": "e:#VALUE!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957003.9999999,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F10", "excel": "s:9999-12-31 23:59:59.991", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2957003.9999999) in a 1904 book", "cell": "G10", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2957003.9999999) in a 1904 book", "cell": "H10", "excel": "n:2957003", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2957003.999999995) in a 1904 book", "cell": "B11", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2957003.999999995) in a 1904 book", "cell": "C11", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2957003.999999995) in a 1904 book", "cell": "D11", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957003.999999995,\"yyyy-mm-dd\") in a 1904 book", "cell": "E11", "excel": "e:#VALUE!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957003.999999995,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F11", "excel": "e:#VALUE!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2957003.999999995) in a 1904 book", "cell": "G11", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2957003.999999995) in a 1904 book", "cell": "H11", "excel": "n:2957003", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2957004.0) in a 1904 book", "cell": "B12", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2957004.0) in a 1904 book", "cell": "C12", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2957004.0) in a 1904 book", "cell": "D12", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957004.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E12", "excel": "e:#VALUE!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(2957004.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F12", "excel": "e:#VALUE!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(2957004.0) in a 1904 book", "cell": "G12", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(2957004.0) in a 1904 book", "cell": "H12", "excel": "n:2957004", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(-1.0) in a 1904 book", "cell": "B13", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(-1.0) in a 1904 book", "cell": "C13", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(-1.0) in a 1904 book", "cell": "D13", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-1.0,\"yyyy-mm-dd\") in a 1904 book", "cell": "E13", "excel": "s:-1904-01-02", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(-1.0,\"yyyy-mm-dd hh:mm:ss.000\") in a 1904 book", "cell": "F13", "excel": "s:-1904-01-02 00:00:00.000", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "HOUR(-1.0) in a 1904 book", "cell": "G13", "excel": "e:#NUM!", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "INT(-1.0) in a 1904 book", "cell": "H13", "excel": "n:-1", "file": "ask-per1-1904.xlsx", "repaired": false, "sheet": "S"}
+{"ask": true, "file": "ask-ic51.xlsx", "kind": "file", "sha256": "99c04b242cad3ababcf051c2f4c53efd3b3434350bae7adb6161979734a6fd08", "state": "clean"}
+{"asks": "TEXT(1.9999992569016276,\"0.000000000000000\")", "cell": "B1", "excel": "s:1.999999256901630", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.999593047982555,\"0.000000000000000\")", "cell": "B2", "excel": "s:1.999593047982550", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.5204998778130465,\"0.000000000000000\")", "cell": "B3", "excel": "s:1.520499877813050", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(0.47950012218695348,\"0.000000000000000\")", "cell": "B4", "excel": "s:0.479500122186953", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.1124629160182851,\"0.000000000000000\")", "cell": "B5", "excel": "s:1.112462916018290", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(1.9995930479825549,\"0.000000000000000\")", "cell": "B6", "excel": "s:1.999593047982550", "file": "ask-ic51.xlsx", "repaired": false, "sheet": "S"}
+{"ask": true, "file": "ask-num1.xlsx", "kind": "file", "sha256": "e48182670f7219eb86f71457b78f3794f5bc476e5c72c722d6314b9d929e588a", "state": "clean"}
+{"asks": "SUM(9E+307,9E+307,1)", "cell": "E1", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "AVERAGE(9E+307,9E+307,1)", "cell": "E2", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "STDEV(9E+307,9E+307,1)", "cell": "E3", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "VAR(9E+307,9E+307,1)", "cell": "E4", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "SUM(1E+200,-1E+200,0)", "cell": "F1", "excel": "n:0", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "AVERAGE(1E+200,-1E+200,0)", "cell": "F2", "excel": "n:0", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "STDEV(1E+200,-1E+200,0)", "cell": "F3", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "VAR(1E+200,-1E+200,0)", "cell": "F4", "excel": "e:#NUM!", "file": "ask-num1.xlsx", "repaired": false, "sheet": "S"}
+{"ask": true, "file": "ask-errors.xlsx", "kind": "file", "sha256": "a1fc9e9f2e3f8a08d081405b7ec8869a302f7d855c0724cd26aa1e940a1c8327", "state": "repaired"}
+{"asks": "t=\"e\" <v>#SPILL!</v>: the value Excel keeps", "cell": "A1", "excel": "s:#SPILL!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #SPILL!", "cell": "B1", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #SPILL!", "cell": "C1", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#CALC!</v>: the value Excel keeps", "cell": "A2", "excel": "s:#CALC!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #CALC!", "cell": "B2", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #CALC!", "cell": "C2", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#FIELD!</v>: the value Excel keeps", "cell": "A3", "excel": "s:#FIELD!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #FIELD!", "cell": "B3", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #FIELD!", "cell": "C3", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#GETTING_DATA</v>: the value Excel keeps", "cell": "A4", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #GETTING_DATA", "cell": "B4", "excel": "b:TRUE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #GETTING_DATA", "cell": "C4", "excel": "n:8", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#BLOCKED!</v>: the value Excel keeps", "cell": "A5", "excel": "s:#BLOCKED!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #BLOCKED!", "cell": "B5", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #BLOCKED!", "cell": "C5", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#UNKNOWN!</v>: the value Excel keeps", "cell": "A6", "excel": "s:#UNKNOWN!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #UNKNOWN!", "cell": "B6", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #UNKNOWN!", "cell": "C6", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#BUSY!</v>: the value Excel keeps", "cell": "A7", "excel": "e:#BUSY!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #BUSY!", "cell": "B7", "excel": "b:TRUE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #BUSY!", "cell": "C7", "excel": "n:0", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#CONNECT!</v>: the value Excel keeps", "cell": "A8", "excel": "s:#CONNECT!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #CONNECT!", "cell": "B8", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #CONNECT!", "cell": "C8", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#PYTHON!</v>: the value Excel keeps", "cell": "A9", "excel": "s:#PYTHON!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #PYTHON!", "cell": "B9", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #PYTHON!", "cell": "C9", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#FOO!</v>: the value Excel keeps", "cell": "A10", "excel": "s:#FOO!", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #FOO!", "cell": "B10", "excel": "b:FALSE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #FOO!", "cell": "C10", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#n/a</v>: the value Excel keeps", "cell": "A11", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #n/a", "cell": "B11", "excel": "b:TRUE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #n/a", "cell": "C11", "excel": "n:7", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "t=\"e\" <v>#N/A </v>: the value Excel keeps", "cell": "A12", "excel": "e:#N/A", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ISERROR over t=\"e\" #N/A ", "cell": "B12", "excel": "b:TRUE", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"asks": "ERROR.TYPE over t=\"e\" #N/A ", "cell": "C12", "excel": "n:7", "file": "ask-errors.xlsx", "repaired": true, "sheet": "S"}
+{"ask": true, "file": "ask-space.xlsx", "kind": "file", "sha256": "e5b3d36e3748e4f98e48c7c757784718d4cc1123d142089a9044d2b094bb66dd", "state": "clean"}
+{"asks": "shared <t>' lead'</t>, no xml:space: the text Excel keeps", "cell": "A1", "excel": "s:lead", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>' lead'</t> (written length 5)", "cell": "B1", "excel": "n:4", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>' lead'</t>, no xml:space: the text Excel keeps", "cell": "C1", "excel": "s:lead", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>' lead'</t> (written length 5)", "cell": "D1", "excel": "n:4", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "shared <t>'trail '</t>, no xml:space: the text Excel keeps", "cell": "A2", "excel": "s:trail", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>'trail '</t> (written length 6)", "cell": "B2", "excel": "n:5", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>'trail '</t>, no xml:space: the text Excel keeps", "cell": "C2", "excel": "s:trail", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>'trail '</t> (written length 6)", "cell": "D2", "excel": "n:5", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "shared <t>'  both  '</t>, no xml:space: the text Excel keeps", "cell": "A3", "excel": "s:both", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>'  both  '</t> (written length 8)", "cell": "B3", "excel": "n:4", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>'  both  '</t>, no xml:space: the text Excel keeps", "cell": "C3", "excel": "s:both", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>'  both  '</t> (written length 8)", "cell": "D3", "excel": "n:4", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "shared <t>'   '</t>, no xml:space: the text Excel keeps", "cell": "A4", "excel": "s:", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>'   '</t> (written length 3)", "cell": "B4", "excel": "n:0", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>'   '</t>, no xml:space: the text Excel keeps", "cell": "C4", "excel": "s:", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>'   '</t> (written length 3)", "cell": "D4", "excel": "n:0", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "shared <t>'\\n  x\\n'</t>, no xml:space: the text Excel keeps", "cell": "A5", "excel": "s:x", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>'\\n  x\\n'</t> (written length 5)", "cell": "B5", "excel": "n:1", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>'\\n  x\\n'</t>, no xml:space: the text Excel keeps", "cell": "C5", "excel": "s:x", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>'\\n  x\\n'</t> (written length 5)", "cell": "D5", "excel": "n:1", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "shared <t>'\\tTab'</t>, no xml:space: the text Excel keeps", "cell": "A6", "excel": "s:Tab", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of shared <t>'\\tTab'</t> (written length 4)", "cell": "B6", "excel": "n:3", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "inline <t>'\\tTab'</t>, no xml:space: the text Excel keeps", "cell": "C6", "excel": "s:Tab", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "LEN of inline <t>'\\tTab'</t> (written length 4)", "cell": "D6", "excel": "n:3", "file": "ask-space.xlsx", "repaired": false, "sheet": "S"}
+{"ask": true, "file": "ask-strict.xlsx", "kind": "file", "sha256": "dd690d9616d6faf71b45d17cd47b7c52a594f25ab349181cd05bb96e99b97253", "state": "clean"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(0) in a strict book", "cell": "B1", "excel": "s:1900-01-00", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(0) in a strict book", "cell": "C1", "excel": "n:0", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(0) in a strict book", "cell": "D1", "excel": "n:1", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(0) in a strict book", "cell": "E1", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(1) in a strict book", "cell": "B2", "excel": "s:1900-01-01", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(1) in a strict book", "cell": "C2", "excel": "n:1", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(1) in a strict book", "cell": "D2", "excel": "n:1", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(1) in a strict book", "cell": "E2", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(2) in a strict book", "cell": "B3", "excel": "s:1900-01-02", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(2) in a strict book", "cell": "C3", "excel": "n:2", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(2) in a strict book", "cell": "D3", "excel": "n:1", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(2) in a strict book", "cell": "E3", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(59) in a strict book", "cell": "B4", "excel": "s:1900-02-28", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(59) in a strict book", "cell": "C4", "excel": "n:28", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(59) in a strict book", "cell": "D4", "excel": "n:2", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(59) in a strict book", "cell": "E4", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(60) in a strict book", "cell": "B5", "excel": "s:1900-02-29", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(60) in a strict book", "cell": "C5", "excel": "n:29", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(60) in a strict book", "cell": "D5", "excel": "n:2", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(60) in a strict book", "cell": "E5", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "TEXT(,\"yyyy-mm-dd\")(61) in a strict book", "cell": "B6", "excel": "s:1900-03-01", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "DAY(61) in a strict book", "cell": "C6", "excel": "n:1", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "MONTH(61) in a strict book", "cell": "D6", "excel": "n:3", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
+{"asks": "YEAR(61) in a strict book", "cell": "E6", "excel": "n:1900", "file": "ask-strict.xlsx", "repaired": false, "sheet": "S"}
