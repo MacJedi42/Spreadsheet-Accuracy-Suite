@@ -10,7 +10,7 @@ This suite was built to prove internal tools: every number such a tool prints or
 
 A spreadsheet answer is right when it is what Excel shows. Every expectation in this suite names its source, and the sources rank in this order:
 
-1. **Excel observed.** Desktop Microsoft Excel for Mac 16.113 was asked four times (`excel-evidence/request-1` to `request-4`), and Windows Excel (Microsoft 365, build 16.0.20430) re-ran requests 3 and 4 (`request-5-windows`). It recalculated or opened the suite's own workbooks and saved them, and the saved files are kept here. The value Excel wrote into each cell (`<v>`) is the evidence.
+1. **Excel observed.** Desktop Microsoft Excel for Mac 16.113 was asked four times (`excel-evidence/request-1` to `request-4`), and Windows Excel (Microsoft 365, build 16.0.20430) re-ran requests 3 and 4 and answered every display row (`request-5-windows`). It recalculated or opened the suite's own workbooks and saved them, and the saved files are kept here. The value Excel wrote into each cell (`<v>`) is the evidence.
 2. **Excel's own caches.** The cached values in real files that Excel last saved, such as the corpus workbooks.
 3. **Microsoft's documentation:** ECMA-376 (Office Open XML) and Microsoft's implementation notes for it, [MS-OI29500].
 4. **LibreOffice and openpyxl, only where they agree with Excel.** LibreOffice is a good second opinion, but it is not Excel. This suite records dozens of places where it differs (see [EXCEL-BEHAVIOUR.md](EXCEL-BEHAVIOUR.md)).
@@ -61,14 +61,14 @@ The file's header documents the row format, every rule and its source. The workb
 
 ### 3. `goldens/number-format/number_format_golden.tsv`: about 190,000 display checks
 
-**What it proves:** a formatter draws a number through a format code as Excel shows it. It covers:
+**What it proves:** a formatter draws a number through a format code as Excel shows it. Nearly every row (195,000 of them) is Windows Excel's own `TEXT()` answer for that value and code (`excel-evidence/request-5-windows/display/`). It covers:
 - every format code found in the public corpora, plus curated codes (1,638 codes in all);
 - the built-in formats;
 - both date systems (1900 and 1904);
 - the 15-significant-digit rule;
 - clock rounding at the second;
 - half-ties at the 15th digit;
-- minus signs;
+- the minus sign on values that show as zero;
 - AM/PM;
 - elapsed time;
 - fractions.
@@ -100,7 +100,7 @@ It has 181,897 checks of a value under a code, plus built-in id, date-system and
 | `request-2` | 2026-10-02 | the display and date classes where two independent readers disagreed on real files | which reading Excel shows, class by class (`ANALYSIS.md`) |
 | `request-3` | 2026-10-02 | recalculate every curated formula-golden row (52 workbooks) and LOOKUP shapes | Excel's exact answer for 15,046 formulas; snapping, powers, equality, ROUND digits, PMT, logical ordering, text comparison (`SETTLED.md`) |
 | `request-4` | 2026-10-08 | open 78 decoding shapes and save them, and answer ask workbooks of DAY, MONTH, YEAR, TEXT, SUM, AVERAGE, STDEV and error codes; recalculate 94 more formulas | which file shapes Excel reads, repairs or refuses; text trimming; encodings; rounding at the second; overflow; strict workbooks (`SETTLED.md`) |
-| `request-5-windows` | 2026-10-09 | requests 3 and 4 again, on **Windows** Excel: the same original workbooks | Windows matches Mac on 15,045 of 15,046 formulas, all 94 probe formulas, 795 of 797 decoded cells and every damaged-file verdict. One platform difference: `(-8)^(-1/3)` is -0.5000000000000001 on Mac and -0.5 on Windows (`SUMMARY.md`) |
+| `request-5-windows` | 2026-10-09 | requests 3 and 4 again, on **Windows** Excel: the same original workbooks | Windows matches Mac on 15,045 of 15,046 formulas, all 94 probe formulas, 795 of 797 decoded cells and every damaged-file verdict. One platform difference: `(-8)^(-1/3)` is -0.5000000000000001 on Mac and -0.5 on Windows (`SUMMARY.md`). Then, 2026-10-10: every number-format golden row through `TEXT()`, which corrected the minus at zero, padding and 15-digit ties (`display/SETTLED.md`) |
 
 **The run's details:**
 - Each request folder keeps the request as sent (`REQUEST.md`), Excel's saved workbooks, its repair logs, and the import of its answers (`excel-cache.jsonl`).

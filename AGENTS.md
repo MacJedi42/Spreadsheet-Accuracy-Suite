@@ -24,12 +24,12 @@ The goldens were built for an internal tool, and a few rows encode that tool's o
 
 | file | rows to exclude | why |
 |---|---|---|
-| `goldens/number-format/number_format_golden.tsv` | any `basis` containing `tool:`, alone or inside a compound such as `1904:tool:iso` or `settled:X9+tool:iso` (85 rows: 54 `I`, 28 `DI`, 3 `X`) | the internal tool draws built-in date formats 14 and 22 in ISO form (2020-01-31); Excel draws them per locale |
+| `goldens/number-format/number_format_golden.tsv` | any `basis` containing `tool:`, alone or inside a compound such as `1904:tool:iso` or `settled:X9+tool:en` (565 rows: 415 `R`, 54 `I`, 56 `D`, 28 `DI`, 12 `X`) | `tool:iso`: the internal tool draws built-in date formats 14 and 22 in ISO form (2020-01-31), where Excel draws them per locale. `tool:en`: the internal tool has one locale, so a code's language tag (`[$-41F]`, `[$-C0A]`, `[$-3000401]`) is drawn in English with Western digits, where Excel uses the tag's language and digits. Each row's text is Excel's own `TEXT()` under the tool's code, so the row tests everything else about the code |
 | `goldens/decoding/decoding_golden.tsv` | `basis` starting `b1:`, `b4:` or `r8:`; and kind `T` | the internal tool's own policies: its `--period` refuses serials below 61 (`b1:floor`); it refuses a part that inflates past 512 MiB (`b4:decision-33`, the decompression-bomb shapes); its time limits on 1,000- and 2,000-sheet books (`T` rows, `r8:zip-lookup`) |
 | `goldens/decoding/decoding_golden.tsv` | kinds `Q` and `W` | these spell the internal tool's own commands (`aggregate|A|sum|1:5`, `set-cell`); their EXPECTED VALUES are Excel's, so translate the query to the tool under test, or skip them |
 | `goldens/formula/formula_golden.tsv` | the `must` column | the internal tool's list of rows it may not refuse; ignore it |
 
-Everything else (`excel:*`, `ecma:*`, `opc:*`, `xml:*`, `lo`, `error:*`, `settled:*`, `undecided:*`) is about Excel, ECMA-376 or the file format.
+Everything else (`excel:*`, including `excel:asked`, which is Excel's own answer, `ecma:*`, `opc:*`, `xml:*`, `lo`, `error:*`, `settled:*`, `undecided:*`) is about Excel, ECMA-376 or the file format.
 
 ## Testing a tool, suite by suite
 
@@ -114,7 +114,7 @@ R <code index> <value> <expected text> <basis>
 ```
 
 - Render each `R` row's value through its code and compare the text exactly.
-- **Render under the en-US locale,** as the golden was generated (`lo` is LibreOffice in en-US; `lo-en` forced en-US). Any other locale mismatches on every code with a month or weekday name.
+- **Render under the en-US locale,** as the golden was generated: `excel:asked` is Excel's own en-US `TEXT()`, which is nearly every row. Any other locale mismatches on built-in date ids and on AM/PM.
 - `I`/`D`/`DI` rows hold built-in ids, the 1904 date system, and dates by id. The header explains each.
 - `X` rows hold Excel's own TEXT() answers and the rows settled from them.
 - Exclude `tool:*` rows (see above).
@@ -125,7 +125,8 @@ R <code index> <value> <expected text> <basis>
 - serial 60 is 1900-02-29;
 - in the 1904 system, serial 0 is 1904-01-01;
 - `[h]:mm` elapsed time;
-- minus signs on values that round to zero.
+- no minus sign on a negative that shows as zero (`-0.004` under `0.0` is `0.0`), unless the section has no digit placeholders;
+- `_x` padding is one space.
 
 ### D. Real files: `corpora/`
 

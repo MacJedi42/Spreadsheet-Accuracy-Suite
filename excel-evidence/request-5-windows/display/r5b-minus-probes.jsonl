@@ -1,0 +1,540 @@
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-$500.00"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-$499.00"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-$400.00"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-$1.00"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-$0.40"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-$0.04"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "$0.00"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "$0.00"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "$0.00"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"$\"#,##0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "$0.00"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"0\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-10x500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-10x499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-10x400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-10x1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"10x\"0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "10x0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "12"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"12\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "12"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-abc"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "abc"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"abc\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "abc"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-v2 500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-v2 499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-v2 400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-v2 1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-v2 0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "v2 0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "v2 0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "v2 0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "v2 0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"v2 \"0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "v2 0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-x500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-x499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-x400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-x1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-x0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-x0.04"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-x0.004"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-x1E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "x0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"x\"General", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "x0.004"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-x-"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "x-"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\"x\"\\-", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "x-"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.0", "code": "#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.004", "code": "#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-500.0", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500    "}
+{"row": "P", "key": 0, "value": "-499.0", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499    "}
+{"row": "P", "key": 0, "value": "-400.0", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400    "}
+{"row": "P", "key": 0, "value": "-1.0", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1    "}
+{"row": "P", "key": 0, "value": "-0.4", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "- 3/8"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "-0.004", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "0.0", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0    "}
+{"row": "P", "key": 0, "value": "0.004", "code": "# ?/8", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0    "}
+{"row": "P", "key": 0, "value": "-500.0", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500    "}
+{"row": "P", "key": 0, "value": "-499.0", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499    "}
+{"row": "P", "key": 0, "value": "-400.0", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400    "}
+{"row": "P", "key": 0, "value": "-1.0", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1    "}
+{"row": "P", "key": 0, "value": "-0.4", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "- 2/5"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "-0.004", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-0    "}
+{"row": "P", "key": 0, "value": "0.0", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0    "}
+{"row": "P", "key": 0, "value": "0.004", "code": "# ?/?", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0    "}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500 5"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499 5"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400 5"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1 5"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "0.0", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "0.004", "code": "#\" 5\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": " 5"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "#,##0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "#,##0,", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500."}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499."}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400."}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1."}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "."}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "."}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "."}
+{"row": "P", "key": 0, "value": "0.0", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "."}
+{"row": "P", "key": 0, "value": "0.004", "code": "#.#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "."}
+{"row": "P", "key": 0, "value": "-500.0", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.04", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.004", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.0", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.004", "code": "#;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500 of 100"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499 of 100"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400 of 100"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1 of 100"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0\" of 100\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0 of 100"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-50000%"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-49900%"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-40000%"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-100%"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-40%"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-4%"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0%"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0%"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0%"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0%", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0%"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0,", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500.0 m3"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499.0 m3"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400.0 m3"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1.0 m3"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-0.4 m3"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0.0 m3"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0.0 m3"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0.0 m3"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0 m3"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0\" m3\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0 m3"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-50000.0%"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-49900.0%"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-40000.0%"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-100.0%"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-40.0%"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-4.0%"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-0.4%"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0.0%"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0%"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0%", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.4%"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500.00 "}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499.00 "}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400.00 "}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1.00 "}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-0.40 "}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-0.04 "}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0.00 "}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0.00 "}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.00 "}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.00_)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.00 "}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "z"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;\"\";\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "-500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "-499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "-400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "-1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;-0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "-500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "-499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "-400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "-1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "-0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "z"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;-0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "z"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;0.0;\"z\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;;0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "-500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "-499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "-400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "-1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;@", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "(500.0)"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "(499.0)"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "(400.0)"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "(1.0)"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "(0.4)"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "(0.0)"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "(0.0)"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "(0.0)"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0;\\(0.0\\);\"-\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-5.0E+02"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-5.0E+02"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-4.0E+02"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1.0E+00"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-4.0E-01"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-4.0E-02"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-4.0E-03"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-1.0E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0E+00"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0.0E+00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "4.0E-03"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-01"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "0.0", "code": "00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "0.004", "code": "00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "00"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0;\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "(500)"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "(499)"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "(400)"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "(1)"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "(0)"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "(0)"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "(0)"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "(0)"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0;(0)", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.04"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.004"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "1E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0;[Red]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-5E+02"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-5E+02"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-4E+02"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1E+00"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-4E-01"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-4E-02"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-4E-03"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-1E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0E+00"}
+{"row": "P", "key": 0, "value": "0.004", "code": "0E+00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "4E-03"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500/1"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499/1"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400/1"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1/1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-2/5"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "0/1"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "0/1"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "0/1"}
+{"row": "P", "key": 0, "value": "0.0", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0/1"}
+{"row": "P", "key": 0, "value": "0.004", "code": "?/?", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0/1"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-500", "text_en_US": "-500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-499", "text_en_US": "-499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-400", "text_en_US": "-400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1", "text_en_US": "-1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.04", "text_en_US": "-0.04"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-0.004", "text_en_US": "-0.004"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "General", "system": "1900", "why": "probe R5-B", "predict": "minus only if a digit shows", "excel_value": "-1E-20", "text_en_US": "-1E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "General", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "General", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.004"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "0.004", "code": "[$-409]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": ""}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[<0]\"neg\";0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[<0]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.004"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[<0]0.0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "-500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "-499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "-400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "-1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[<1]0.0;[<10]0;0.00", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[<=-1]0;0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "-0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[>-1]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-neg"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[Red]\"neg\"", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "neg"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500.0"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499.0"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400.0"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1.0"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[Red]0.0;[Blue]0.0", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.0"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-500", "text_en_US": "500"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-499", "text_en_US": "499"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-400", "text_en_US": "400"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1", "text_en_US": "1"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.4", "text_en_US": "0.4"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.04", "text_en_US": "0.04"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-0.004", "text_en_US": "0.004"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "-1E-20", "text_en_US": "1E-20"}
+{"row": "P", "key": 0, "value": "0.0", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 0, "value": "0.004", "code": "[Red];[Blue]", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "0.004"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-#"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "#"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\\#", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "#"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-12"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": "12"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\\1\\2", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": "12"}
+{"row": "P", "key": 0, "value": "-500.0", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-500", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-499.0", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-499", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-400.0", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-400", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-1.0", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-0.4", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.4", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-0.04", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.04", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-0.004", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-0.004", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "-1e-20", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": "no-placeholder minus", "excel_value": "-1E-20", "text_en_US": "-:"}
+{"row": "P", "key": 0, "value": "0.0", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0", "text_en_US": ":"}
+{"row": "P", "key": 0, "value": "0.004", "code": "\\:", "system": "1900", "why": "probe R5-B", "predict": null, "excel_value": "0.004", "text_en_US": ":"}

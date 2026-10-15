@@ -1,0 +1,95 @@
+{"row": "P", "key": 0, "value": "12.345", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "12.345", "text_en_US": "12.35E+00"}
+{"row": "P", "key": 0, "value": "123.45", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "123.45", "text_en_US": "01.23E+02"}
+{"row": "P", "key": 0, "value": "12345.0", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "12345", "text_en_US": "01.23E+04"}
+{"row": "P", "key": 0, "value": "0.012345", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "0.012345", "text_en_US": "01.23E-02"}
+{"row": "P", "key": 0, "value": "1.234e-12", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "1.234E-12", "text_en_US": "01.23E-12"}
+{"row": "P", "key": 0, "value": "0.0", "code": "00.00E+00", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "00.00E+00"}
+{"row": "P", "key": 1, "value": "1.234e-12", "code": "00E+00", "system": "1900", "why": "probe", "excel_value": "1.234E-12", "text_en_US": "01E-12"}
+{"row": "P", "key": 1, "value": "12.0", "code": "00E+00", "system": "1900", "why": "probe", "excel_value": "12", "text_en_US": "12E+00"}
+{"row": "P", "key": 1, "value": "123.0", "code": "00E+00", "system": "1900", "why": "probe", "excel_value": "123", "text_en_US": "01E+02"}
+{"row": "P", "key": 1, "value": "1234.0", "code": "00E+00", "system": "1900", "why": "probe", "excel_value": "1234", "text_en_US": "12E+02"}
+{"row": "P", "key": 1, "value": "0.0", "code": "00E+00", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "00E+00"}
+{"row": "P", "key": 2, "value": "12.3", "code": "000.0E+0", "system": "1900", "why": "probe", "excel_value": "12.3", "text_en_US": "012.3E+0"}
+{"row": "P", "key": 2, "value": "1234.0", "code": "000.0E+0", "system": "1900", "why": "probe", "excel_value": "1234", "text_en_US": "001.2E+3"}
+{"row": "P", "key": 2, "value": "0.5", "code": "000.0E+0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "500.0E-3"}
+{"row": "P", "key": 3, "value": "0.5", "code": "0.00E+00%", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "5.00E-01%"}
+{"row": "P", "key": 3, "value": "0.0123", "code": "0.00E+00%", "system": "1900", "why": "probe", "excel_value": "0.0123", "text_en_US": "1.23E-02%"}
+{"row": "P", "key": 3, "value": "12345.0", "code": "0.00E+00%", "system": "1900", "why": "probe", "excel_value": "12345", "text_en_US": "1.23E+04%"}
+{"row": "P", "key": 4, "value": "0.5", "code": "0%E+00", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "5%E-01"}
+{"row": "P", "key": 5, "value": "1.234e-20", "code": "#E+0", "system": "1900", "why": "probe", "excel_value": "1.234E-20", "text_en_US": "1E-20"}
+{"row": "P", "key": 5, "value": "0.0", "code": "#E+0", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0E+0"}
+{"row": "P", "key": 5, "value": "12.3", "code": "#E+0", "system": "1900", "why": "probe", "excel_value": "12.3", "text_en_US": "1E+1"}
+{"row": "P", "key": 6, "value": "1.234e-20", "code": "##0.0E+0", "system": "1900", "why": "probe", "excel_value": "1.234E-20", "text_en_US": "12.3E-21"}
+{"row": "P", "key": 6, "value": "0.5", "code": "##0.0E+0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "500.0E-3"}
+{"row": "P", "key": 7, "value": "12.3", "code": "#0.0E+0", "system": "1900", "why": "probe", "excel_value": "12.3", "text_en_US": "12.3E+0"}
+{"row": "P", "key": 7, "value": "123.4", "code": "#0.0E+0", "system": "1900", "why": "probe", "excel_value": "123.4", "text_en_US": "1.2E+2"}
+{"row": "P", "key": 7, "value": "0.0", "code": "#0.0E+0", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "00.0E+0"}
+{"row": "P", "key": 8, "value": "0.5", "code": "# ?/?%", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "50    %"}
+{"row": "P", "key": 8, "value": "0.25", "code": "# ?/?%", "system": "1900", "why": "probe", "excel_value": "0.25", "text_en_US": "25    %"}
+{"row": "P", "key": 9, "value": "0.5", "code": "# #/#", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "1/2"}
+{"row": "P", "key": 9, "value": "1.5", "code": "# #/#", "system": "1900", "why": "probe", "excel_value": "1.5", "text_en_US": "1 1/2"}
+{"row": "P", "key": 9, "value": "0.0", "code": "# #/#", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 9, "value": "1.0", "code": "# #/#", "system": "1900", "why": "probe", "excel_value": "1", "text_en_US": "1"}
+{"row": "P", "key": 10, "value": "0.5", "code": "0 #/#", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0 1/2"}
+{"row": "P", "key": 10, "value": "0.0", "code": "0 #/#", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0"}
+{"row": "P", "key": 10, "value": "1.0", "code": "0 #/#", "system": "1900", "why": "probe", "excel_value": "1", "text_en_US": "1"}
+{"row": "P", "key": 11, "value": "0.0", "code": "# 0/0", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0/1"}
+{"row": "P", "key": 11, "value": "1.5", "code": "# 0/0", "system": "1900", "why": "probe", "excel_value": "1.5", "text_en_US": "1 1/2"}
+{"row": "P", "key": 11, "value": "1.0", "code": "# 0/0", "system": "1900", "why": "probe", "excel_value": "1", "text_en_US": "1 0/1"}
+{"row": "P", "key": 12, "value": "0.5", "code": "? ?/?", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "  1/2"}
+{"row": "P", "key": 12, "value": "0.0", "code": "? ?/?", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0    "}
+{"row": "P", "key": 12, "value": "1.5", "code": "? ?/?", "system": "1900", "why": "probe", "excel_value": "1.5", "text_en_US": "1 1/2"}
+{"row": "P", "key": 13, "value": "0.5", "code": "#\" and \"?/?", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "     1/2"}
+{"row": "P", "key": 13, "value": "2.0", "code": "#\" and \"?/?", "system": "1900", "why": "probe", "excel_value": "2", "text_en_US": "2        "}
+{"row": "P", "key": 13, "value": "2.5", "code": "#\" and \"?/?", "system": "1900", "why": "probe", "excel_value": "2.5", "text_en_US": "2 and 1/2"}
+{"row": "P", "key": 14, "value": "0.5", "code": "#\" and \"#/#", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "1/2"}
+{"row": "P", "key": 14, "value": "2.0", "code": "#\" and \"#/#", "system": "1900", "why": "probe", "excel_value": "2", "text_en_US": "2"}
+{"row": "P", "key": 14, "value": "2.5", "code": "#\" and \"#/#", "system": "1900", "why": "probe", "excel_value": "2.5", "text_en_US": "2 and 1/2"}
+{"row": "P", "key": 15, "value": "0.5", "code": "# ?/#", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": " 1/2"}
+{"row": "P", "key": 15, "value": "2.0", "code": "# ?/#", "system": "1900", "why": "probe", "excel_value": "2", "text_en_US": "2    "}
+{"row": "P", "key": 16, "value": "2.0", "code": "# #/?", "system": "1900", "why": "probe", "excel_value": "2", "text_en_US": "2    "}
+{"row": "P", "key": 16, "value": "0.5", "code": "# #/?", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "1/2"}
+{"row": "P", "key": 17, "value": "0.0625", "code": "# ?/8", "system": "1900", "why": "probe", "excel_value": "0.0625", "text_en_US": " 1/8"}
+{"row": "P", "key": 17, "value": "0.1875", "code": "# ?/8", "system": "1900", "why": "probe", "excel_value": "0.1875", "text_en_US": " 2/8"}
+{"row": "P", "key": 17, "value": "0.3125", "code": "# ?/8", "system": "1900", "why": "probe", "excel_value": "0.3125", "text_en_US": " 3/8"}
+{"row": "P", "key": 18, "value": "0.0865", "code": "# ??/??", "system": "1900", "why": "probe", "excel_value": "0.0865", "text_en_US": "  7/81"}
+{"row": "P", "key": 18, "value": "0.3", "code": "# ??/??", "system": "1900", "why": "probe", "excel_value": "0.3", "text_en_US": "  3/10"}
+{"row": "P", "key": 19, "value": "0.0865", "code": "?/?", "system": "1900", "why": "probe", "excel_value": "0.0865", "text_en_US": "0/1"}
+{"row": "P", "key": 19, "value": "0.3", "code": "?/?", "system": "1900", "why": "probe", "excel_value": "0.3", "text_en_US": "2/7"}
+{"row": "P", "key": 19, "value": "0.0625", "code": "?/?", "system": "1900", "why": "probe", "excel_value": "0.0625", "text_en_US": "0/1"}
+{"row": "P", "key": 20, "value": "1234.5", "code": "#,### ?/?", "system": "1900", "why": "probe", "excel_value": "1234.5", "text_en_US": "1,234 1/2"}
+{"row": "P", "key": 20, "value": "0.5", "code": "#,### ?/?", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": " 1/2"}
+{"row": "P", "key": 21, "value": "0.5", "code": "0.0#0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0.50"}
+{"row": "P", "key": 21, "value": "0.05", "code": "0.0#0", "system": "1900", "why": "probe", "excel_value": "0.05", "text_en_US": "0.050"}
+{"row": "P", "key": 21, "value": "0.0", "code": "0.0#0", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0.00"}
+{"row": "P", "key": 22, "value": "0.5", "code": "0.#0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0.50"}
+{"row": "P", "key": 22, "value": "0.05", "code": "0.#0", "system": "1900", "why": "probe", "excel_value": "0.05", "text_en_US": "0.05"}
+{"row": "P", "key": 22, "value": "0.0", "code": "0.#0", "system": "1900", "why": "probe", "excel_value": "0", "text_en_US": "0.0"}
+{"row": "P", "key": 23, "value": "0.5", "code": "0.#?0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0.5 0"}
+{"row": "P", "key": 23, "value": "0.05", "code": "0.#?0", "system": "1900", "why": "probe", "excel_value": "0.05", "text_en_US": "0.050"}
+{"row": "P", "key": 24, "value": "0.5", "code": "0.##0 ##0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0.50 0"}
+{"row": "P", "key": 24, "value": "0.0865", "code": "0.##0 ##0", "system": "1900", "why": "probe", "excel_value": "0.0865", "text_en_US": "0.086 50"}
+{"row": "P", "key": 25, "value": "0.5", "code": "0.##0#0", "system": "1900", "why": "probe", "excel_value": "0.5", "text_en_US": "0.500"}
+{"row": "P", "key": 25, "value": "0.05", "code": "0.##0#0", "system": "1900", "why": "probe", "excel_value": "0.05", "text_en_US": "0.0500"}
+{"row": "P", "key": 26, "value": "1234.5", "code": ",##0", "system": "1900", "why": "probe", "excel_value": "1234.5", "text_en_US": ",1235"}
+{"row": "P", "key": 26, "value": "12.0", "code": ",##0", "system": "1900", "why": "probe", "excel_value": "12", "text_en_US": ",12"}
+{"row": "P", "key": 27, "value": "1234.5", "code": "*#,##0", "system": "1900", "why": "probe", "excel_value": "1234.5", "text_en_US": ",1235", "cell_en_US": "##########################################################################,1235"}
+{"row": "P", "key": 28, "value": "1234.5", "code": "*x,##0", "system": "1900", "why": "probe", "excel_value": "1234.5", "text_en_US": ",1235", "cell_en_US": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,1235"}
+{"row": "P", "key": 29, "value": "1234.0", "code": ",0", "system": "1900", "why": "probe", "excel_value": "1234", "text_en_US": ",1234"}
+{"row": "P", "key": 30, "value": "1234.5", "code": "\",x\"#,##0", "system": "1900", "why": "probe", "excel_value": "1234.5", "text_en_US": ",x1,235"}
+{"row": "P", "key": 31, "value": "2.8935185185185184e-06", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "2.8935185185185184E-06", "text_en_US": "00.3"}
+{"row": "P", "key": 31, "value": "3.0092592592592593e-06", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "3.0092592592592593E-06", "text_en_US": "00.3"}
+{"row": "P", "key": 31, "value": "3.356481481481481e-06", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "3.3564814814814811E-06", "text_en_US": "00.3"}
+{"row": "P", "key": 31, "value": "4.050925925925926e-06", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "4.050925925925926E-06", "text_en_US": "00.4"}
+{"row": "P", "key": 31, "value": "1.736111111111111e-06", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "1.736111111111111E-06", "text_en_US": "00.2"}
+{"row": "P", "key": 31, "value": "5.787037037037037e-07", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "5.787037037037037E-07", "text_en_US": "00.1"}
+{"row": "P", "key": 31, "value": "1.111111111111111e-05", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "1.111111111111111E-05", "text_en_US": "01.0"}
+{"row": "P", "key": 31, "value": "1.0879629629629628e-05", "code": "ss.0", "system": "1900", "why": "probe", "excel_value": "1.0879629629629628E-05", "text_en_US": "00.9"}
+{"row": "P", "key": 32, "value": "1.4467592592592592e-06", "code": "ss.00", "system": "1900", "why": "probe", "excel_value": "1.4467592592592592E-06", "text_en_US": "00.13"}
+{"row": "P", "key": 32, "value": "1.5625e-06", "code": "ss.00", "system": "1900", "why": "probe", "excel_value": "1.5625E-06", "text_en_US": "00.14"}
+{"row": "P", "key": 32, "value": "1.150462962962963e-05", "code": "ss.00", "system": "1900", "why": "probe", "excel_value": "1.150462962962963E-05", "text_en_US": "00.99"}
+{"row": "P", "key": 32, "value": "1.1527777777777777e-05", "code": "ss.00", "system": "1900", "why": "probe", "excel_value": "1.1527777777777777E-05", "text_en_US": "01.00"}
+{"row": "P", "key": 33, "value": "0.5000028935185186", "code": "h:mm:ss.0", "system": "1900", "why": "probe", "excel_value": "0.50000289351851857", "text_en_US": "12:00:00.3"}
+{"row": "P", "key": 33, "value": "0.5000030092592592", "code": "h:mm:ss.0", "system": "1900", "why": "probe", "excel_value": "0.50000300925925922", "text_en_US": "12:00:00.3"}
+{"row": "P", "key": 34, "value": "44000.50000289352", "code": "mm:ss.0", "system": "1900", "why": "probe", "excel_value": "44000.500002893517", "text_en_US": "00:00.2"}
+{"row": "P", "key": 34, "value": "44000.500003009256", "code": "mm:ss.0", "system": "1900", "why": "probe", "excel_value": "44000.500003009256", "text_en_US": "00:00.3"}

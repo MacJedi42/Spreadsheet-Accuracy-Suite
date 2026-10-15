@@ -46,3 +46,7 @@ Twelve shapes Mac Excel repaired, after its repair prompt was accepted, were ref
 - the error-code ask workbook.
 
 This is most likely the automation interface, not Excel: an interactive repair prompt tries more than the `xlRepairFile` load mode does. **Both platforms agree that every one of these files is damaged,** and that is the suite's rule: a tool should refuse them, not read them.
+
+## Display: every number-format row
+
+The display golden was then asked of Windows Excel row by row: 189,361 rows, plus 9,000 follow-ups and probes. The golden now takes Excel's own `TEXT()` wherever Excel answered. See `display/SETTLED.md`, which also records the rules Excel showed that the earlier golden had wrong: the minus sign at zero, `_x` padding, `0.E+00`, a colour beside a language tag, and the 15-digit ties.

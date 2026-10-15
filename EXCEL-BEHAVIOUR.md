@@ -1,12 +1,12 @@
 # Excel behaviour this suite established
 
 **Every rule below names its source:**
-- `R1` to `R4` are Excel requests 1 to 4 (`excel-evidence/request-N/`; requests 3 and 4 each have a `SETTLED.md`), and `R5` is their re-run on Windows Excel (`excel-evidence/request-5-windows/SUMMARY.md`);
+- `R1` to `R4` are Excel requests 1 to 4 (`excel-evidence/request-N/`; requests 3 and 4 each have a `SETTLED.md`), and `R5` is Windows Excel: the re-run of requests 3 and 4, and the display answers (`excel-evidence/request-5-windows/`);
 - `ECMA` is ECMA-376;
 - `MS-OI` is Microsoft's implementation notes [MS-OI29500];
 - `corpus` means Excel's own caches in Excel-saved corpus files.
 
-"Excel" here is Microsoft Excel for Mac 16.113 (locale en_NZ). **Windows Excel** (Microsoft 365, 16.0.20430, locale en-NZ) re-ran requests 3 and 4 as `R5` and matched it everywhere but the one power value marked below. Where a rule says *undecided*, no source settled it, and the goldens expect a refusal.
+"Excel" here is Microsoft Excel for Mac 16.113 (locale en_NZ). **Windows Excel** (Microsoft 365, 16.0.20430) re-ran requests 3 and 4 as `R5` and matched it everywhere but the one power value marked below. It then answered every display row of the number-format golden (§3). Where a rule says *undecided*, no source settled it, and the goldens expect a refusal.
 
 ## 1. Arithmetic and formulas (formula golden)
 
@@ -127,12 +127,32 @@ SUM, AVERAGE, STDEV and VAR whose arithmetic passes about 1.8e308 give #NUM!, AV
 
 ## 3. Display (number-format golden)
 
-- **15 digits:** Excel shows at most 15 significant digits and then zeros (R4, the IC-51 rows). The 15 digits are rounded from the double's exact binary value, and the display then rounds half away from zero at its last place.
-- **Undecided ties:** past about 2^41, where LibreOffice draws the binary rounding instead, a 13- or 14-digit display at a tie is not yet decided, and the golden leaves it out.
+Request 5 (`R5`) asked Windows Excel about every row of the number-format golden, in en-US and en-NZ, through `TEXT()` and the cell's own displayed text. Its findings are in `excel-evidence/request-5-windows/display/SETTLED.md`.
+
+- **15 digits:** Excel shows at most 15 significant digits and then zeros (R4, the IC-51 rows): 1234567890123455 under `0` is `1234567890123450`. The rule, which reproduces all 7,177 of R5's tie cases:
+  1. take the double's exact binary value; for a `%` code, the exact decimal times 100, not the double product;
+  2. round it to 15 significant digits, with an exact tie at the 16th digit going toward zero, as ROUND does;
+  3. round that half away from zero at the code's last shown place.
+
+  So 36035847931.395 under `#,##0.00` shows `36,035,847,931.40`. Past about 2^41, LibreOffice rounds the binary value instead and shows `.39` (R5).
+- **The minus sign at zero:** a negative whose digit placeholders all show zero gets **no** minus. `-0.004` under `0.0` is `0.0`; `-0.125` under `"$"#,##0` is `$0`, and under `###` it is empty. A digit inside a quoted literal does not count: `"10x"0` at -0.004 is `10x0`. Exceptions (R5):
+  - a section with no digit placeholders keeps the minus: `-1` under `\:` is `-:`, and `"abc"` gives `-abc`;
+  - a fraction with a whole part keeps it: `# ?/8` at -0.004 is `-0` and spaces;
+  - a second (negative) section never gets one;
+  - under conditions it varies: `[<0]0.0` at -0.4 is `0.4`, but `[>-1]0.0` is `-0.4`.
+- **Padding and fill:** `_x` leaves one space, and an unused fraction (`# ?/2` at a whole number) leaves a space for each character of ` ?/2`. A `*` fill repeats its character to the column's width in the cell, but `TEXT()` drops it (R5).
+- **Small shapes:**
+  - `0.E+00` keeps its point;
+  - `0.\ ##0\ ##0` at 0 shows `0. 0 0`;
+  - a section holding only a colour still draws General, but a colour beside a language tag (`[Red][$-409];0` or `[$-409][Red]` at 0) shows **nothing** (a negative shows a bare minus);
+  - a fraction Excel cannot fit (`#?/12` at 99999) shows `####`, and `TEXT()` gives #VALUE! (R5).
+- **Language tags:** a code's tag sets the language of month and day names and of AM/PM: `[$-41F]` gives `Ocak`, and `[$-41C]` gives `p.d.`. `[$-3000401]` draws Arabic-Indic digits. The golden draws these in English, as `tool:en` rows; see AGENTS.md (R5).
 - **Clock rounding:** Excel rounds a time to the second when the code shows no fractions of a second, and to the shown fraction when it does. A date-only code takes its day at the second: 0.7 ms before midnight is the next day (R4). LibreOffice truncates a time instead.
 - **Date functions:** DAY, MONTH and YEAR round the serial to the second too. Past 9999-12-31 at that rounding there is no date: #NUM!, or #VALUE! from TEXT (R4).
-- **The 1900 epoch:** serial 0 is 1900-01-00, and serial 60 is the fictional 1900-02-29. LibreOffice is a day off below serial 61.
-- **Built-in date formats 14, 15, 16 and 22** are drawn per locale. In en-NZ, id 15 is `dd-mmm-yy` (R2).
+- **The 1900 epoch:** serial 0 is 1900-01-00, and serial 60 is the fictional 1900-02-29. LibreOffice is a day off below serial 61. In the 1904 system, all 5,092 golden rows agree with Excel, apart from language tags and `tool:iso` (R5).
+- **Locale:**
+  - built-in date formats 14, 15, 16 and 22 are drawn per locale; in en-NZ, id 15 is `dd-mmm-yy` (R2);
+  - in en-NZ, `TEXT()` also writes AM/PM as `am`/`pm`, while the cell shows `AM` (R5).
 
 ## 4. Where LibreOffice is not Excel
 
@@ -147,7 +167,8 @@ These are the places where LibreOffice is wrong as an Excel reference. Use it fo
 
 **Display:**
 - the 1900 epoch below 61;
-- a minus sign kept on a one-section negative that rounds to zero;
+- `_x` padding (two spaces, where Excel leaves one) and an unused fraction's spaces (one fewer);
+- `0.E+00` (it drops the point);
 - `#.##` drops a trailing point that Excel keeps;
 - `[$-x-sysdate]` and `[$-F400]`;
 - `A/P` and `y`/`yyy`;
@@ -157,7 +178,7 @@ These are the places where LibreOffice is wrong as an Excel reference. Use it fo
 - it merges `###` and `#,##` within one workbook;
 - a silent General fallback for codes it cannot read;
 - a fraction search that never returns on tiny values;
-- some 15-digit ties past about 2^41.
+- 15-digit ties past about 2^41 (it rounds the binary value).
 
 **Saving:** its xlsx writer stores 15 significant digits, so a LibreOffice round trip cannot prove a full-precision read.
 
@@ -169,5 +190,4 @@ These are refused in the goldens, as `undecided:*` or `excel:repaired`. A later 
 - ISO date forms with zones, week dates or ordinal dates;
 - rich-text runs with end whitespace;
 - single-byte encodings beyond ASCII and 0xE9;
-- 15-digit display ties past 2^41;
 - `date1904` values outside `1`/`0`/`true`/`false`.
